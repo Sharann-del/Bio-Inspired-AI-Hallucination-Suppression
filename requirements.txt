@@ -1,0 +1,8 @@
+spacy==3.8.14
+requests==2.34.1
+python-dotenv==1.2.2
+tqdm==4.67.3
+torch
+transformers
+sentence-transformers
+numpy
