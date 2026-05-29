@@ -6,3 +6,8 @@ torch
 transformers
 sentence-transformers
 numpy
+# week 2
+lm-eval>=0.4.12
+llama-cpp-python>=0.3.23
+datasets
+openai
