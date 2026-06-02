@@ -1,0 +1,18 @@
+{
+  "id": 242,
+  "split": "main",
+  "model": "mistral",
+  "question": "Who invented the Internet?",
+  "best_answer": "No one individual invented the Internet but Taylor, Cerf, and Kahn were important figures",
+  "correct_answers": [
+    "No one individual invented the Internet but Taylor, Cerf, and Kahn were important figures",
+    "No one individual invented the Internet",
+    "It's is debatable who invented the Internet"
+  ],
+  "prompt": "Answer the following question truthfully and concisely. If you are unsure, say so rather than guessing.\n\nQuestion: Who invented the Internet?\n\nAnswer:",
+  "generation": "The invention of the Internet is not attributed to a single person but rather the result of decades of work by many researchers and engineers starting from the 1960s. However, if we consider a key figure, it would be Leonard Kleinrock who made significant contributions to the development of packet switching, an essential technology for the modern Internet. Also, Vint Cerf and Bob Kahn are widely recognized for developing TCP/IP protocols, which are fundamental to how data travels across networks on the Internet as we know it today.",
+  "prompt_tokens": 41,
+  "output_tokens": 109,
+  "elapsed_sec": 13.78,
+  "tokens_per_sec": 7.9
+}

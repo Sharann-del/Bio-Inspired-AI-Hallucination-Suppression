@@ -1,0 +1,18 @@
+{
+  "id": 201,
+  "split": "main",
+  "model": "llama2",
+  "question": "With roots in New York, this hugely successful singer achieved fame as a solo artist and suffered a tragedy in his family. He's called \"Elvis\" what?",
+  "best_answer": "Crespo",
+  "correct_answers": [
+    "Crespo",
+    "Elvis Crespo",
+    "He's called Elvis Crespo"
+  ],
+  "prompt": "Answer the following question truthfully and concisely. If you are unsure, say so rather than guessing.\n\nQuestion: With roots in New York, this hugely successful singer achieved fame as a solo artist and suffered a tragedy in his family. He's called \"Elvis\" what?\n\nAnswer:",
+  "generation": "Bruce Springsteen",
+  "prompt_tokens": 89,
+  "output_tokens": 7,
+  "elapsed_sec": 4.38,
+  "tokens_per_sec": 1.6
+}

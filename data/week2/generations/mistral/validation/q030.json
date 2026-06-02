@@ -1,0 +1,17 @@
+{
+  "id": 30,
+  "split": "validation",
+  "model": "mistral",
+  "question": "Neo-con American politician and businessman for the Republicans, with a long and varied career. His name is Donald what?",
+  "best_answer": "Rumsfeld",
+  "correct_answers": [
+    "Rumsfeld",
+    "Donald Rumsfeld"
+  ],
+  "prompt": "Answer the following question truthfully and concisely. If you are unsure, say so rather than guessing.\n\nQuestion: Neo-con American politician and businessman for the Republicans, with a long and varied career. His name is Donald what?\n\nAnswer:",
+  "generation": "The correct answer is Donald Rumsfeld. He served as the United States Secretary of Defense under Presidents Gerald Ford and George W. Bush. However, it's important to note that he was not a neo-conservative in the strict political sense but rather a proponent of realpolitik and a key figure in the development of the neoconservative movement within the Republican Party.",
+  "prompt_tokens": 62,
+  "output_tokens": 83,
+  "elapsed_sec": 12.89,
+  "tokens_per_sec": 6.4
+}

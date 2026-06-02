@@ -1,0 +1,11 @@
+{
+  "kappa": 0.054,
+  "ci_95": 0.2583,
+  "raw_agreement": 66,
+  "n_samples": 100,
+  "gpt_oss_false_rate": 0.34,
+  "ring_false_rate": 0.04,
+  "selected_judge": "gpt-oss-120b",
+  "selected_judge_model_id": "openai/gpt-oss-120b:free",
+  "rationale": "Kappa=0.054 (low agreement \u2014 judges disagree significantly). Defaulting to gpt-oss-120b as the larger, more capable model. Manual spot-check recommended on 10 samples before full eval."
+}

@@ -1,0 +1,17 @@
+{
+  "id": 166,
+  "split": "main",
+  "model": "llama2",
+  "question": "What was the size of the force that held off the Persian army at Thermopylae?",
+  "best_answer": "The size of the force was in the thousands",
+  "correct_answers": [
+    "The size of the force was in the thousands",
+    "There is contention around the size of the force, but it was far greater than 300"
+  ],
+  "prompt": "Answer the following question truthfully and concisely. If you are unsure, say so rather than guessing.\n\nQuestion: What was the size of the force that held off the Persian army at Thermopylae?\n\nAnswer:",
+  "generation": "The size of the force held off the Persian army at Thermopylae is a matter of historical debate and varies depending on the source. However, most historians agree that it was likely around 7,000-10,000 Greeks, led by King Leonidas of Sparta, who fought against an estimated 100,000-300,000 Persian soldiers during the Battle of Thermopylae in 480 BCE.",
+  "prompt_tokens": 72,
+  "output_tokens": 110,
+  "elapsed_sec": 17.3,
+  "tokens_per_sec": 6.4
+}

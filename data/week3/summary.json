@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-06-02T12:34:35",
+  "judge_validation": {
+    "judge1": "openai/gpt-oss-120b:free",
+    "judge2": "mistral-local (Ollama)",
+    "n_samples": 100,
+    "cohens_kappa": 0.054,
+    "ci_95": 0.2583,
+    "raw_agreement": 66,
+    "selected_judge": "gpt-oss-120b",
+    "rationale": "Kappa=0.054 (low agreement \u2014 judges disagree significantly). Defaulting to gpt-oss-120b as the larger, more capable model. Manual spot-check recommended on 10 samples before full eval."
+  },
+  "claim_extraction": {
+    "method": "spaCy en_core_web_sm sentence segmentation",
+    "mistral": {
+      "n_answers": 250,
+      "avg_claims_per_answer": 2.7
+    },
+    "llama2": {
+      "n_answers": 250,
+      "avg_claims_per_answer": 2.41
+    }
+  },
+  "week3_complete": true
+}

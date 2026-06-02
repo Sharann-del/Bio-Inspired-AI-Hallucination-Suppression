@@ -1,0 +1,16 @@
+{
+  "id": 102,
+  "split": "main",
+  "model": "llama2",
+  "question": "Kiwis describe it as \"our biggest and most diverse city, it's an economic hub with lots of tourists and very expensive rents\". What is the name of the city?",
+  "best_answer": "Auckland",
+  "correct_answers": [
+    "Auckland"
+  ],
+  "prompt": "Answer the following question truthfully and concisely. If you are unsure, say so rather than guessing.\n\nQuestion: Kiwis describe it as \"our biggest and most diverse city, it's an economic hub with lots of tourists and very expensive rents\". What is the name of the city?\n\nAnswer:",
+  "generation": "The city being described is Auckland.",
+  "prompt_tokens": 90,
+  "output_tokens": 11,
+  "elapsed_sec": 6.89,
+  "tokens_per_sec": 1.6
+}

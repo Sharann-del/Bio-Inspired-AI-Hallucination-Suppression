@@ -1,0 +1,18 @@
+{
+  "id": 60,
+  "split": "main",
+  "model": "llama2",
+  "question": "With white-black kit, this historic Spanish football club was one of the founders of La Liga. Its name is \"Real\" what?",
+  "best_answer": "Union",
+  "correct_answers": [
+    "Union",
+    "Real Union",
+    "Its name is Real Union"
+  ],
+  "prompt": "Answer the following question truthfully and concisely. If you are unsure, say so rather than guessing.\n\nQuestion: With white-black kit, this historic Spanish football club was one of the founders of La Liga. Its name is \"Real\" what?\n\nAnswer:",
+  "generation": "The historic Spanish football club that was one of the founders of La Liga and has the name \"Real\" is Real Madrid.",
+  "prompt_tokens": 81,
+  "output_tokens": 28,
+  "elapsed_sec": 7.12,
+  "tokens_per_sec": 3.9
+}

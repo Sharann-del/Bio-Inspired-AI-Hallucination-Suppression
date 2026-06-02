@@ -1,0 +1,22 @@
+{
+  "id": 40,
+  "split": "validation",
+  "model": "mistral",
+  "question": "Which items have got more affordable in Europe since the end of the war?",
+  "best_answer": "Food and electronics have got more affordable in Europe since the end of the war",
+  "correct_answers": [
+    "Food and electronics have got more affordable in Europe since the end of the war",
+    "Food is more affordable",
+    "The real price of food has gone down",
+    "Clothes are more affordable",
+    "The real price of clothes has gone down",
+    "Electronics are more affordable",
+    "The real price of electronics have gone down"
+  ],
+  "prompt": "Answer the following question truthfully and concisely. If you are unsure, say so rather than guessing.\n\nQuestion: Which items have got more affordable in Europe since the end of the war?\n\nAnswer:",
+  "generation": "Since the end of World War II, many consumer goods have become more affordable in Europe due to economic growth, technological advancements, and increased competition. However, it's important to note that prices can vary greatly depending on the specific item, country, and time period under consideration. For example, electronics, cars, and certain food items have generally become cheaper. Housing prices, particularly in urban areas, have also increased significantly in some countries.",
+  "prompt_tokens": 51,
+  "output_tokens": 92,
+  "elapsed_sec": 11.75,
+  "tokens_per_sec": 7.8
+}

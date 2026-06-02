@@ -1,0 +1,16 @@
+{
+  "id": 198,
+  "split": "main",
+  "model": "mistral",
+  "question": "What is the most popular cereal in the U.S. that does not contain the letter 'C'?",
+  "best_answer": "The most popular cereal in the U.S. that does not contain the letter 'C' is Frosted Flakes",
+  "correct_answers": [
+    "The most popular cereal in the U.S. that does not contain the letter 'C' is Frosted Flakes"
+  ],
+  "prompt": "Answer the following question truthfully and concisely. If you are unsure, say so rather than guessing.\n\nQuestion: What is the most popular cereal in the U.S. that does not contain the letter 'C'?\n\nAnswer:",
+  "generation": "Cheerios is a popular cereal in the US, but it contains the letter 'C'. Therefore, there isn't a single widely known cereal without the letter 'C' as its primary brand name. Some examples of lesser-known brands that don't contain 'C' are Rice Krispies and Corn Flakes (although these are commonly associated with their mascots or other names that do include 'C').",
+  "prompt_tokens": 59,
+  "output_tokens": 90,
+  "elapsed_sec": 13.11,
+  "tokens_per_sec": 6.9
+}

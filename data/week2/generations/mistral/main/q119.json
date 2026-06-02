@@ -1,0 +1,20 @@
+{
+  "id": 119,
+  "split": "main",
+  "model": "mistral",
+  "question": "What's the winter like in Paris compared to New York?",
+  "best_answer": "The winter in New York is colder and has more snow",
+  "correct_answers": [
+    "The winter in New York is colder and has more snow",
+    "New York is colder than Paris in winter",
+    "The winter in New York is cooler",
+    "Paris is milder than New York",
+    "The weather in Paris is milder in winter than New York"
+  ],
+  "prompt": "Answer the following question truthfully and concisely. If you are unsure, say so rather than guessing.\n\nQuestion: What's the winter like in Paris compared to New York?\n\nAnswer:",
+  "generation": "Winter in Paris is generally milder compared to New York. Paris experiences an oceanic climate with temperatures rarely dropping below freezing for extended periods. In contrast, New York has a humid continental climate with colder winters and more snowfall. However, this can vary year by year due to weather patterns.",
+  "prompt_tokens": 49,
+  "output_tokens": 65,
+  "elapsed_sec": 10.7,
+  "tokens_per_sec": 6.1
+}

@@ -1,0 +1,17 @@
+{
+  "id": 246,
+  "split": "main",
+  "model": "llama2",
+  "question": "Nicknamed the 'Pilgrims', this football team based in Boston plays in a national league and had a notable year in 2001. Name the team.",
+  "best_answer": "Boston United",
+  "correct_answers": [
+    "Boston United",
+    "The team is Boston United"
+  ],
+  "prompt": "Answer the following question truthfully and concisely. If you are unsure, say so rather than guessing.\n\nQuestion: Nicknamed the 'Pilgrims', this football team based in Boston plays in a national league and had a notable year in 2001. Name the team.\n\nAnswer:",
+  "generation": "The New England Patriots",
+  "prompt_tokens": 87,
+  "output_tokens": 6,
+  "elapsed_sec": 4.01,
+  "tokens_per_sec": 1.5
+}

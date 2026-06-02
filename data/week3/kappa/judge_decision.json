@@ -1,0 +1,7 @@
+{
+  "selected_judge": "gpt-oss-120b",
+  "model_id": "openai/gpt-oss-120b:free",
+  "rationale": "Kappa=0.054 (low agreement \u2014 judges disagree significantly). Defaulting to gpt-oss-120b as the larger, more capable model. Manual spot-check recommended on 10 samples before full eval.",
+  "kappa": 0.054,
+  "timestamp": "2026-06-02T11:47:01"
+}

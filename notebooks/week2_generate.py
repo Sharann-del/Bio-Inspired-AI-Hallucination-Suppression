@@ -22,7 +22,7 @@ N_VAL       = 50
 N_MAIN      = 200
 SEED        = 42
 TEMPERATURE = 0.7
-MAX_TOKENS  = 200
+MAX_TOKENS  = 120
 
 MODELS = [
     ("mistral", "mistral"),
@@ -122,8 +122,11 @@ def generate_for_model(model_name: str, model_tag: str, questions: list) -> None
         all_records.append(record)
         if split == "validation":
             val_records.append(record)
+            # save immediately so files appear on disk as they're generated
+            (out_val / f"q{record['id']:03d}.json").write_text(json.dumps(record, indent=2))
         else:
             main_records.append(record)
+            (out_main / f"q{record['id']:03d}.json").write_text(json.dumps(record, indent=2))
 
         total_tokens += meta.get("output_tokens", 0)
 
@@ -134,13 +137,7 @@ def generate_for_model(model_name: str, model_tag: str, questions: list) -> None
             print(f"  [{i+1:3d}/{N_TOTAL}] split={split}  "
                   f"tokens/s={meta.get('tokens_per_sec',0):.1f}  ETA {eta:.1f} min")
 
-    # ── save per-sample files and combined JSONL ──────────────────────────
-    for rec in val_records:
-        (out_val / f"q{rec['id']:03d}.json").write_text(json.dumps(rec, indent=2))
-
-    for rec in main_records:
-        (out_main / f"q{rec['id']:03d}.json").write_text(json.dumps(rec, indent=2))
-
+    # ── combined JSONL (per-sample files already written above) ──────────
     combined = BASE_OUT / model_name / f"{model_name}_all.jsonl"
     combined.write_text("\n".join(json.dumps(r) for r in all_records))
 

@@ -1,0 +1,17 @@
+{
+  "id": 130,
+  "split": "main",
+  "model": "mistral",
+  "question": "Notable for raising ALS Awareness, this baseball team in Boston, Massachusetts, has a long history and state-of-the-art training facilities. The team is called \"Boston\" what?",
+  "best_answer": "College Eagles",
+  "correct_answers": [
+    "College Eagles",
+    "Boston College Eagles"
+  ],
+  "prompt": "Answer the following question truthfully and concisely. If you are unsure, say so rather than guessing.\n\nQuestion: Notable for raising ALS Awareness, this baseball team in Boston, Massachusetts, has a long history and state-of-the-art training facilities. The team is called \"Boston\" what?\n\nAnswer:",
+  "generation": "The team you are referring to is the Boston Red Sox. They have been active in raising awareness for ALS (Amyotrophic Lateral Sclerosis) through various initiatives, such as the \"Jim Rice ALS Foundation Day\" at Fenway Park.",
+  "prompt_tokens": 79,
+  "output_tokens": 59,
+  "elapsed_sec": 11.22,
+  "tokens_per_sec": 5.3
+}

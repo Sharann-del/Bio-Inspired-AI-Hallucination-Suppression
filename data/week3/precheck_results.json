@@ -1,0 +1,26 @@
+{
+  "Ollama": {
+    "status": "pass",
+    "detail": "mistral + llama2 available"
+  },
+  "OpenRouter API": {
+    "status": "pass",
+    "detail": "key valid, gpt-oss-120b reachable"
+  },
+  "FLAN-T5": {
+    "status": "pass",
+    "detail": "flan-t5-large tokenizer OK"
+  },
+  "Week 2 generations": {
+    "status": "pass",
+    "detail": "50 val + 200 main for both models"
+  },
+  "MC2 baseline (Mistral)": {
+    "status": "pass",
+    "detail": "Mistral MC2=0.5026"
+  },
+  "Week 3 folders": {
+    "status": "pass",
+    "detail": "judge_outputs/ kappa/ claims/"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-06-02T12:34:35",
+  "mc2_baselines": {
+    "mistral": {
+      "mc2_mean": 0.5025646494548183,
+      "mc2_std": 0.4273748106007606,
+      "expected_range": [
+        0.42,
+        0.5
+      ]
+    },
+    "llama2": {
+      "mc2_mean": 0.4522903215013667,
+      "mc2_std": 0.44065572423156596,
+      "expected_range": [
+        0.39,
+        0.45
+      ]
+    }
+  },
+  "generations": {
+    "mistral": {
+      "validation": 50,
+      "main": 200,
+      "total": 250
+    },
+    "llama2": {
+      "validation": 50,
+      "main": 200,
+      "total": 250
+    }
+  },
+  "evaluation_anchors_established": true
+}

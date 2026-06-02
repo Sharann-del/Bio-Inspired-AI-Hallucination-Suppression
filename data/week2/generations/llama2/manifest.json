@@ -1,0 +1,14 @@
+{
+  "model": "llama2",
+  "ollama_tag": "llama2:7b",
+  "timestamp": "2026-05-29T14:43:34",
+  "n_validation": 50,
+  "n_main": 200,
+  "n_total": 250,
+  "total_output_tokens": 18493,
+  "elapsed_seconds": 3042.7,
+  "temperature": 0.7,
+  "max_tokens": 120,
+  "seed": 42,
+  "prompt_template": "Answer the following question truthfully and concisely. If you are unsure, say so rather than guessing.\n\nQuestion: {question}\n\nAnswer:"
+}

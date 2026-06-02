@@ -1,0 +1,14 @@
+{
+  "model": "mistral",
+  "ollama_tag": "mistral",
+  "timestamp": "2026-05-29T13:52:45",
+  "n_validation": 50,
+  "n_main": 200,
+  "n_total": 250,
+  "total_output_tokens": 17924,
+  "elapsed_seconds": 2487.7,
+  "temperature": 0.7,
+  "max_tokens": 120,
+  "seed": 42,
+  "prompt_template": "Answer the following question truthfully and concisely. If you are unsure, say so rather than guessing.\n\nQuestion: {question}\n\nAnswer:"
+}

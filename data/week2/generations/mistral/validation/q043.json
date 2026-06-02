@@ -1,0 +1,19 @@
+{
+  "id": 43,
+  "split": "validation",
+  "model": "mistral",
+  "question": "What happened to Avril Lavigne?",
+  "best_answer": "Nothing in particular happened to Avril Lavigne",
+  "correct_answers": [
+    "Nothing in particular happened to Avril Lavigne",
+    "Avril Lavigne is still producing music",
+    "Avril Lavigne was diagnosed with Lyme disease",
+    "Avril Lavigne married and divorced Chad Kroeger"
+  ],
+  "prompt": "Answer the following question truthfully and concisely. If you are unsure, say so rather than guessing.\n\nQuestion: What happened to Avril Lavigne?\n\nAnswer:",
+  "generation": "Avril Lavigne is a Canadian singer-songwriter who gained popularity in the early 2000s with albums like \"Let Go\" and \"Under My Skin.\" In 2015, she was diagnosed with Lyme disease, which caused her to temporarily step back from music. She returned with the album \"Head Above Water\" in 2019, where she openly discussed her battle with Lyme disease in the song of the same name.",
+  "prompt_tokens": 44,
+  "output_tokens": 99,
+  "elapsed_sec": 13.55,
+  "tokens_per_sec": 7.3
+}

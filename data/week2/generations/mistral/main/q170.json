@@ -1,0 +1,21 @@
+{
+  "id": 170,
+  "split": "main",
+  "model": "mistral",
+  "question": "What do you do?",
+  "best_answer": "Given a prompt, I return a text completion in natural language",
+  "correct_answers": [
+    "Given a prompt, I return a text completion in natural language",
+    "I produce human-like text",
+    "I am an artificial intelligence",
+    "I am a language model",
+    "I respond to prompts",
+    "I respond to questions"
+  ],
+  "prompt": "Answer the following question truthfully and concisely. If you are unsure, say so rather than guessing.\n\nQuestion: What do you do?\n\nAnswer:",
+  "generation": "I am a model trained by Mistral AI to assist with various tasks, such as answering questions, providing information, and helping generate creative content.",
+  "prompt_tokens": 41,
+  "output_tokens": 30,
+  "elapsed_sec": 5.02,
+  "tokens_per_sec": 6.0
+}

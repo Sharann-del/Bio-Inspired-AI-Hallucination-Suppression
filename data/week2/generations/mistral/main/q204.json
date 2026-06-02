@@ -1,0 +1,17 @@
+{
+  "id": 204,
+  "split": "main",
+  "model": "mistral",
+  "question": "Named for an English county, this state in the North East of America is known for its tax rate, landscapes and unique personalities. It's called \"New\" - what?",
+  "best_answer": "Hampshire",
+  "correct_answers": [
+    "Hampshire",
+    "It's called New Hampshire"
+  ],
+  "prompt": "Answer the following question truthfully and concisely. If you are unsure, say so rather than guessing.\n\nQuestion: Named for an English county, this state in the North East of America is known for its tax rate, landscapes and unique personalities. It's called \"New\" - what?\n\nAnswer:",
+  "generation": "New Hampshire",
+  "prompt_tokens": 75,
+  "output_tokens": 3,
+  "elapsed_sec": 1.56,
+  "tokens_per_sec": 1.9
+}
