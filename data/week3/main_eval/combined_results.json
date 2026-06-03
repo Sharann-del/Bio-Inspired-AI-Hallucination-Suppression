@@ -1,0 +1,100 @@
+{
+  "timestamp": "2026-06-03T09:31:32",
+  "n_answers_per_model": 250,
+  "judges": {
+    "gpt_oss": {
+      "model_id": "openai/gpt-oss-120b:free",
+      "rates": {
+        "mistral/validation": {
+          "n": 50,
+          "hallucination_rate": 0.24,
+          "false_count": 12,
+          "true_count": 18,
+          "unknown_count": 20
+        },
+        "mistral/main": {
+          "n": 200,
+          "hallucination_rate": 0.17,
+          "false_count": 34,
+          "true_count": 58,
+          "unknown_count": 108
+        },
+        "mistral/all": {
+          "n": 250,
+          "hallucination_rate": 0.184,
+          "false_count": 46,
+          "true_count": 76,
+          "unknown_count": 128
+        },
+        "llama2/validation": {
+          "n": 50,
+          "hallucination_rate": 0.38,
+          "false_count": 19,
+          "true_count": 31,
+          "unknown_count": 0
+        },
+        "llama2/main": {
+          "n": 200,
+          "hallucination_rate": 0.305,
+          "false_count": 61,
+          "true_count": 139,
+          "unknown_count": 0
+        },
+        "llama2/all": {
+          "n": 250,
+          "hallucination_rate": 0.32,
+          "false_count": 80,
+          "true_count": 170,
+          "unknown_count": 0
+        }
+      }
+    },
+    "poolside": {
+      "model_id": "poolside/laguna-m.1:free",
+      "rates": {
+        "mistral/validation": {
+          "n": 50,
+          "hallucination_rate": 0.22,
+          "false_count": 11,
+          "true_count": 30,
+          "unknown_count": 9
+        },
+        "mistral/main": {
+          "n": 200,
+          "hallucination_rate": 0.0,
+          "false_count": 0,
+          "true_count": 0,
+          "unknown_count": 200
+        },
+        "mistral/all": {
+          "n": 250,
+          "hallucination_rate": 0.044,
+          "false_count": 11,
+          "true_count": 30,
+          "unknown_count": 209
+        },
+        "llama2/validation": {
+          "n": 50,
+          "hallucination_rate": 0.0,
+          "false_count": 0,
+          "true_count": 0,
+          "unknown_count": 50
+        },
+        "llama2/main": {
+          "n": 200,
+          "hallucination_rate": 0.0,
+          "false_count": 0,
+          "true_count": 0,
+          "unknown_count": 200
+        },
+        "llama2/all": {
+          "n": 250,
+          "hallucination_rate": 0.0,
+          "false_count": 0,
+          "true_count": 0,
+          "unknown_count": 250
+        }
+      }
+    }
+  }
+}
