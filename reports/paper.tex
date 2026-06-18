@@ -1,7 +1,7 @@
 \documentclass[11pt,a4paper]{article}
 
 \usepackage[margin=1in]{geometry}
-\usepackage{microtype}
+\usepackage[nopatch=footnote]{microtype}
 \usepackage{booktabs}
 \usepackage{multirow}
 \usepackage[table]{xcolor}
@@ -41,13 +41,12 @@
 % ─────────────────────────────────────────────────────────────────────────────
 \title{\textbf{Bio-Inspired Cascaded Hallucination Suppression\\
        in Large Language Models with Blockchain Audit Governance}}
-\author{Dhriti Vaz\\[2pt]
-        Summer Research in Progress (SRIP)\\
-        \small\texttt{dhriti.vaz@gmail.com}}
-\date{June 2026}
+\author{}
+\date{}
 
 \begin{document}
 \maketitle
+\vspace{-2em}
 \thispagestyle{empty}
 
 % ─────────────────────────────────────────────────────────────────────────────
@@ -461,9 +460,8 @@ signals via logical OR.
 We use \texttt{roberta-large-mnli} \citep{liu2019roberta} via the HuggingFace
 \texttt{zero-shot-classification} pipeline. For each (evidence, claim) pair, the
 model classifies whether the evidence \emph{entails}, is \emph{neutral} toward,
-or \emph{contradicts} the claim, using the hypothesis template: ``This text
-\texttt{\{label\}s} the statement: \texttt{\{claim\}}'', with
-\texttt{multi\_label=False}.
+or \emph{contradicts} the claim, using a hypothesis template with label and
+claim placeholders, with \texttt{multi\_label=False}.
 
 The MNLI-based approach is chosen over FEVER-fine-tuned models
 \citep{thorne2018fever} because: (a)~it generalizes to open-domain evidence
@@ -555,8 +553,8 @@ retriever, an NLI classifier, and a two-layer blockchain governance layer.
 % main arrows
 \draw[arr] (input)   -- (claims);
 \draw[arr] (claims)  -- (s1);
-\draw[arr] (s1)      -- node[left,  font=\footnotesize]{uncertain (86.5\%)} (s2);
-\draw[arr] (s2)      -- node[left,  font=\footnotesize]{evidence (19.5\%)}  (s3);
+\draw[arr] (s1)      -- node[left=2.35cm, font=\footnotesize, fill=white, inner sep=1pt]{uncertain (86.5\%)} (s2);
+\draw[arr] (s2)      -- node[left=2.35cm, font=\footnotesize, fill=white, inner sep=1pt]{evidence (19.5\%)}  (s3);
 \draw[arr] (s3)      -- (verdict);
 \draw[arr] (verdict.south) -- ++(0,-0.35) -| (l1.north);
 \draw[arr] (verdict.south) -- ++(0,-0.35) -| (l2.north);
@@ -628,10 +626,10 @@ evaluation, 19.5\% of answers (39/200) reach Stage~3.
 Each pipeline run produces two on-chain records:
 
 \textbf{Layer~1 --- AuditLog (immutable):} Deployed as \texttt{AuditLog.sol}
-(Solidity 0.8.28, compiled via \texttt{py-solc-x}). Stores
-\texttt{(runId, timestamp, sha256(question), sha256(answer), pipelineVersion)}
-in an append-only array. Gas cost: $\sim$164\,753 gas/write. Write latency:
-35.7~ms mean on local py-evm.
+(Solidity 0.8.28, compiled via \texttt{py-solc-x}). Stores run metadata,
+question and answer hashes, and the pipeline version in an append-only array.
+Gas cost: $\sim$164\,753 gas/write. Write latency: 35.7~ms mean on local
+py-evm.
 
 \textbf{Layer~2 --- GovernanceDecision (mutable):} Deployed as
 \texttt{GovernanceDecision.sol}. Stores the pipeline verdict with confidence and
@@ -906,7 +904,8 @@ Improvement      & --- & $+$0.2 pp & $\mathbf{1.99\times}$ speedup \\
   xbar,
   width=8cm, height=4.0cm,
   xlabel={Percentage of samples (\%)},
-  symbolic y coords={Stage 3 (NLI gate), Stage 2 (No evidence), Stage 1 (Confidence)},
+  symbolic y coords={stage3,stage2,stage1},
+  yticklabels={Stage 3 (NLI gate), Stage 2 (No evidence), Stage 1 (Confidence)},
   ytick=data,
   xmin=0, xmax=80,
   bar width=13pt,
@@ -921,9 +920,9 @@ Improvement      & --- & $+$0.2 pp & $\mathbf{1.99\times}$ speedup \\
   enlarge y limits={abs=0.7cm},
 ]
 \addplot[fill=blue!35, draw=blue!60!black] coordinates {
-  (19.5, {Stage 3 (NLI gate)})
-  (67.0, {Stage 2 (No evidence)})
-  (13.5, {Stage 1 (Confidence)})
+  (19.5,stage3)
+  (67.0,stage2)
+  (13.5,stage1)
 };
 \end{axis}
 \end{tikzpicture}
