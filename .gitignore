@@ -11,3 +11,4 @@ data/generated/
 *.egg-info/
 dist/
 build/
+.venv/
