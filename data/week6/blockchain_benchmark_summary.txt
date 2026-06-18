@@ -1,0 +1,31 @@
+======================================================================
+  Week 6 — Blockchain Benchmark Summary
+  200 samples  ·  two-layer architecture  ·  local py-evm
+======================================================================
+
+  Blockchain Write Times (local in-process EVM)
+  ─────────────────────────────────────────────
+  Layer 1 (AuditLog)       mean=35.7ms  p50=35.7ms  p95=36.8ms
+  Layer 2 (GovernanceDec)  mean=43.6ms  p50=43.4ms  p95=44.7ms
+  Total (L1 + L2)          mean=79.3ms  p50=79.2ms  p95=81.4ms
+
+  Gas Consumption (per run)
+  ──────────────────────────
+  Layer 1 gas     mean=164753  p50=164672  p95=164672
+  Layer 2 gas     mean=170898  p50=170823  p95=170847
+
+  Pipeline Stage Latencies (reference, from week-4/5 measurements)
+  ──────────────────────────────────────────────────────────────────
+  ner              3.1 ms / claim
+  evidence         612.0 ms / claim
+  contradiction    890.0 ms / claim
+  confidence       210.0 ms / claim
+  total (avg)      mean=1882ms  p50=2055ms  p95=3560ms
+
+  Testnet Estimate (Sepolia)
+  ─────────────────────────
+  Total gas / run      : 335651
+  Est. fee             : 503475.96 Gwei (0.00050348 ETH)
+  Confirmation time    : ~12s (1 block)
+  Note: Sepolia testnet not benchmarked live — requires funded wallet. Expected confirmation: 1 block ≈ 12.0s. Gas estimates derived from local py-evm measurements.
+======================================================================

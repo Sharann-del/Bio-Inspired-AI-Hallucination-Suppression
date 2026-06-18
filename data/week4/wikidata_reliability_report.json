@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-06-04T19:05:41",
+  "n_queries": 200,
+  "target": 200,
+  "success_rate": 0.595,
+  "fallback_rate": 0.105,
+  "no_evidence_rate": 0.3,
+  "wikidata_hits": 119,
+  "wikipedia_page_hits": 2,
+  "wikipedia_search_hits": 19,
+  "no_evidence_count": 60,
+  "avg_latency_ms": 4996.2,
+  "p50_latency_ms": 618,
+  "p90_latency_ms": 13036,
+  "p99_latency_ms": 14163,
+  "by_strategy": {
+    "entity_lookup": {
+      "total": 150,
+      "wikidata": 92,
+      "none": 45,
+      "wikipedia_search": 12,
+      "wikipedia_page": 1
+    },
+    "structured_fact": {
+      "total": 30,
+      "wikidata": 13,
+      "wikipedia_search": 5,
+      "none": 12
+    },
+    "text_search": {
+      "total": 20,
+      "wikidata": 14,
+      "wikipedia_page": 1,
+      "none": 3,
+      "wikipedia_search": 2
+    }
+  }
+}

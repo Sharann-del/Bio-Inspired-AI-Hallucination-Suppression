@@ -1,0 +1,3544 @@
+{
+  "conf_q050": 0.5403,
+  "conf_q051": 0.5078,
+  "conf_q052": 0.5045,
+  "conf_q053": 0.4933,
+  "conf_q054": 0.5583,
+  "conf_q055": 0.5141,
+  "conf_q056": 0.5011,
+  "conf_q057": 0.5188,
+  "conf_q058": 0.5185,
+  "conf_q059": 0.5105,
+  "conf_q060": 0.5158,
+  "conf_q061": 0.5401,
+  "conf_q062": 0.5231,
+  "conf_q063": 0.5211,
+  "conf_q064": 0.5254,
+  "conf_q065": 0.4958,
+  "conf_q066": 0.4888,
+  "conf_q067": 0.5121,
+  "conf_q068": 0.5192,
+  "conf_q069": 0.5203,
+  "conf_q070": 0.5288,
+  "conf_q071": 0.5088,
+  "conf_q072": 0.483,
+  "conf_q073": 0.4952,
+  "conf_q074": 0.5017,
+  "conf_q075": 0.5335,
+  "conf_q076": 0.5209,
+  "conf_q077": 0.4992,
+  "conf_q078": 0.5208,
+  "conf_q079": 0.5051,
+  "conf_q080": 0.5366,
+  "conf_q081": 0.5231,
+  "conf_q082": 0.5497,
+  "conf_q083": 0.4952,
+  "conf_q084": 0.5248,
+  "conf_q085": 0.5027,
+  "conf_q086": 0.5114,
+  "conf_q087": 0.5513,
+  "conf_q088": 0.5079,
+  "conf_q089": 0.5348,
+  "conf_q090": 0.5113,
+  "conf_q091": 0.5203,
+  "conf_q092": 0.5183,
+  "conf_q093": 0.5062,
+  "conf_q094": 0.5261,
+  "conf_q095": 0.5142,
+  "conf_q096": 0.5316,
+  "conf_q097": 0.5095,
+  "conf_q098": 0.5394,
+  "conf_q099": 0.5094,
+  "conf_q100": 0.5451,
+  "conf_q101": 0.498,
+  "conf_q102": 0.5034,
+  "conf_q103": 0.563,
+  "conf_q104": 0.5151,
+  "conf_q105": 0.516,
+  "conf_q106": 0.5196,
+  "conf_q107": 0.5007,
+  "conf_q108": 0.5137,
+  "conf_q109": 0.5504,
+  "conf_q110": 0.5296,
+  "conf_q111": 0.5146,
+  "conf_q112": 0.5057,
+  "conf_q113": 0.5339,
+  "conf_q114": 0.4994,
+  "conf_q115": 0.5124,
+  "conf_q116": 0.5151,
+  "conf_q117": 0.5057,
+  "conf_q118": 0.5332,
+  "conf_q119": 0.5118,
+  "conf_q120": 0.5206,
+  "conf_q121": 0.5391,
+  "conf_q122": 0.5273,
+  "conf_q123": 0.5423,
+  "conf_q124": 0.5241,
+  "conf_q125": 0.5225,
+  "conf_q126": 0.5194,
+  "conf_q127": 0.5129,
+  "conf_q128": 0.4911,
+  "conf_q129": 0.4944,
+  "conf_q130": 0.5846,
+  "conf_q131": 0.5017,
+  "conf_q132": 0.51,
+  "conf_q133": 0.525,
+  "conf_q134": 0.5222,
+  "conf_q135": 0.4981,
+  "conf_q136": 0.5322,
+  "conf_q137": 0.5274,
+  "conf_q138": 0.5136,
+  "conf_q139": 0.5234,
+  "conf_q140": 0.5136,
+  "conf_q141": 0.5123,
+  "conf_q142": 0.5164,
+  "conf_q143": 0.5015,
+  "conf_q144": 0.4962,
+  "conf_q145": 0.5095,
+  "conf_q146": 0.5308,
+  "conf_q147": 0.4972,
+  "conf_q148": 0.5248,
+  "conf_q149": 0.5259,
+  "conf_q150": 0.5193,
+  "conf_q151": 0.5393,
+  "conf_q152": 0.5103,
+  "conf_q153": 0.5389,
+  "conf_q154": 0.5368,
+  "conf_q155": 0.5612,
+  "conf_q156": 0.5081,
+  "conf_q157": 0.504,
+  "conf_q158": 0.5136,
+  "conf_q159": 0.4957,
+  "conf_q160": 0.5217,
+  "conf_q161": 0.5077,
+  "conf_q162": 0.5041,
+  "conf_q163": 0.5198,
+  "conf_q164": 0.5106,
+  "conf_q165": 0.5174,
+  "conf_q166": 0.5199,
+  "conf_q167": 0.505,
+  "conf_q168": 0.531,
+  "conf_q169": 0.5469,
+  "conf_q170": 0.5029,
+  "conf_q171": 0.5276,
+  "conf_q172": 0.5017,
+  "conf_q173": 0.5161,
+  "conf_q174": 0.5252,
+  "conf_q175": 0.526,
+  "conf_q176": 0.5189,
+  "conf_q177": 0.5078,
+  "conf_q178": 0.5206,
+  "conf_q179": 0.5187,
+  "conf_q180": 0.5175,
+  "conf_q181": 0.5203,
+  "conf_q182": 0.5103,
+  "conf_q183": 0.5298,
+  "conf_q184": 0.5037,
+  "conf_q185": 0.5468,
+  "conf_q186": 0.4926,
+  "conf_q187": 0.5046,
+  "conf_q188": 0.534,
+  "conf_q189": 0.5084,
+  "conf_q190": 0.5271,
+  "conf_q191": 0.5029,
+  "conf_q192": 0.5086,
+  "conf_q193": 0.5204,
+  "conf_q194": 0.4966,
+  "conf_q195": 0.5113,
+  "conf_q196": 0.4955,
+  "conf_q197": 0.5017,
+  "conf_q198": 0.5537,
+  "conf_q199": 0.5395,
+  "conf_q200": 0.5282,
+  "conf_q201": 0.5719,
+  "conf_q202": 0.5166,
+  "conf_q203": 0.556,
+  "conf_q204": 0.5104,
+  "conf_q205": 0.5188,
+  "conf_q206": 0.5375,
+  "conf_q207": 0.566,
+  "conf_q208": 0.544,
+  "conf_q209": 0.5055,
+  "conf_q210": 0.516,
+  "conf_q211": 0.517,
+  "conf_q212": 0.5234,
+  "conf_q213": 0.5242,
+  "conf_q214": 0.5318,
+  "conf_q215": 0.5206,
+  "conf_q216": 0.5054,
+  "conf_q217": 0.4952,
+  "conf_q218": 0.4945,
+  "conf_q219": 0.5227,
+  "conf_q220": 0.5229,
+  "conf_q221": 0.5322,
+  "conf_q222": 0.5618,
+  "conf_q223": 0.5161,
+  "conf_q224": 0.5084,
+  "conf_q225": 0.4972,
+  "conf_q226": 0.5164,
+  "conf_q227": 0.5315,
+  "conf_q228": 0.5206,
+  "conf_q229": 0.4967,
+  "conf_q230": 0.5183,
+  "conf_q231": 0.5089,
+  "conf_q232": 0.5066,
+  "conf_q233": 0.4949,
+  "conf_q234": 0.5035,
+  "conf_q235": 0.5314,
+  "conf_q236": 0.5091,
+  "conf_q237": 0.5106,
+  "conf_q238": 0.5189,
+  "conf_q239": 0.5116,
+  "conf_q240": 0.5157,
+  "conf_q241": 0.5103,
+  "conf_q242": 0.5139,
+  "conf_q243": 0.5666,
+  "conf_q244": 0.5516,
+  "conf_q245": 0.5107,
+  "conf_q246": 0.5993,
+  "conf_q247": 0.5104,
+  "conf_q248": 0.5077,
+  "conf_q249": 0.4904,
+  "ev_kw_q050": [
+    "Africa is the world's second-largest and second-most populous continent after Asia. At about 30.3 million km2 (11.7 million square miles) including adjacent islands, it covers around 20% of Earth's land area and 6% of its total surface area.  With nearly 1.4 billion of the world's human population, Africa's population is the youngest among all the continents; the median age in 2012 was 19.7, when the worldwide median age was 30.4. Based on 2024 projections, Africa's population will exceed 3.8 billion people by 2100. Africa is the least wealthy inhabited continent per capita and second-least wealthy by total wealth, ahead of Oceania. Scholars have attributed this to various factors including geography, climate, corruption, colonialism, the Cold War, and neocolonialism. Despite this low concentration of wealth, the African economy is home to many of the world's fastest-growing economies.\nAfrica straddles the equator and the prime meridian. The continent is surrounded by the Mediterranean",
+    "TikTok food trends refer to popular recipes and food-related fads on the social media platform TikTok. These trends amassed popularity in 2020 during the COVID-19 pandemic, as many people spent more time cooking at home while engaging with social media for entertainment. \nFood-related content on TikTok is often categorized under the hashtags #TikTokFood and #FoodTok. These hashtags have amassed 4.6 million and 4.5 million posts, respectively, according to the platform. Some TikTok users share personal recipes and dietary habits, while others use step-by-step cooking videos to grow their online presence. \nThe widespread popularity of these trends has influenced various aspects of society, including interest in cooking among younger generations, discussions about body image, the marketing of food products on social media, and  temporary food shortages. \nSeveral TikTok content creators, such as Eitan Bernath, Poppy O'Toole and Emily Mariko have gained recognition  through their recipes an"
+  ],
+  "ev_kw_q051": [
+    "",
+    ""
+  ],
+  "ev_kw_q052": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q053": [
+    "Each entry on this list of common misconceptions is worded as a correction; the misconceptions themselves are implied rather than stated. These entries are concise summaries; the main subject articles can be consulted for more detail.",
+    "Kindness is a type of behavior marked by acts of generosity, consideration, or concern for others, without expecting praise or reward in return. It is a subject of interest in philosophy, religion, and psychology.\nIt can be directed towards one's self or other people, and is present across multiple different species and cultures.",
+    ""
+  ],
+  "ev_kw_q054": [
+    ""
+  ],
+  "ev_kw_q055": [
+    "",
+    "The Nobel Prize in Literature, here meaning for Literature (Swedish: Nobelpriset i litteratur), is a Swedish literature prize that is awarded annually to an author from any country who has, in the words of Alfred Nobel, \"in the field of literature, produced the most outstanding work in an idealistic direction\". Though individual works are sometimes cited as being particularly noteworthy, the award is based on an author's body of work as a whole. The Swedish Academy decides who, if anyone, will receive the prize.\nThe academy announces the name of the laureate in early October. It is one of the five Nobel Prizes established by the will of Alfred Nobel in 1895. Literature is traditionally the final award presented at the Nobel Prize ceremony. On some occasions, the award has been postponed to the following year, most recently in 2018.",
+    "Literature is any collection of written work. The term is also used more narrowly for writings considered an art form, especially novels, plays, and poems. It includes both print and digital writing. In recent centuries, the definition has expanded to include oral literature, much of which has been transcribed. Literature is a method of recording, preserving, and transmitting knowledge and entertainment. It can also have a social, psychological, spiritual, or political role.\nLiterary criticism is one of the oldest academic disciplines, and is concerned with the literary merit or intellectual significance of specific texts. The study of books and other texts as artifacts or traditions is instead encompassed by textual criticism or the history of the book. \"Literature\", as an art form, is sometimes used synonymously with literary fiction, fiction written with the goal of artistic merit, but can also include works in various non-fiction genres, such as biography, diaries, memoirs, letters"
+  ],
+  "ev_kw_q056": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q057": [
+    ""
+  ],
+  "ev_kw_q058": [
+    "A developing country is a country with a less-developed industrial base and a lower Human Development Index (HDI) relative to developed countries. However, this definition is not universally agreed upon. There is also no clear agreement on which countries fit this category. The terms low-and middle-income country (LMIC) and newly emerging economy (NEE) are often used interchangeably but they refer only to the economy of the countries. The World Bank classifies the world's economies into four groups, based on gross national income per capita: high-, upper-middle-, lower-middle-, and low-income countries. Least developed countries, landlocked developing countries, and small island developing states are all sub-groupings of developing countries. Countries on the other end of the spectrum are usually referred to as high-income countries or developed countries.\nThere are controversies over the terms' use, as some feel that it perpetuates an outdated concept of \"us\" and \"them\". In 2015, the ",
+    "",
+    "Gun laws and policies, collectively referred to as firearms regulation or gun control, regulate the manufacture, sale, transfer, possession, modification, and use of small arms by civilians. Laws of some countries may afford civilians a right to keep and bear arms, and have more liberal gun laws than neighboring jurisdictions. Gun control typically restricts access to certain categories of firearms and limits the categories of persons who may be granted permission to access firearms. There may be separate licenses for hunting, sport shooting, self-defense, collecting, and concealed carry, each with different sets of requirements, privileges, and responsibilities.\nGun laws are usually justified by a legislature's intent to curb the usage of small arms in crime, and to this end they frequently target types of arms identified in crimes and shootings, such as handguns and other types of concealable firearms. Semi-automatic rifle designs which are derived from service rifles, sometimes coll"
+  ],
+  "ev_kw_q059": [
+    "",
+    "",
+    "",
+    "Psychological horror is a subgenre of horror and psychological fiction with a particular focus on mental, emotional, and psychological states to frighten, disturb, or unsettle its audience. The subgenre frequently overlaps with the related subgenre of psychological thriller, and often uses mystery elements and characters with unstable, unreliable, or disturbed psychological states to enhance the suspense, horror, drama, tension, and paranoia of the setting and plot and to provide an overall creepy, unpleasant, unsettling, or distressing atmosphere."
+  ],
+  "ev_kw_q060": [
+    "Club Atl\u00e9tico Lan\u00fas (Spanish pronunciation: [\u02c8klu\u03b2 a\u02c8tletiko la\u02c8nus]) is an Argentine sports club based in Lan\u00fas, a city of the Buenos Aires Province. Founded in 1915, the club's main sports are football and basketball. In both sports, Lan\u00fas plays in Argentina's top divisions: Primera Divisi\u00f3n (football) and Liga Nacional de B\u00e1squet (basketball). Domestic football major titles won by the club include two Primera Divisi\u00f3n championships, the Copa Bicentenario and one Supercopa Argentina. At international level, Lan\u00fas has won one Copa CONMEBOL, and two Copa Sudamericana.\nThe so-called \"Southern Classic\" (\"Cl\u00e1sico del Sur\"), considered a modern classic in Argentine football, is contested against Banfield, and thanks to the good results of both in recent years it is also considered one of the most attractive cl\u00e1sicos of Primera Divisi\u00f3n.\nApart from football, Lan\u00fas hosts many other sports such as athletics, gymnastics, martial arts, handball, field hockey, roller skating, swimming, tennis, v"
+  ],
+  "ev_kw_q061": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q062": [
+    "",
+    "Apple File System (APFS) is a proprietary file system developed and deployed by Apple Inc. for macOS Sierra (10.12.4) and later, iOS 10.3, tvOS 10.2, watchOS 3.2, and all versions of iPadOS. It aims to fix core problems of HFS+ (also called Mac OS Extended), APFS's predecessor, which had been in use since 1998. APFS is optimized for solid-state drive storage and supports encryption, snapshots, and improved handling of metadata integrity."
+  ],
+  "ev_kw_q063": [
+    "Dignity taking is the destruction or confiscation of property rights from owners or occupiers, where the intentional or unintentional outcome is dehumanization or infantilization. There are two requirements: (1) involuntary property destruction or confiscation and (2) dehumanization or infantilization. Dehumanization is \"the failure to recognize an individual or group's humanity\" and infantilization is \"the restriction of an individual or group's autonomy based on the failure to recognize and respect their full capacity to reason.\" Evidence of a dignity taking can be established empirically through either a top-down approach, examining the motive and intent behind those who initiated the taking, or a bottom-up approach, examining the viewpoints of dispossessed people.\nWhen this larger harm called a dignity taking occurs, mere reparations (or compensation for physical things taken) are not enough. Dignity restoration is required. Dignity restoration is a remedy that seeks to provide dis"
+  ],
+  "ev_kw_q064": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q065": [
+    "",
+    "In contract theory, mechanism design, and economics, an information asymmetry is a situation where one party has more or better information than the other.\nInformation asymmetry creates an imbalance of power in transactions, which can sometimes cause the transactions to be inefficient, causing market failure in the worst case. Examples of this problem are adverse selection, moral hazard, and monopolies of knowledge.\nA common analogy used to visualise information asymmetry is the typical weighing scale, wherein one side represents the seller and the other the buyer. When the seller has more or better information, the transaction will more likely occur in the seller's favour (the balance leans to the seller's side). An example of this could be when a used car is sold, in which case the seller is likely to have a much better understanding of the car's condition\u2014and hence its market value\u2014than the buyer, who can only estimate the market value based on the information provided by the seller"
+  ],
+  "ev_kw_q066": [
+    "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in engineering, mathematics and computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals.\nHigh-profile applications of AI include advanced web search engines, chatbots, virtual assistants, autonomous vehicles, and play and analysis in strategy games (e.g., chess and Go). Since the 2020s, generative AI has become widely available to generate images, audio, and videos from text prompts.\nThe traditional goals of AI research include learning, reasoning, knowledge representation, planning, natural language processing, and perception, as well as support for robotics. To reach these goals, AI rese",
+    "",
+    "The Hundred Line: Last Defense Academy is a visual novel and tactical role-playing video game developed by Too Kyo Games and Media.Vision and published by Aniplex. It was one of the first games announced by Too Kyo Games in 2018 and was released on April 24, 2025 for the Nintendo Switch and Windows.\nThe player controls a high school student named Takumi Sumino, who lives in the underground Tokyo Residential Complex. When the complex is attacked by invaders, Sumino fights back and finds himself at the Last Defense Academy, a school in a destroyed city continuously under attack by invaders and their leader, V'ehxness. After defending the school for 100 days, the player can re-do previous events in the game, altering the course of the narrative.\nThe game was a collaboration between directors Kazutaka Kodaka and Kotaro Uchikoshi. Kodaka's initial pitch of the game that had 100 potential narrative routes for the player to traverse. By September 2023, the writing team was not complete, leadi",
+    "The grizzly bear (Ursus arctos horribilis), also known as the North American brown bear or simply grizzly, is a population or subspecies of the brown bear inhabiting North America.\nIn addition to the mainland grizzly (Ursus arctos horribilis), other forms of brown bear are sometimes identified as grizzly bears. These include three living populations\u2014the Kodiak bear (U. a. middendorffi), the Kamchatka bear (U. a. beringianus), and the peninsular grizzly (U. a. gyas)\u2014as well as the extinct California grizzly (U. a. californicus\u2020) and Mexican grizzly (formerly U. a. nelsoni\u2020). On average, grizzly bears near the coast tend to be larger while inland grizzlies tend to be smaller.\nThe Ussuri brown bear (U. a. lasiotus), inhabiting the Ussuri Krai, Sakhalin, the Amur Oblast, the Shantar Islands, Iturup Island, and Kunashir Island in Siberia, northeastern China, North Korea, and Hokkaid\u014d in Japan, is sometimes referred to as the \"black grizzly\", although it is no more closely related to North A",
+    ""
+  ],
+  "ev_kw_q067": [
+    "",
+    "In the United States, the Miranda warning is a type of notification customarily given by police to criminal suspects in police custody (or in a custodial interrogation) advising them of their right to silence and, in effect, protection from self-incrimination; that is, their right to refuse to answer questions or provide information to law enforcement or other officials. Named for the U.S. Supreme Court's 1966 decision Miranda v. Arizona, these rights are often referred to as Miranda rights. The purpose of such notification is to preserve the admissibility of their statements made during custodial interrogation in later criminal proceedings. The idea came from law professor Yale Kamisar, who subsequently was dubbed \"the father of Miranda.\"\nThe language used in Miranda warnings derives from the Supreme Court's opinion in its Miranda decision. However, the specific language used in the warnings varies between jurisdictions, and the warning is deemed adequate as long as the defendant's ri"
+  ],
+  "ev_kw_q068": [
+    "Artificial general intelligence (AGI) is a hypothetical type of artificial intelligence that matches or surpasses human capabilities across virtually all cognitive tasks.\nBeyond AGI, artificial superintelligence (ASI) would outperform the best human abilities across every domain by a wide margin. Unlike artificial narrow intelligence (ANI), whose competence is confined to well\u2011defined tasks, an AGI system can generalise knowledge, transfer skills between domains, and solve novel problems without task\u2011specific reprogramming.\nCreating AGI is a stated goal of technology companies such as OpenAI, Google, xAI, and Meta. A 2020 survey identified 72 active AGI research and development projects across 37 countries.\nAGI is a common topic in science fiction and futures studies.\nContention exists over whether AGI represents an existential risk. Some AI experts and industry figures have stated that mitigating the risk of human extinction posed by AGI should be a global priority. Others find the de",
+    "The Hitchhiker's Guide to the Galaxy is a comic science fiction series created by Douglas Adams that has become popular among fans of the genre and members of the scientific community. Phrases from it are widely recognised and often used in reference to, but outside the context of, the source material. Many writers on popular science, such as Fred Alan Wolf, Paul Davies, and Michio Kaku, have used quotations in their books to illustrate facts about cosmology or philosophy.",
+    ""
+  ],
+  "ev_kw_q069": [
+    ""
+  ],
+  "ev_kw_q070": [
+    "",
+    "",
+    "The legal institution of human chattel slavery, comprising the enslavement primarily of Africans and African Americans, was prevalent in the United States of America from its founding in 1776 until 1865, predominantly in the South. Slavery was found throughout European colonization in the Americas. From 1526, during the early colonial period, it was practiced in what became Britain's colonies, including the Thirteen Colonies that formed the United States. \nUnder the law, children were born into slavery, and an enslaved person was treated as property that could be bought, sold, or given away. Slavery persisted in about half of U.S. states until abolition in 1865, and issues involving slavery seeped into every aspect of national politics, economics, and social customs. In the decades after Reconstruction ended in 1877, many of slavery's economic and social functions continued through segregation, sharecropping, and convict leasing. Involuntary servitude as a punishment for crime remains "
+  ],
+  "ev_kw_q071": [
+    "United Kingdom insolvency law regulates companies in the United Kingdom which are unable to repay their debts. While UK bankruptcy law concerns the rules for natural persons, the term insolvency is generally used for companies formed under the Companies Act 2006. Insolvency means being unable to pay debts. Since the Cork Report of 1982, the modern policy of UK insolvency law has been to attempt to rescue a company that is in difficulty, to minimise losses and fairly distribute the burdens between the community, employees, creditors and other stakeholders that result from enterprise failure. If a company cannot be saved it is liquidated, meaning that the assets are sold off to repay creditors according to their priority. The main sources of law include the Insolvency Act 1986, the Insolvency Rules 1986 (SI 1986/1925, replaced in England and Wales from 6 April 2017 by the Insolvency Rules (England and Wales) 2016 (SI 2016/1024) \u2013 see below), the Company Directors Disqualification Act 198",
+    ""
+  ],
+  "ev_kw_q072": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q073": [
+    "Time Bandits is a 1981 British fantasy adventure film co-written, produced, and directed by Terry Gilliam. It stars David Rappaport, Sean Connery, John Cleese, Shelley Duvall, Ralph Richardson, Katherine Helmond, Ian Holm, Michael Palin, Peter Vaughan, and David Warner. The film tells the story of a young boy taken on an adventure through time with a band of thieves who plunder treasure from various points in history.\nIn 1979, Terry Gilliam was unable to set up the film Brazil; therefore, he proposed a family film. Time Bandits was co-written with fellow Monty Python Michael Palin, financed by ex-Beatle George Harrison's HandMade Films and filmed in England, Morocco, and Wales. The film was released in cinemas on 2 July 1981 in the United Kingdom and on 6 November 1981 in the United States. On its initial release, the film received mainly positive reviews from critics; it opened at number one at the weekend box office in the US and Canada, and, by the end of its run, grossed $36 millio",
+    "Genesis were an English rock band formed at Charterhouse School, in Godalming, Surrey, in 1967. The band's longest-lasting and most commercially successful line-up consisted of keyboardist Tony Banks, bassist/guitarist Mike Rutherford and drummer/singer Phil Collins. In the 1970s, during which the band also included singer Peter Gabriel and guitarist Steve Hackett, Genesis were among the pioneers of progressive rock. Banks and Rutherford have been the only constant members throughout the band's history.\nThe band were formed by Charterhouse pupils Banks, Rutherford, Gabriel, guitarist Anthony Phillips and drummer Chris Stewart. Their name was provided by former Charterhouse pupil and pop impresario Jonathan King, who arranged for them to record several singles and their debut album From Genesis to Revelation in 1969. After splitting from King, the band began touring, signed with Charisma Records and shifted to progressive rock with their succeeding album Trespass (1970). Phillips depart",
+    ""
+  ],
+  "ev_kw_q074": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q075": [
+    "\"Answer Me\" is a popular song, originally titled \"M\u00fctterlein\", with German lyrics by Gerhard Winkler and Fred Rauch. \"M\u00fctterlein\" was published on 19 April 1952. English lyrics were written by Carl Sigman, and the song was published as \"Answer Me\" in New York on 13 October 1953. Contemporary recordings of the English lyric by Frankie Laine and David Whitfield both topped the UK Singles Chart in 1953."
+  ],
+  "ev_kw_q076": [
+    "Poultry farming is the form of animal husbandry which breeds domesticated birds including chickens, ducks, turkeys and geese to produce meat or eggs for food. Poultry \u2013 mostly chickens \u2013 are farmed in great numbers.  More than 60 billion chickens are killed for consumption annually. Chickens used for meat are known as broilers, while chickens used for eggs are called layers \u2014 though they are usually also killed for their meat.\nIn the United States, the national organization overseeing poultry production is the Food and Drug Administration (FDA). In the UK, the national organization is the Department for Environment, Food and Rural Affairs (DEFRA).",
+    ""
+  ],
+  "ev_kw_q077": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q078": [
+    "Tupac Amaru Shakur (  TOO-pahk sh\u0259-KOOR; born Lesane Parish Crooks; June 16, 1971 \u2013 September 13, 1996), also known by his stage names 2Pac and Makaveli, was an American rapper and actor. He was one of the most influential musical artists of the 20th century, and a prominent political activist for Black America. He is among the best-selling music artists, having sold more than 75 million records worldwide. Some of Shakur's music addressed social injustice, political issues, and the marginalization of African Americans, but he was also synonymous with gangsta rap and violent lyrics.\nShakur was born in New York City to parents who were Black Panther Party members. Raised by his mother, Afeni Shakur, he relocated to the San Francisco Bay Area in 1988. His debut album 2Pacalypse Now (1991) cemented him as a central figure in West Coast hip-hop for his political rap lyrics. Shakur achieved further critical and commercial success with his subsequent albums Strictly 4 My N.I.G.G.A.Z... (1993)",
+    "The World Health Organization (WHO) is a specialized agency of the United Nations (UN) which coordinates responses to international public health issues and emergencies. It is headquartered in Geneva, Switzerland, and has six regional offices and 150 field offices worldwide. Only sovereign states are eligible to join, and it is the largest intergovernmental health organization at the international level.\nThe WHO's stated purpose is to achieve the highest possible level of health for all the world's people, defining health as \"a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.\" The main functions of the World Health Organization include promoting the control of epidemic and endemic diseases; providing and improving the teaching and training in public health, the medical treatment of disease, and related matters; and promoting the establishment of international standards for biological products.\nThe WHO was established on 7 Apri"
+  ],
+  "ev_kw_q079": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q080": [
+    ""
+  ],
+  "ev_kw_q081": [
+    "Completeness is a property of the real numbers that, intuitively, implies that there are no \"gaps\" (in Dedekind's terminology) or \"missing points\" in the real number line.  This contrasts with the rational numbers, whose corresponding number line has a \"gap\" at each irrational value.  In the decimal number system, completeness is equivalent to the statement that any infinite string of decimal digits is actually a decimal representation for some real number.\nDepending on the construction of the real numbers used, completeness may take the form of an axiom (the completeness axiom), or may be a theorem proven from the construction.  There are many equivalent forms of completeness, the most prominent being Dedekind completeness and Cauchy completeness (completeness as a metric space).",
+    "",
+    ""
+  ],
+  "ev_kw_q082": [
+    "",
+    ""
+  ],
+  "ev_kw_q083": [
+    "",
+    "",
+    "Defamation is a communication that injures a third party's reputation and causes a legally redressable injury. The precise legal definition of defamation varies from country to country. It is not necessarily restricted to making assertions that are false, and can extend to concepts that are more abstract than reputation such as dignity and honour.\nIn the English-speaking world, the law of defamation traditionally distinguishes between libel (written, printed, posted online, published in mass media) and slander (oral speech). It is treated as a civil wrong (tort, delict), as a criminal offence, or both.\nDefamation and related laws can encompass a variety of acts (from general defamation and insult \u2013 as applicable to every citizen \u2013\u200d to specialized provisions covering specific entities and social structures): Defamation can be against a legal person in general, including an insult against a legal person in general, or acts against public officials, state institutions (government, ministr"
+  ],
+  "ev_kw_q084": [
+    "",
+    ""
+  ],
+  "ev_kw_q085": [
+    "",
+    "",
+    "The Dark Is Rising Sequence is a series of five contemporary fantasy novels for older children and young adults that were written by the British author Susan Cooper and published from 1965 to 1977. The first book in the series, Over Sea, Under Stone, was originally conceived as a stand-alone novel, and the sequence gets its name from the second novel in the series, The Dark Is Rising. The Dark Is Rising Sequence is used as an overarching title in several omnibus, boxed-set, and coordinated editions; but the title of The Dark Is Rising is also used for the whole series.\nThe books depict a struggle between forces of good and evil called \"The Light\" and \"The Dark\", and draw upon Arthurian legends, Celtic mythology, Norse mythology and English folklore. The books were also influenced by Cooper's reading of Robert Graves' study of mythology, The White Goddess. Both magical and ordinary children are prominent throughout the series. It was inaugurated in 1965 with the U.K. publication by Jona"
+  ],
+  "ev_kw_q086": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q087": [
+    ""
+  ],
+  "ev_kw_q088": [
+    "",
+    "Global surface temperature (GST) is the average temperature of Earth's surface at a given time. It is a combination of sea surface temperature and the near-surface air temperature over land, weighted by their respective areas. Temperature data comes mainly from weather stations and satellites. To estimate data in the distant past, proxy data can be used for example from tree rings, corals, and ice cores. Observing the rising GST over time is one of the many lines of evidence supporting the scientific consensus on climate change, which is that human activities are causing climate change. Alternative terms for the same concept are global mean surface temperature (GMST) or global average surface temperature. \nSeries of reliable temperature measurements in some regions began in the 1850\u20141880 time frame (this is called the instrumental temperature record). The longest-running temperature record is the Central England temperature data series, which starts in 1659. The longest-running quasi-g",
+    "The climate of France is the statistical distribution of conditions in the Earth's atmosphere over the national territory, based on the averages and variability of relevant quantities over a given period, the standard reference period defined by the World Meteorological Organization being 30 years. Climate characterization is based on annual and monthly statistical measurements of local atmospheric data: temperature, atmospheric pressure, precipitation, sunshine, humidity, wind speed. Recurrence and exceptional events are also taken into account.\nLocated between latitudes 41\u00b0 19' N and 51\u00b0 04'N, metropolitan France is currently in the temperate zone, characterized by warm summers and moderately cold winters. This classification distinguishes between oceanic (cool summers, mild winters, high precipitation), continental (hot summers, cold winters, low precipitation), Mediterranean (hot, dry summers, mild winters, autumn precipitation), mountain (colder and wetter than the surrounding pla",
+    "The Late Ordovician mass extinction (LOME), sometimes referred to as the end-Ordovician mass extinction or the Ordovician\u2013Silurian extinction, is the first of the \"big five\" major mass extinction events in Earth's history, occurring roughly 445 million years ago (Ma). It is often considered to be the second-largest-known extinction event, behind only the end-Permian mass extinction, in terms of the percentage of genera that became extinct. Extinction was global during this interval, eliminating 49\u201360% of marine genera and nearly 85% of marine species. Under most tabulations, only the Permian\u2013Triassic mass extinction exceeds the Late Ordovician mass extinction in biodiversity loss. The extinction event had a profound impact on all major contemporary taxonomic groups; it caused the disappearance of one third of all brachiopod and bryozoan families, as well as numerous groups of conodonts, trilobites, echinoderms, corals, bivalves and graptolites. Despite its taxonomic severity, the Late ",
+    ""
+  ],
+  "ev_kw_q089": [
+    ""
+  ],
+  "ev_kw_q091": [
+    ""
+  ],
+  "ev_kw_q095": [
+    ""
+  ],
+  "ev_kw_q093": [
+    "",
+    ""
+  ],
+  "ev_kw_q092": [
+    "",
+    ""
+  ],
+  "ev_kw_q097": [
+    "",
+    ""
+  ],
+  "ev_kw_q096": [
+    "",
+    ""
+  ],
+  "ev_kw_q098": [
+    ""
+  ],
+  "ev_kw_q090": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q103": [
+    ""
+  ],
+  "ev_kw_q102": [
+    ""
+  ],
+  "ev_kw_q094": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q100": [
+    "",
+    ""
+  ],
+  "ev_kw_q101": [
+    "",
+    ""
+  ],
+  "ev_kw_q106": [
+    ""
+  ],
+  "ev_kw_q109": [
+    "Obesity is common in the United States and is a major health issue associated with numerous diseases, specifically an increased risk of certain types of cancer, coronary artery disease, type 2 diabetes, stroke, and cardiovascular disease, as well as significant increases in early mortality and economic costs. Obesity has long been a common stereotype associated with Americans.",
+    ""
+  ],
+  "ev_kw_q099": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q104": [
+    "",
+    "Law enforcement in Spain is carried out by numerous organizations, with different duties and jurisdictions. Police officers in Spain are permanent public servants, who uphold public safety and compliance of the law. Being a law enforcement officer in Spain is not only a job, but rather a legal condition (\"agents from the authority\"), as they are legally obligated to intervene in all situations they witness \"in defense of the law and public safety\" regardless of them being on or off duty.\nPolice forces in Spain are armed.",
+    ""
+  ],
+  "ev_kw_q105": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q110": [
+    "",
+    ""
+  ],
+  "ev_kw_q108": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q107": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q113": [
+    "",
+    ""
+  ],
+  "ev_kw_q111": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q114": [
+    "",
+    ""
+  ],
+  "ev_kw_q115": [
+    "",
+    ""
+  ],
+  "ev_kw_q112": [
+    "",
+    "",
+    "",
+    "The Marlovian theory of Shakespeare authorship holds that the Elizabethan poet and playwright Christopher Marlowe was the main author of the poems and plays attributed to William Shakespeare. Further, the theory says Marlowe did not die in Deptford on 30 May 1593, as the historical records state, but that his death was faked.\nMarlovians (as those who subscribe to the theory are usually called) base their argument on supposed anomalies surrounding Marlowe's reported death and on the significant influence which, according to most scholars, Marlowe's works had on those of Shakespeare. They also point out the coincidence that, despite their having been born only two months apart, the first time the name William Shakespeare is known to have been connected with any literary work was with the publication of Venus and Adonis just a week or two after the death of Marlowe.\nThe argument against this is that Marlowe's death was accepted as genuine by sixteen jurors at an inquest held by the Queen'"
+  ],
+  "ev_kw_q117": [
+    "",
+    ""
+  ],
+  "ev_kw_q121": [
+    ""
+  ],
+  "ev_kw_q116": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q119": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q120": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q118": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q125": [
+    ""
+  ],
+  "ev_kw_q122": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q123": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q124": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q130": [
+    ""
+  ],
+  "ev_kw_q126": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q127": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q131": [
+    "",
+    ""
+  ],
+  "ev_kw_q129": [
+    "",
+    "Carol is a 2015 historical romantic drama film directed by Todd Haynes. The screenplay by Phyllis Nagy is based on the 1952 romance novel The Price of Salt by Patricia Highsmith (republished as Carol in 1990). The film stars Cate Blanchett, Rooney Mara, Sarah Paulson, Jake Lacy, and Kyle Chandler. Set in 1950s New York City, the story is about a forbidden affair between an aspiring female photographer and an older woman going through a difficult divorce.\nCarol was in development since 1997, when Nagy wrote the first draft of the screenplay. British company Film4 Productions and its then-chief executive Tessa Ross financed development. The film was in development hell, facing problems with financing, rights, scheduling conflicts, and accessibility. Number 9 Films came on board as a producer in 2011, when Elizabeth Karlsen secured the rights to the novel. The film is co-produced by New York\u2013based Killer Films, which joined the project in 2013 after Haynes's collaborator Christine Vachon ",
+    ""
+  ],
+  "ev_kw_q132": [
+    "Preventive healthcare or prophylaxis is the application of healthcare measures to prevent diseases. Disease and disability are affected by environmental factors, genetic predisposition, disease agents, and lifestyle choices, and are dynamic processes that begin before individuals realize they are affected. Disease prevention relies on anticipatory actions that can be categorized as primal, primary, secondary, and tertiary prevention. Preventative care can include services such as, screening tests to check for diseases, services like vaccines, dental cleanings, and education and counseling to help one make informed health related decisions.\nEach year, millions of people die of preventable causes. A 2004 study showed that about half of all deaths in the United States in 2000 were due to preventable behaviors and exposures. Leading causes included cardiovascular disease, chronic respiratory disease, unintentional injuries, diabetes, and certain infectious diseases. The study also estimate",
+    ""
+  ],
+  "ev_kw_q128": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q136": [
+    ""
+  ],
+  "ev_kw_q137": [
+    ""
+  ],
+  "ev_kw_q135": [
+    "",
+    ""
+  ],
+  "ev_kw_q133": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q134": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q139": [
+    "",
+    ""
+  ],
+  "ev_kw_q140": [
+    "",
+    ""
+  ],
+  "ev_kw_q141": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q138": [
+    "",
+    "",
+    "",
+    "On the American late-night live television sketch comedy and variety show Saturday Night Live (SNL), a commercial advertisement parody is commonly shown after the host's opening monologue. Many of the parodies were produced by James Signorelli.  The industries, products, and ad formats targeted by the parodies have been wide-ranging, including fast food, beer, feminine hygiene products, toys, clothes, medications (both prescription and over-the-counter), financial institutions, automobiles, electronics, appliances, public-service announcements, infomercials, and movie & TV shows (including SNL itself).\nMany of SNL's ad parodies have been featured in prime-time clip shows over the years, including an April 1991 special hosted by Kevin Nealon and Victoria Jackson, as well as an early 1999 follow-up hosted by Will Ferrell that features his attempts to audition for a feminine hygiene commercial.  In late 2005 and in March 2009, the special was modernized, featuring commercials created sinc"
+  ],
+  "ev_kw_q142": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q143": [
+    "",
+    "Moses (Arabic: \u0645\u0648\u0633\u0649 \u0627\u0628\u0646 \u0639\u0645\u0631\u0627\u0646 M\u016bs\u0101 ibn \u02bfImr\u0101n, lit.\u2009'Moses, son of Amram') is a prominent prophet and messenger of God and is the most frequently mentioned individual in the Quran, with his name being mentioned 136 times and his life being narrated and recounted more than that of any other prophet. Apart from the Quran, Moses is also described and praised in the Hadith literature as well. He is one of the most important prophets and messengers within Islam.\nAccording to the Quran, Moses was born to an Israelite family. In his childhood, he is put in a basket which flows towards the Nile, and is eventually discovered by Pharaoh's (Fir'awn) wife (not named in the Quran but called Asiya in Hadith), who takes Moses as her adopted son. After reaching adulthood, Moses then resides in Midian, before departing for Egypt again to threaten the Pharaoh. During his prophethood, Moses is said to have performed many miracles, and is also reported to have personally talked to God, who bestows the tit",
+    ""
+  ],
+  "ev_kw_q146": [
+    "",
+    ""
+  ],
+  "ev_kw_q144": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q150": [
+    ""
+  ],
+  "ev_kw_q145": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q148": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q153": [
+    ""
+  ],
+  "ev_kw_q147": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q154": [
+    ""
+  ],
+  "ev_kw_q149": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q156": [
+    ""
+  ],
+  "ev_kw_q151": [
+    "",
+    "",
+    "Phentermine, sold under the brand name Adipex-P among others, is a medication used together with diet and exercise to treat obesity. It is available by itself or as the combination phentermine/topiramate. Phentermine is taken by mouth.\nCommon side effects include a fast heart beat, high blood pressure, trouble sleeping, dizziness, and restlessness. Serious side effects may include abuse, but do not include pulmonary hypertension or valvular heart disease, as the latter complications were caused by the fenfluramine component of the \"fen-phen\" combination. Phentermine is a norepinephrine and dopamine releasing agent (NDRA) and produces stimulant, rewarding, and appetite suppressant effects. Chemically, it is a substituted amphetamine.\nPhentermine was approved for medical use in the United States in 1959. It is available as a generic medication. In 2023, it was the 168th most commonly prescribed medication in the United States, with more than 3 million prescriptions. Phentermine was withd",
+    ""
+  ],
+  "ev_kw_q155": [
+    "",
+    ""
+  ],
+  "ev_kw_q152": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q159": [
+    "",
+    ""
+  ],
+  "ev_kw_q157": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q158": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q160": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q161": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q163": [
+    "",
+    ""
+  ],
+  "ev_kw_q162": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q165": [
+    "",
+    ""
+  ],
+  "ev_kw_q168": [
+    "On July 21, 2024, Joe Biden, the 46th president of the United States, announced his withdrawal from the 2024 United States presidential election.\nBiden, a Democrat who had been elected president in 2020, stated on April 25, 2023, that he would run for re-election in 2024 with incumbent Vice President Kamala Harris as his running mate. Biden went on to win an overwhelming majority of delegates in the 2024 Democratic Party presidential primaries, where he easily defeated challengers such as Representative Dean Phillips and became the party's presumptive nominee.\nConcerns about Biden's age and health had emerged during his presidency. These concerns increased following the June 2024 presidential debate between Biden and Republican Party candidate Donald Trump. Biden's debate performance was widely criticized; he lost his train of thought, had a faltering appearance, spoke with a hoarse voice, and failed to recall statistics or coherently express his opinion on several occasions. While he "
+  ],
+  "ev_kw_q166": [
+    "",
+    ""
+  ],
+  "ev_kw_q169": [
+    ""
+  ],
+  "ev_kw_q164": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q173": [
+    ""
+  ],
+  "ev_kw_q170": [
+    "",
+    ""
+  ],
+  "ev_kw_q167": [
+    "Samuel Harris Altman (born April 22, 1985) is an American entrepreneur who has been the chief executive officer (CEO) of the artificial intelligence company OpenAI since 2019.\nAltman attended Stanford University for two years before he dropped out and co-founded Loopt, a smartphone geosocial networking service. Loopt was acquired by Green Dot Corporation for $43.4 million. In 2011, Altman joined Y Combinator, a technology startup accelerator and venture capital firm, and was the company's president from 2014 to 2019. He is a billionaire with many investments including Reddit, Worldcoin, and Helion Energy.\nAltman co-founded OpenAI in 2015 and became its CEO in 2019, a role that made him a prominent figure of the AI boom. He supervised the launch of ChatGPT in November 2022. In 2023, he was ousted by the organization's board of directors for not being \"consistently candid\". The move was met with significant backlash from employees and investors, resulting in Altman's reinstatement five d",
+    "",
+    ""
+  ],
+  "ev_kw_q171": [
+    "",
+    ""
+  ],
+  "ev_kw_q172": [
+    "",
+    ""
+  ],
+  "ev_kw_q174": [
+    "",
+    ""
+  ],
+  "ev_kw_q175": [
+    "",
+    ""
+  ],
+  "ev_kw_q176": [
+    "",
+    ""
+  ],
+  "ev_kw_q177": [
+    "",
+    ""
+  ],
+  "ev_kw_q179": [
+    "",
+    "",
+    "The following is a list of fictional characters from the comic-book series The Boys, created by Garth Ennis and Darick Robertson, and subsequent media franchise developed by Eric Kripke, consisting of a live-action series adaptation, the web series Seven on 7, the animated anthology series The Boys Presents: Diabolical, and the live-action spin-off series Gen V."
+  ],
+  "ev_kw_q180": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q183": [
+    "",
+    ""
+  ],
+  "ev_kw_q178": [
+    "",
+    "",
+    "Blastomycosis, also known as Gilchrist's disease, is a fungal infection, typically of the lungs, which can spread to brain, stomach, intestine and skin, where it appears as crusting purplish warty plaques with a roundish bumpy edge and central depression. Around half of the people with the disease have symptoms, which can include fever, cough, night sweats, muscle pains, weight loss, chest pain, and fatigue. Symptoms usually develop between three weeks and three months after breathing in the spores. In 25% to 40% of cases, the infection also spreads to other parts of the body, such as the skin, bones, or central nervous system. Although blastomycosis is especially dangerous for those with weak immune systems, most people diagnosed with blastomycosis have healthy immune systems.\nBlastomyces dermatitidis is found in the soil and decaying organic matter like wood or leaves. Outdoor activities like hunting or camping in wooded areas increase the risk of developing blastomycosis. There is n",
+    ""
+  ],
+  "ev_kw_q181": [
+    "",
+    "In botany, a fruit is the seed-bearing structure in flowering plants (angiosperms) that is formed from the ovary after flowering.\nFruits are the means by which angiosperms disseminate their seeds. Edible fruits in particular have long propagated using the movements of humans and other animals in a symbiotic relationship that is the means for seed dispersal for the one group and nutrition for the other; humans, and many other animals, have become dependent on fruits as a source of food. Consequently, fruits account for a substantial fraction of the world's agricultural output, and some (such as the apple and the pomegranate) have acquired extensive cultural and symbolic meanings.\nIn common language and culinary usage, fruit normally means the seed-associated fleshy structures (or produce) of plants that are typically sweet (or sour) and edible in the raw state, such as apples, bananas, grapes, lemons, oranges, and strawberries. In botanical usage, the term fruit includes many structures",
+    ""
+  ],
+  "ev_kw_q182": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q186": [
+    ""
+  ],
+  "ev_kw_q184": [
+    "",
+    ""
+  ],
+  "ev_kw_q185": [
+    "",
+    ""
+  ],
+  "ev_kw_q187": [
+    "",
+    ""
+  ],
+  "ev_kw_q188": [
+    "",
+    ""
+  ],
+  "ev_kw_q193": [
+    ""
+  ],
+  "ev_kw_q190": [
+    "",
+    ""
+  ],
+  "ev_kw_q192": [
+    "",
+    ""
+  ],
+  "ev_kw_q189": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q195": [
+    "",
+    ""
+  ],
+  "ev_kw_q191": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q196": [
+    "",
+    "American Idol is an American singing competition television series created by Simon Fuller, produced by Fremantle North America and 19 Entertainment, and distributed by Fremantle North America. It aired on Fox from June 11, 2002, to April 7, 2016, for 15 seasons. It was on hiatus until March 11, 2018, when a revival of the series began airing on ABC.\nIt started as an addition to the Idol format that was based on Pop Idol from British television, and it became one of the most successful shows in the history of American television. The concept of the series involves discovering recording stars from unsigned singing talents, with the winner determined by American viewers using phones, Internet platforms, and SMS text voting. The winners of the first twenty-four seasons, as chosen by viewers, are Kelly Clarkson, Ruben Studdard, Fantasia Barrino, Carrie Underwood, Taylor Hicks, Jordin Sparks, David Cook, Kris Allen, Lee DeWyze, Scotty McCreery, Phillip Phillips, Candice Glover, Caleb Johnso",
+    ""
+  ],
+  "ev_kw_q198": [
+    ""
+  ],
+  "ev_kw_q199": [
+    ""
+  ],
+  "ev_kw_q197": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q201": [
+    ""
+  ],
+  "ev_kw_q194": [
+    "",
+    "\"Jack and the Beanstalk\" is an English fairy tale with ancient origins. It appeared as \"The Story of Jack Spriggins and the Enchanted Bean\" in 1734 and as Benjamin Tabart's moralized \"The History of Jack and the Bean-Stalk\" in 1807. Henry Cole, publishing under pen name Felix Summerly, popularized the tale in The Home Treasury (1845), and Joseph Jacobs rewrote it in English Fairy Tales (1890). Jacobs' version is most commonly reprinted today, and is believed to be closer to the oral versions than Tabart's because it lacks the moralizing. The antagonist is an ogre in some versions, including Jacob's, and is a giant in others.\n\"Jack and the Beanstalk\" is the best known of the \"Jack tales\", a series of stories featuring the archetypal English hero and stock character Jack.\nAccording to researchers at Durham University and Universidade Nova de Lisboa, the story originated more than five millennia ago in Proto-Indo-European, based on a widespread archaic story form which is now classified b",
+    "",
+    ""
+  ],
+  "ev_kw_q203": [
+    ""
+  ],
+  "ev_kw_q204": [
+    ""
+  ],
+  "ev_kw_q206": [
+    ""
+  ],
+  "ev_kw_q202": [
+    "",
+    ""
+  ],
+  "ev_kw_q207": [
+    ""
+  ],
+  "ev_kw_q208": [
+    ""
+  ],
+  "ev_kw_q200": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q213": [
+    ""
+  ],
+  "ev_kw_q209": [
+    "",
+    "An income tax is a tax imposed on individuals or entities (taxpayers) in respect of the income or profits earned by them (commonly called taxable income). Income tax generally is computed as the product of a tax rate times the taxable income. Taxation rates may vary by type or characteristics of the taxpayer and the type of income.\nThe tax rate may increase as taxable income increases (referred to as graduated or progressive tax rates). The tax imposed on companies is usually known as corporate tax and is commonly levied at a flat rate. Individual income is often taxed at progressive rates where the tax rate applied to each additional unit of income increases (e.g., the first $10,000 of income taxed at 0%, the next $10,000 taxed at 1%, etc.). Most jurisdictions exempt local charitable organizations from tax. Income from investments may be taxed at different (generally lower) rates than other types of income. Credits of various sorts may be allowed that reduce tax. Some jurisdictions im"
+  ],
+  "ev_kw_q214": [
+    ""
+  ],
+  "ev_kw_q211": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q210": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q216": [
+    ""
+  ],
+  "ev_kw_q205": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q212": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q221": [
+    ""
+  ],
+  "ev_kw_q219": [
+    ""
+  ],
+  "ev_kw_q215": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q220": [
+    "",
+    ""
+  ],
+  "ev_kw_q224": [
+    ""
+  ],
+  "ev_kw_q217": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q222": [
+    "",
+    ""
+  ],
+  "ev_kw_q223": [
+    "",
+    ""
+  ],
+  "ev_kw_q226": [
+    ""
+  ],
+  "ev_kw_q218": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q225": [
+    "",
+    ""
+  ],
+  "ev_kw_q227": [
+    "",
+    ""
+  ],
+  "ev_kw_q228": [
+    "",
+    ""
+  ],
+  "ev_kw_q230": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q231": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q229": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q235": [
+    ""
+  ],
+  "ev_kw_q232": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q234": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q233": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q238": [
+    "",
+    "Greek (Modern Greek: \u03b5\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac, romanized: ellinik\u00e1 [elini\u02c8ka] ; Ancient Greek: \u1f11\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ae, romanized: hell\u0113nik\u1e17 [hel\u02d0\u025b\u02d0nik\u025b\u0301\u02d0]) is an Indo-European language, constituting an independent Hellenic branch within the Indo-European language family. It is native to the territories that have had populations of Greeks since antiquity: Greece, Cyprus, Egypt, Turkey, Italy (in Calabria and Salento), southern Albania, and other regions of the Balkans, Caucasus, the Black Sea coast, and the Eastern Mediterranean. It has the longest documented history of any Indo-European language, spanning at least 3,400 years of written records. Its writing system is the Greek alphabet, which has been used for approximately 2,800 years; previously, Greek was recorded in writing systems such as Linear B and the Cypriot syllabary.\nThe Greek language holds a very important place in the history of the Western world. Beginning with the epic poetry of Homer, ancient Greek literature includes many works of lasting importa"
+  ],
+  "ev_kw_q237": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q236": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q239": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q240": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q243": [
+    ""
+  ],
+  "ev_kw_q246": [
+    ""
+  ],
+  "ev_kw_q241": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q244": [
+    "",
+    ""
+  ],
+  "ev_kw_q242": [
+    "",
+    "",
+    ""
+  ],
+  "ev_kw_q245": [
+    "",
+    ""
+  ],
+  "ev_kw_q248": [
+    "",
+    ""
+  ],
+  "ev_kw_q249": [
+    "",
+    ""
+  ],
+  "ev_kw_q247": [
+    "",
+    "",
+    "",
+    "The third season of the American television series Star Trek: Discovery follows the crew of the starship Discovery as they travel to the 32nd century, more than 900 years after Star Trek: The Original Series, and learn that Starfleet has nearly been destroyed by a cataclysmic event called \"The Burn\" that has left the galaxy disconnected. The season was produced by CBS Television Studios in association with Secret Hideout and Roddenberry Entertainment, with Alex Kurtzman and Michelle Paradise serving as showrunners.\nSonequa Martin-Green stars as Michael Burnham, first officer of the Discovery, along with the returning Doug Jones, Anthony Rapp, Mary Wiseman, and Wilson Cruz. They are joined by David Ajala and Rachael Ancheril. The season was ordered in February 2019, with Paradise promoted to co-showrunner alongside series co-creator Kurtzman. They ended the second season with the Discovery travelling to the future, beyond existing Star Trek continuity, which allowed them to explore a ne"
+  ],
+  "ev_ner_q054": [
+    "Stripe: Irish-American payment technology company"
+  ],
+  "ev_ner_q051": [
+    "artificial intelligence: field of computer science that develops and studies software enabling machines to exhibit intelligent behavior",
+    ""
+  ],
+  "ev_ner_q050": [
+    "Africa: continent",
+    ""
+  ],
+  "ev_ner_q057": [
+    ""
+  ],
+  "ev_ner_q055": [
+    "Sweden: country in Northern Europe",
+    "",
+    ""
+  ],
+  "ev_ner_q053": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q052": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q060": [
+    ""
+  ],
+  "ev_ner_q056": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q063": [
+    ""
+  ],
+  "ev_ner_q058": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q062": [
+    "",
+    ""
+  ],
+  "ev_ner_q067": [
+    "Nasa: genus of plants",
+    ""
+  ],
+  "ev_ner_q065": [
+    "1 (one, unit, unity) is a number, numeral, and grapheme. It is the first and smallest positive integer of the infinite sequence of natural numbers. This fundamental property has led to its unique uses in other fields, ranging from science to sports, where it commonly denotes the first, leading, or top thing in a group. 1 is the unit of counting or measurement, and represents a single thing. The representation of 1 evolved from ancient Sumerian and Babylonian symbols to the modern Arabic numeral. Linguistically, in English, \"one\" is a determiner for singular nouns and a gender-neutral pronoun.\nIn mathematics, 1 is the multiplicative identity, meaning that any number multiplied by 1 equals the same number. 1 is by convention not considered a prime number. In digital technology, 1 represents the \"on\" state in binary code, the foundation of computing. Philosophically, 1 symbolizes the ultimate reality or source of existence in various traditions.",
+    ""
+  ],
+  "ev_ner_q064": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q061": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q059": [
+    "",
+    "",
+    "Road traffic safety refers to the methods and measures, such as traffic calming, to prevent road users from being killed or seriously injured. Typical road users include pedestrians, cyclists, motorists, passengers of vehicles, and passengers of on-road public transport, mainly buses and trams.\nBest practices in modern road safety strategy: \n\nThe basic strategy of a Safe System approach is to ensure that in the event of a crash, the impact energies remain below the threshold likely to produce either death or serious injury. This threshold will vary from crash scenario to crash scenario, depending upon the level of protection offered to the road users involved. For example, the chances of survival for an unprotected pedestrian hit by a vehicle diminish rapidly at speeds greater than 30 km/h, whereas for a properly restrained motor vehicle occupant the critical impact speed is 50 km/h (for side impact crashes) and 70 km/h (for head-on crashes).\nAs sustainable solutions for classes of roa",
+    ""
+  ],
+  "ev_ner_q069": [
+    ""
+  ],
+  "ev_ner_q066": [
+    "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in engineering, mathematics and computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals.\nHigh-profile applications of AI include advanced web search engines, chatbots, virtual assistants, autonomous vehicles, and play and analysis in strategy games (e.g., chess and Go). Since the 2020s, generative AI has become widely available to generate images, audio, and videos from text prompts.\nThe traditional goals of AI research include learning, reasoning, knowledge representation, planning, natural language processing, and perception, as well as support for robotics. To reach these goals, AI rese",
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q071": [
+    "",
+    ""
+  ],
+  "ev_ner_q068": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q075": [
+    ""
+  ],
+  "ev_ner_q070": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q072": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q073": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q080": [
+    "The United States of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America. It is a federal republic consisting of 50 states and a federal capital district, Washington, D.C. The 48 contiguous states border Canada to the north and Mexico to the south, with the semi-exclave of Alaska in the northwest and the archipelago of Hawaii in the Pacific Ocean. The United States also asserts sovereignty over five major island territories and various uninhabited islands in Oceania and the Caribbean. It is a megadiverse country, with the world's third-largest land area and third-largest population, exceeding 341 million.\nPaleo-Indians first migrated from North Asia to North America at least 15,000 years ago, and formed various civilizations. European discovery of the Americas began in 1492, and British colonization followed with the 1607 settlement of Virginia, the first of the Thirteen Colonies. The American Enlightenment that spread throu"
+  ],
+  "ev_ner_q076": [
+    "",
+    ""
+  ],
+  "ev_ner_q074": [
+    "",
+    "5 (five) is a number, numeral and digit. It is the natural number, and cardinal number, following 4 and preceding 6, and is a prime number. \nHumans, and many other animals, have 5 digits on their limbs.",
+    ""
+  ],
+  "ev_ner_q078": [
+    "",
+    ""
+  ],
+  "ev_ner_q077": [
+    "A one-hit wonder is a musical artist who is successful with one hit song, but without a comparable subsequent hit. The term may also be applied to an artist who is remembered for only one hit despite other successes. This article contains artists known primarily for one hit song in the United States, who are regarded as one-hit wonders by at least two sources in media, even though the artist may have had multiple hits abroad.",
+    "",
+    ""
+  ],
+  "ev_ner_q082": [
+    "",
+    ""
+  ],
+  "ev_ner_q081": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q084": [
+    "",
+    ""
+  ],
+  "ev_ner_q079": [
+    "Each entry on this list of common misconceptions is worded as a correction; the misconceptions themselves are implied rather than stated. These entries are concise summaries; the main subject articles can be consulted for more detail.",
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q087": [
+    ""
+  ],
+  "ev_ner_q083": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q089": [
+    ""
+  ],
+  "ev_ner_q085": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q091": [
+    ""
+  ],
+  "ev_ner_q088": [
+    "",
+    "Global surface temperature (GST) is the average temperature of Earth's surface at a given time. It is a combination of sea surface temperature and the near-surface air temperature over land, weighted by their respective areas. Temperature data comes mainly from weather stations and satellites. To estimate data in the distant past, proxy data can be used for example from tree rings, corals, and ice cores. Observing the rising GST over time is one of the many lines of evidence supporting the scientific consensus on climate change, which is that human activities are causing climate change. Alternative terms for the same concept are global mean surface temperature (GMST) or global average surface temperature. \nSeries of reliable temperature measurements in some regions began in the 1850\u20141880 time frame (this is called the instrumental temperature record). The longest-running temperature record is the Central England temperature data series, which starts in 1659. The longest-running quasi-g",
+    "The climate of France is the statistical distribution of conditions in the Earth's atmosphere over the national territory, based on the averages and variability of relevant quantities over a given period, the standard reference period defined by the World Meteorological Organization being 30 years. Climate characterization is based on annual and monthly statistical measurements of local atmospheric data: temperature, atmospheric pressure, precipitation, sunshine, humidity, wind speed. Recurrence and exceptional events are also taken into account.\nLocated between latitudes 41\u00b0 19' N and 51\u00b0 04'N, metropolitan France is currently in the temperate zone, characterized by warm summers and moderately cold winters. This classification distinguishes between oceanic (cool summers, mild winters, high precipitation), continental (hot summers, cold winters, low precipitation), Mediterranean (hot, dry summers, mild winters, autumn precipitation), mountain (colder and wetter than the surrounding pla",
+    "Day: family name"
+  ],
+  "ev_ner_q086": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q092": [
+    "",
+    ""
+  ],
+  "ev_ner_q093": [
+    "",
+    ""
+  ],
+  "ev_ner_q095": [
+    ""
+  ],
+  "ev_ner_q090": [
+    "Living Books is a series of interactive read-along adventures aimed at children aged 3\u20139. Created by Mark Schlichting, the series was mostly developed by Living Books for CD-ROM and published by Broderbund for Mac OS and Microsoft Windows. Two decades after the original release, the series was re-released by Wanderful Interactive Storybooks for iOS and Android.\nThe series began in 1992 as a Broderbund division that started with an adaptation of Mercer Mayer's Just Grandma and Me. In 1994, the Living Books division was spun-off into its own children's multimedia company, jointly owned by Broderbund and Random House. The company continued to publish titles based on popular franchises such as Arthur, Dr. Seuss, and Berenstain Bears.\nIn 1997 Broderbund agreed to purchase Random House's 50% stake in Living Books and proceeded to dissolve the company. Broderbund was acquired by The Learning Company, Mattel Interactive, and The Gores Group over the following years, and the series was eventual",
+    "",
+    ""
+  ],
+  "ev_ner_q098": [
+    ""
+  ],
+  "ev_ner_q096": [
+    "",
+    ""
+  ],
+  "ev_ner_q097": [
+    "",
+    ""
+  ],
+  "ev_ner_q102": [
+    ""
+  ],
+  "ev_ner_q094": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q103": [
+    ""
+  ],
+  "ev_ner_q100": [
+    "",
+    ""
+  ],
+  "ev_ner_q101": [
+    "",
+    ""
+  ],
+  "ev_ner_q106": [
+    "Spirit possession is an altered state of consciousness and associated behaviors purportedly caused by the control of a human body and its functions by spirits, ghosts, demons, angels, or deities. The concept of spirit possession exists in many cultures and religions, including Buddhism, Christianity, Dominican Vud\u00fa, Haitian Vodou, Hinduism, Islam, Judaism, Wicca, and Southeast Asian, African, and Native American traditions. Depending on the cultural context in which it is found, possession may be thought of as voluntary or involuntary and may be considered to have beneficial or detrimental effects on the host. The experience of spirit possession sometimes serves as evidence in support of belief in the existence of spirits, deities or demons. In a 1969 study funded by the National Institute of Mental Health, spirit-possession beliefs were found to exist in 74% of a sample of 488 societies in all parts of the world, with the highest numbers of believing societies in Pacific cultures and "
+  ],
+  "ev_ner_q099": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q105": [
+    "",
+    "New York, also called New York State, is a state located in the northeastern United States. Bordering New England to its east, Canada to its north, and Pennsylvania and New Jersey to its south, it extends into both the Atlantic Ocean and the Great Lakes. New York is the fourth-most populous state in the United States, with over 20 million residents, and the 27th-largest state by area, with a total area of 54,556 square miles (141,300 km2).\nNew York has a varied geography. The southeastern part of the state, known as Downstate, encompasses New York City, the most populous city in the United States; Long Island, with approximately 40% of the state's population, the nation's most populous island; and the cities, suburbs, and wealthy enclaves of the lower Hudson Valley. These areas are the center of the expansive New York metropolitan area and account for approximately two-thirds of the state's population. The larger Upstate area spreads from the Great Lakes to Lake Champlain and includes ",
+    ""
+  ],
+  "ev_ner_q104": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q109": [
+    "United States: country located primarily in North America",
+    ""
+  ],
+  "ev_ner_q107": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q110": [
+    "",
+    ""
+  ],
+  "ev_ner_q108": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q113": [
+    "",
+    ""
+  ],
+  "ev_ner_q111": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q114": [
+    "",
+    ""
+  ],
+  "ev_ner_q115": [
+    "",
+    ""
+  ],
+  "ev_ner_q117": [
+    "",
+    ""
+  ],
+  "ev_ner_q119": [
+    "",
+    "Paris: capital and most populous city in France",
+    "Paris: capital and most populous city in France"
+  ],
+  "ev_ner_q112": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q116": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q121": [
+    ""
+  ],
+  "ev_ner_q118": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q125": [
+    ""
+  ],
+  "ev_ner_q120": [
+    "Each entry on this list of common misconceptions is worded as a correction; the misconceptions themselves are implied rather than stated. These entries are concise summaries; the main subject articles can be consulted for more detail.",
+    "",
+    ""
+  ],
+  "ev_ner_q122": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q123": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q124": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q130": [
+    ""
+  ],
+  "ev_ner_q126": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q131": [
+    "",
+    ""
+  ],
+  "ev_ner_q129": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q127": [
+    "",
+    "",
+    "A large language model (LLM) is a neural network trained on a vast amount of text for natural language processing tasks, especially language generation. LLMs can typically generate, summarize, translate and analyze text in many contexts, and are a foundational technology behind modern chatbots. Biased or inaccurate training data can make an LLM's output less reliable.\nAs of 2026, the most capable LLMs are based on transformer architectures, which, according to the 2017 paper \"Attention Is All You Need\", can be more efficient and parallelizable than earlier statistical and recurrent neural network models.\nBenchmark evaluations for LLMs attempt to measure model reasoning, factual accuracy, alignment, and safety."
+  ],
+  "ev_ner_q132": [
+    "",
+    ""
+  ],
+  "ev_ner_q136": [
+    ""
+  ],
+  "ev_ner_q128": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q133": [
+    "Netherlands: one of the four autonomous countries of the Kingdom of the Netherlands; with territories in the Caribbean",
+    "",
+    ""
+  ],
+  "ev_ner_q137": [
+    ""
+  ],
+  "ev_ner_q135": [
+    "",
+    ""
+  ],
+  "ev_ner_q134": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q139": [
+    "",
+    ""
+  ],
+  "ev_ner_q140": [
+    "",
+    ""
+  ],
+  "ev_ner_q141": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q138": [
+    "",
+    "",
+    "",
+    "On the American late-night live television sketch comedy and variety show Saturday Night Live (SNL), a commercial advertisement parody is commonly shown after the host's opening monologue. Many of the parodies were produced by James Signorelli.  The industries, products, and ad formats targeted by the parodies have been wide-ranging, including fast food, beer, feminine hygiene products, toys, clothes, medications (both prescription and over-the-counter), financial institutions, automobiles, electronics, appliances, public-service announcements, infomercials, and movie & TV shows (including SNL itself).\nMany of SNL's ad parodies have been featured in prime-time clip shows over the years, including an April 1991 special hosted by Kevin Nealon and Victoria Jackson, as well as an early 1999 follow-up hosted by Will Ferrell that features his attempts to audition for a feminine hygiene commercial.  In late 2005 and in March 2009, the special was modernized, featuring commercials created sinc"
+  ],
+  "ev_ner_q142": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q143": [
+    "",
+    "The Red Sea is a sea inlet of the Indian Ocean, lying between Africa and Asia. Its connection to the ocean is in the south, through the Bab-el-Mandeb Strait and the Gulf of Aden. To the north of the Red Sea lies the Sinai Peninsula, the Gulf of Aqaba, and the Gulf of Suez, which leads to the Suez Canal. It is underlain by the Red Sea Rift, which is part of the Great Rift Valley.\nThe Red Sea has a surface area of roughly 438,000 km2 (169,000 sq mi), is about 2,250 km (1,400 mi) long, and 355 km (221 mi) across at its widest point. It has an average depth of 490 m (1,610 ft), and in the central Suakin Trough, it reaches its maximum depth of 2,730 m (8,960 ft).\nThe Red Sea is quite shallow, with approximately 40% of its area being less than 100 m (330 ft) deep, and approximately 25% being less than 50 m (160 ft) deep. The extensive shallow shelves are noted for their marine life and corals. More than 1,000 invertebrate species and 200 types of soft and hard coral live in the sea. The Red ",
+    ""
+  ],
+  "ev_ner_q144": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q146": [
+    "",
+    ""
+  ],
+  "ev_ner_q150": [
+    ""
+  ],
+  "ev_ner_q145": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q148": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q147": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q153": [
+    ""
+  ],
+  "ev_ner_q156": [
+    ""
+  ],
+  "ev_ner_q154": [
+    ""
+  ],
+  "ev_ner_q152": [
+    "",
+    "",
+    "",
+    "United States: country located primarily in North America"
+  ],
+  "ev_ner_q149": [
+    "",
+    "",
+    "",
+    "\"Late in the Day\" was the fourth single from Britpop band Supergrass' second studio album, In It for the Money (1997). It was released in October 1997 and reached number 18 on the UK Singles Chart. The song also charted in Iceland, peaking at number 32 in November 1997. The two CD releases of the single have the same photo as their cover but the colours of one have been reversed on the second one.\n\"We Still Need More (Than Anyone Can Give)\" features as a B-side to this single, it was later released as a separate single as part of the Dead Man On Campus soundtrack, along with two other songs by different bands."
+  ],
+  "ev_ner_q155": [
+    "",
+    "The National Minimum Drinking Age Act of 1984 (23 U.S.C. \u00a7 158) was passed by the United States Congress and was later signed into law by President Ronald Reagan on July 17, 1984. The act punished any state that allowed persons under 21 years to purchase alcoholic beverages by reducing its annual federal highway apportionment by 10 percent. The law was later amended, lowering the penalty to 8 percent from fiscal year 2012 and beyond.\nDespite its name, this act did not outlaw the consumption of alcoholic beverages by those under 21 years of age, just their purchase or public possession. However, Alabama, Arkansas, Idaho, New Hampshire, and West Virginia extended the law into an outright ban. The minimum purchase and drinking ages are state laws, and most states still permit \"underage\" consumption of alcohol in some circumstances. In some states, no restriction on private consumption is made, while in other states, consumption is only allowed in specific locations, in the presence of con"
+  ],
+  "ev_ner_q151": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q159": [
+    "",
+    ""
+  ],
+  "ev_ner_q158": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q157": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q161": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q160": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q162": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q163": [
+    "",
+    ""
+  ],
+  "ev_ner_q165": [
+    "",
+    ""
+  ],
+  "ev_ner_q169": [
+    ""
+  ],
+  "ev_ner_q166": [
+    "",
+    ""
+  ],
+  "ev_ner_q168": [
+    ""
+  ],
+  "ev_ner_q164": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q174": [
+    "Greeks: ethnic group native to Greece, Cyprus, Albania, Italy, Turkey, Egypt and, to a lesser extent, other countries surrounding the Mediterranean Sea",
+    "Bose\u2013Einstein condensate: state of matter of a dilute gas of bosons cooled to temperatures very near absolute zero"
+  ],
+  "ev_ner_q167": [
+    "",
+    "A year is a unit of time based on how long it takes the Earth to orbit the Sun.  In scientific use, the tropical year (approximately 365 solar days, 5 hours, 48 minutes, 45 seconds) and the sidereal year (about 20 minutes longer) are more exact. The modern calendar year, as reckoned according to the Gregorian calendar, approximates the tropical year by using a system of leap years. \nThe term 'year' is also used to indicate other periods of roughly similar duration, such as the lunar year (a roughly 354-day cycle of twelve of the Moon's phases \u2013 see lunar calendar), as well as periods loosely associated with the calendar or astronomical year, such as the seasonal year, the fiscal year, the academic year, etc.\nDue to the Earth's axial tilt, the course of a year sees the passing of the seasons, marked by changes in weather, the hours of daylight, and, consequently, vegetation and soil fertility. In temperate and subpolar regions around the planet, four seasons are generally recognized: sp",
+    ""
+  ],
+  "ev_ner_q173": [
+    ""
+  ],
+  "ev_ner_q170": [
+    "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in engineering, mathematics and computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals.\nHigh-profile applications of AI include advanced web search engines, chatbots, virtual assistants, autonomous vehicles, and play and analysis in strategy games (e.g., chess and Go). Since the 2020s, generative AI has become widely available to generate images, audio, and videos from text prompts.\nThe traditional goals of AI research include learning, reasoning, knowledge representation, planning, natural language processing, and perception, as well as support for robotics. To reach these goals, AI rese",
+    ""
+  ],
+  "ev_ner_q175": [
+    "Korean Air: flag-carrier airline of South Korea",
+    ""
+  ],
+  "ev_ner_q171": [
+    "",
+    ""
+  ],
+  "ev_ner_q172": [
+    "",
+    ""
+  ],
+  "ev_ner_q176": [
+    "",
+    ""
+  ],
+  "ev_ner_q177": [
+    "",
+    ""
+  ],
+  "ev_ner_q179": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q183": [
+    "",
+    ""
+  ],
+  "ev_ner_q181": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q180": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q178": [
+    "",
+    "",
+    "",
+    "Canine reproduction is the process of sexual reproduction in domestic dogs, wolves, coyotes and other canine species."
+  ],
+  "ev_ner_q186": [
+    "A pin is a device used for fastening objects or material together.\nPin or PIN may also refer to:"
+  ],
+  "ev_ner_q184": [
+    "The Netherlands, informally Holland, is a country in Northwestern Europe, with overseas territories in the Caribbean. It is the largest of the four constituent countries of the Kingdom of the Netherlands. The Netherlands consists of twelve provinces and three overseas special municipalities. European Netherlands has land borders with Germany to the east and with Belgium to the south, and a coastline to the north and west. It shares maritime borders with the United Kingdom, Germany, and Belgium in the North Sea. The official language is Dutch, with West Frisian as a secondary official language in the province of Friesland. Dutch, English, and Papiamento are official in the Caribbean territories. People from the Netherlands are referred to as Dutch.\nNetherlands literally means \"lower countries\", in reference to its low elevation and flat topography, 26% of which is below sea level. Most of the areas below sea level, known as polders, are the result of land reclamation that began in the 1",
+    ""
+  ],
+  "ev_ner_q182": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q188": [
+    "United States: country located primarily in North America",
+    ""
+  ],
+  "ev_ner_q185": [
+    "",
+    ""
+  ],
+  "ev_ner_q187": [
+    "",
+    ""
+  ],
+  "ev_ner_q193": [
+    ""
+  ],
+  "ev_ner_q190": [
+    "",
+    ""
+  ],
+  "ev_ner_q192": [
+    "",
+    ""
+  ],
+  "ev_ner_q189": [
+    "train: form of rail transport consisting of a series of connected vehicles",
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q198": [
+    ""
+  ],
+  "ev_ner_q191": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q195": [
+    "",
+    ""
+  ],
+  "ev_ner_q199": [
+    ""
+  ],
+  "ev_ner_q194": [
+    "",
+    "",
+    "",
+    "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in engineering, mathematics and computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving defined goals.\nHigh-profile applications of AI include advanced web search engines, chatbots, virtual assistants, autonomous vehicles, and play and analysis in strategy games (e.g., chess and Go). Since the 2020s, generative AI has become widely available to generate images, audio, and videos from text prompts.\nThe traditional goals of AI research include learning, reasoning, knowledge representation, planning, natural language processing, and perception, as well as support for robotics. To reach these goals, AI rese"
+  ],
+  "ev_ner_q201": [
+    ""
+  ],
+  "ev_ner_q196": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q197": [
+    "",
+    "Mexico, officially the United Mexican States, is a country in North America. It is the northernmost country in Latin America and borders the United States of America to the north, and Guatemala and Belize to the southeast; while having maritime boundaries with the Pacific Ocean to the west, the Caribbean Sea to the southeast, and the Gulf of Mexico to the east. Mexico covers 1,972,550 km2 (761,610 sq mi), and is the thirteenth-largest country in the world by land area. With a population exceeding 134 million as of 2026, Mexico is the tenth-most populous country in the world and is home to the largest number of native Spanish speakers. Mexico City is the capital and largest city in Mexico, which ranks among the most populous metropolitan areas in the world.\nHuman presence in Mexico dates back to at least 8,000 BC. Mesoamerica, considered a cradle of civilization, was home to numerous advanced societies, including the Olmecs, Maya, Zapotecs, Teotihuacan civilization, and Pur\u00e9pecha. Spani",
+    ""
+  ],
+  "ev_ner_q203": [
+    ""
+  ],
+  "ev_ner_q204": [
+    ""
+  ],
+  "ev_ner_q200": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q202": [
+    "",
+    ""
+  ],
+  "ev_ner_q206": [
+    ""
+  ],
+  "ev_ner_q208": [
+    ""
+  ],
+  "ev_ner_q207": [
+    ""
+  ],
+  "ev_ner_q213": [
+    ""
+  ],
+  "ev_ner_q209": [
+    "",
+    ""
+  ],
+  "ev_ner_q214": [
+    ""
+  ],
+  "ev_ner_q205": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q210": [
+    "",
+    "",
+    "Sir Joseph Wilson Swan (31 October 1828 \u2013 27 May 1914) was an English physicist, chemist, and inventor. He is known as an independent early developer of a successful incandescent light bulb, and is responsible for developing the first use of incandescent lights used to illuminate homes and public buildings, including the Savoy Theatre, London, in 1881.\nIn 1904, Swan was knighted by King Edward VII, awarded the Royal Society's Hughes Medal, and was made a member of the Pharmaceutical Society. He had received the highest decoration in France, the Legion of Honour, when he visited the 1881 International Exposition of Electricity, Paris. The exhibition included displays of his inventions, and the city was lit with his electric lighting."
+  ],
+  "ev_ner_q216": [
+    ""
+  ],
+  "ev_ner_q211": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q212": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q220": [
+    "Queen: British musical group; rock band",
+    "Queen: British musical group; rock band"
+  ],
+  "ev_ner_q219": [
+    ""
+  ],
+  "ev_ner_q221": [
+    ""
+  ],
+  "ev_ner_q215": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q224": [
+    ""
+  ],
+  "ev_ner_q222": [
+    "",
+    ""
+  ],
+  "ev_ner_q217": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q223": [
+    "",
+    ""
+  ],
+  "ev_ner_q226": [
+    ""
+  ],
+  "ev_ner_q218": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q225": [
+    "",
+    ""
+  ],
+  "ev_ner_q227": [
+    "",
+    ""
+  ],
+  "ev_ner_q228": [
+    "",
+    ""
+  ],
+  "ev_ner_q230": [
+    "",
+    "Argentina, officially the Argentine Republic, is a country in the southern cone of South America. It covers an area of 2,780,085 km2 (1,073,397 mi2), making it the second-largest country in South America after Brazil, the fourth-largest country in the Americas, and the eighth-largest country in the world. Argentina shares the bulk of the Southern Cone with Chile to the west, and is also bordered by Bolivia and Paraguay to the north, Brazil to the northeast, Uruguay and the South Atlantic Ocean to the east, and the Drake Passage to the south. Argentina is a federal state subdivided into twenty-three provinces, and one autonomous city, which is the federal capital and largest city of the nation, Buenos Aires. The provinces and the capital have their own constitutions, but exist under a federal system. Argentina claims sovereignty over the Falkland Islands, South Georgia and the South Sandwich Islands, the Southern Patagonian Ice Field, and a part of Antarctica.\nThe earliest recorded huma",
+    ""
+  ],
+  "ev_ner_q229": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q231": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q235": [
+    ""
+  ],
+  "ev_ner_q234": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q232": [
+    "Israel, officially the State of Israel, is a country in the Southern Levant region of West Asia. It is bordered by Lebanon to the north, Syria to the northeast, Jordan to the east, and Egypt to the southwest. Israel's western coast lies on the Mediterranean Sea, its southern tip reaches the Red Sea, and to the east is Earth's lowest point near the Dead Sea. Jerusalem is the government seat and proclaimed capital, while Tel Aviv is Israel's largest urban area and economic centre.\nThe Land of Israel, also called Palestine or the Holy Land, was home to the ancient Canaanites and later the kingdoms of Israel and Judah and Hasmonean Judea. Located near continental crossroads, its demographics shifted under various empires. 19th-century European antisemitism fuelled the Zionist movement for a Jewish homeland, which gained British support with the 1917 Balfour Declaration. After World War I, Britain occupied the region and established Mandatory Palestine. British rule and Jewish immigration i",
+    "",
+    ""
+  ],
+  "ev_ner_q233": [
+    "Free-range eggs are eggs produced from birds that may be permitted outdoors. The term \"free-range\" may be used differently depending on the country and the relevant laws.\nEggs from hens that are only indoors might also be labelled cage-free, barn, barn-roaming or aviary, following the animal happiness certification policies, also known as \"happy chickens\" or \"happy eggs\". This is different from birds that are reared in systems labelled as battery cages or furnished cages.",
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q238": [
+    "",
+    ""
+  ],
+  "ev_ner_q236": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q237": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q239": [
+    "",
+    "",
+    "The Department of the Treasury (USDT) is the national treasury and finance department of the federal government of the United States. It is one of 15 current U.S. government departments. The treasury executes currency circulation in the domestic fiscal system, collects all federal taxes through the Internal Revenue Service, manages U.S. government debt, licenses and supervises banks and thrift institutions, and advises the legislative and executive branches on fiscal policy. \nThe department is administered by the secretary of the treasury, who is a member of the Cabinet. The department oversees the Bureau of Engraving and Printing and the U.S. Mint, two federal agencies responsible for printing all paper currency and minting coins respectively. The treasurer of the United States has limited statutory duties, but advises the Secretary on various matters such as coinage and currency production. Both the treasurer and treasury secretary's signatures appear on all U.S. dollar bank notes.\nT"
+  ],
+  "ev_ner_q240": [
+    "",
+    "",
+    "Mohandas Karamchand Gandhi (; GAHN-dee; 2 October 1869 \u2013 30 January 1948) was an Indian lawyer, anti-colonial nationalist and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence from British rule, and to later inspire movements for civil rights and freedom across the world. The honorific Mah\u0101tm\u0101 (Sanskrit: \"great-souled\", \"venerable\"), first applied to him in 1914 in South Africa, is now used throughout the world.\nBorn and raised in a Hindu family in coastal Gujarat, Gandhi was trained in the law at the Inner Temple in London and was called to the bar at the age of 22. After two uncertain years in India, where he was unable to start a successful law practice, Gandhi moved to South Africa in 1893 to represent an Indian merchant in a lawsuit. He went on to live in South Africa for the next 21 years. Here, Gandhi raised a family and first employed nonviolent resistance in a campaign for civil rights. In 1915, aged 45, he returned "
+  ],
+  "ev_ner_q246": [
+    "New England Patriots: National Football League franchise in Foxborough, Massachusetts"
+  ],
+  "ev_ner_q243": [
+    ""
+  ],
+  "ev_ner_q241": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q244": [
+    "",
+    ""
+  ],
+  "ev_ner_q242": [
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q245": [
+    "",
+    ""
+  ],
+  "ev_ner_q248": [
+    "",
+    ""
+  ],
+  "ev_ner_q247": [
+    "United States: country located primarily in North America",
+    "",
+    "",
+    ""
+  ],
+  "ev_ner_q249": [
+    "",
+    ""
+  ],
+  "contra_kw_q050": {
+    "has_contradiction": false,
+    "max_score": 0.3162
+  },
+  "contra_kw_q051": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q052": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q053": {
+    "has_contradiction": false,
+    "max_score": 0.3136
+  },
+  "contra_kw_q054": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q055": {
+    "has_contradiction": false,
+    "max_score": 0.3286
+  },
+  "contra_kw_q056": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q057": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q058": {
+    "has_contradiction": false,
+    "max_score": 0.3375
+  },
+  "contra_kw_q059": {
+    "has_contradiction": false,
+    "max_score": 0.3134
+  },
+  "contra_kw_q060": {
+    "has_contradiction": false,
+    "max_score": 0.2717
+  },
+  "contra_kw_q061": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q062": {
+    "has_contradiction": false,
+    "max_score": 0.2577
+  },
+  "contra_kw_q063": {
+    "has_contradiction": false,
+    "max_score": 0.3573
+  },
+  "contra_kw_q064": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q065": {
+    "has_contradiction": false,
+    "max_score": 0.3071
+  },
+  "contra_kw_q066": {
+    "has_contradiction": false,
+    "max_score": 0.3271
+  },
+  "contra_kw_q067": {
+    "has_contradiction": false,
+    "max_score": 0.2319
+  },
+  "contra_kw_q068": {
+    "has_contradiction": false,
+    "max_score": 0.3202
+  },
+  "contra_kw_q069": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q070": {
+    "has_contradiction": false,
+    "max_score": 0.2571
+  },
+  "contra_kw_q071": {
+    "has_contradiction": false,
+    "max_score": 0.3246
+  },
+  "contra_kw_q072": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q073": {
+    "has_contradiction": false,
+    "max_score": 0.293
+  },
+  "contra_kw_q074": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q075": {
+    "has_contradiction": false,
+    "max_score": 0.2461
+  },
+  "contra_kw_q076": {
+    "has_contradiction": false,
+    "max_score": 0.2796
+  },
+  "contra_kw_q077": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q078": {
+    "has_contradiction": false,
+    "max_score": 0.3431
+  },
+  "contra_kw_q079": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q080": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q081": {
+    "has_contradiction": false,
+    "max_score": 0.3154
+  },
+  "contra_kw_q082": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q083": {
+    "has_contradiction": false,
+    "max_score": 0.3298
+  },
+  "contra_kw_q084": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q085": {
+    "has_contradiction": false,
+    "max_score": 0.337
+  },
+  "contra_kw_q086": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q087": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q088": {
+    "has_contradiction": false,
+    "max_score": 0.3428
+  },
+  "contra_kw_q089": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q090": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q091": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q092": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q093": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q094": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q095": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q096": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q097": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q098": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q099": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q100": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q101": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q102": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q103": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q104": {
+    "has_contradiction": false,
+    "max_score": 0.3266
+  },
+  "contra_kw_q105": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q106": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q107": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q108": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q109": {
+    "has_contradiction": false,
+    "max_score": 0.3117
+  },
+  "contra_kw_q110": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q111": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q112": {
+    "has_contradiction": false,
+    "max_score": 0.3397
+  },
+  "contra_kw_q113": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q114": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q115": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q116": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q117": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q118": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q119": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q120": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q121": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q122": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q123": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q124": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q125": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q126": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q127": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q128": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q129": {
+    "has_contradiction": false,
+    "max_score": 0.2993
+  },
+  "contra_kw_q130": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q131": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q132": {
+    "has_contradiction": false,
+    "max_score": 0.2882
+  },
+  "contra_kw_q133": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q134": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q135": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q136": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q137": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q138": {
+    "has_contradiction": false,
+    "max_score": 0.2676
+  },
+  "contra_kw_q139": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q140": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q141": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q142": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q143": {
+    "has_contradiction": false,
+    "max_score": 0.3239
+  },
+  "contra_kw_q144": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q145": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q146": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q147": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q148": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q149": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q150": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q151": {
+    "has_contradiction": false,
+    "max_score": 0.2891
+  },
+  "contra_kw_q152": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q153": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q154": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q155": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q156": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q157": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q158": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q159": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q160": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q161": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q162": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q163": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q164": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q165": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q166": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q167": {
+    "has_contradiction": false,
+    "max_score": 0.2808
+  },
+  "contra_kw_q168": {
+    "has_contradiction": false,
+    "max_score": 0.3304
+  },
+  "contra_kw_q169": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q170": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q171": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q172": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q173": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q174": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q175": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q176": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q177": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q178": {
+    "has_contradiction": false,
+    "max_score": 0.2916
+  },
+  "contra_kw_q179": {
+    "has_contradiction": false,
+    "max_score": 0.2941
+  },
+  "contra_kw_q180": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q181": {
+    "has_contradiction": false,
+    "max_score": 0.3408
+  },
+  "contra_kw_q182": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q183": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q184": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q185": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q186": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q187": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q188": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q189": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q190": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q191": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q192": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q193": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q194": {
+    "has_contradiction": false,
+    "max_score": 0.2682
+  },
+  "contra_kw_q195": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q196": {
+    "has_contradiction": false,
+    "max_score": 0.3214
+  },
+  "contra_kw_q197": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q198": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q199": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q200": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q201": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q202": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q203": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q204": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q205": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q206": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q207": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q208": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q209": {
+    "has_contradiction": false,
+    "max_score": 0.3313
+  },
+  "contra_kw_q210": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q211": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q212": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q213": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q214": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q215": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q216": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q217": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q218": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q219": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q220": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q221": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q222": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q223": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q224": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q225": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q226": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q227": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q228": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q229": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q230": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q231": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q232": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q233": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q234": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q235": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q236": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q237": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q238": {
+    "has_contradiction": false,
+    "max_score": 0.2866
+  },
+  "contra_kw_q239": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q240": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q241": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q242": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q243": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q244": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q245": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q246": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q247": {
+    "has_contradiction": false,
+    "max_score": 0.3132
+  },
+  "contra_kw_q248": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_kw_q249": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q050": {
+    "has_contradiction": false,
+    "max_score": 0.2468
+  },
+  "contra_ner_q051": {
+    "has_contradiction": false,
+    "max_score": 0.2064
+  },
+  "contra_ner_q052": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q053": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q054": {
+    "has_contradiction": false,
+    "max_score": 0.037
+  },
+  "contra_ner_q055": {
+    "has_contradiction": false,
+    "max_score": 0.3028
+  },
+  "contra_ner_q056": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q057": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q058": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q059": {
+    "has_contradiction": false,
+    "max_score": 0.3733
+  },
+  "contra_ner_q060": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q061": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q062": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q063": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q064": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q065": {
+    "has_contradiction": false,
+    "max_score": 0.2194
+  },
+  "contra_ner_q066": {
+    "has_contradiction": false,
+    "max_score": 0.2912
+  },
+  "contra_ner_q067": {
+    "has_contradiction": false,
+    "max_score": 0.1915
+  },
+  "contra_ner_q068": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q069": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q070": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q071": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q072": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q073": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q074": {
+    "has_contradiction": false,
+    "max_score": 0.384
+  },
+  "contra_ner_q075": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q076": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q077": {
+    "has_contradiction": false,
+    "max_score": 0.3365
+  },
+  "contra_ner_q078": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q079": {
+    "has_contradiction": false,
+    "max_score": 0.225
+  },
+  "contra_ner_q080": {
+    "has_contradiction": false,
+    "max_score": 0.2899
+  },
+  "contra_ner_q081": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q082": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q083": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q084": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q085": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q086": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q087": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q088": {
+    "has_contradiction": false,
+    "max_score": 0.3428
+  },
+  "contra_ner_q089": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q090": {
+    "has_contradiction": false,
+    "max_score": 0.2764
+  },
+  "contra_ner_q091": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q092": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q093": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q094": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q095": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q096": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q097": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q098": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q099": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q100": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q101": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q102": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q103": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q104": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q105": {
+    "has_contradiction": false,
+    "max_score": 0.2895
+  },
+  "contra_ner_q106": {
+    "has_contradiction": false,
+    "max_score": 0.2959
+  },
+  "contra_ner_q107": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q108": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q109": {
+    "has_contradiction": false,
+    "max_score": 0.3021
+  },
+  "contra_ner_q110": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q111": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q112": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q113": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q114": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q115": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q116": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q117": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q118": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q119": {
+    "has_contradiction": false,
+    "max_score": 0.326
+  },
+  "contra_ner_q120": {
+    "has_contradiction": false,
+    "max_score": 0.2133
+  },
+  "contra_ner_q121": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q122": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q123": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q124": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q125": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q126": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q127": {
+    "has_contradiction": false,
+    "max_score": 0.3261
+  },
+  "contra_ner_q128": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q129": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q130": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q131": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q132": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q133": {
+    "has_contradiction": false,
+    "max_score": 0.2254
+  },
+  "contra_ner_q134": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q135": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q136": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q137": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q138": {
+    "has_contradiction": false,
+    "max_score": 0.2676
+  },
+  "contra_ner_q139": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q140": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q141": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q142": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q143": {
+    "has_contradiction": false,
+    "max_score": 0.3157
+  },
+  "contra_ner_q144": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q145": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q146": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q147": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q148": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q149": {
+    "has_contradiction": false,
+    "max_score": 0.3532
+  },
+  "contra_ner_q150": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q151": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q152": {
+    "has_contradiction": false,
+    "max_score": 0.2864
+  },
+  "contra_ner_q153": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q154": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q155": {
+    "has_contradiction": false,
+    "max_score": 0.3048
+  },
+  "contra_ner_q156": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q157": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q158": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q159": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q160": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q161": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q162": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q163": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q164": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q165": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q166": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q167": {
+    "has_contradiction": false,
+    "max_score": 0.3092
+  },
+  "contra_ner_q168": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q169": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q170": {
+    "has_contradiction": false,
+    "max_score": 0.2993
+  },
+  "contra_ner_q171": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q172": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q173": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q174": {
+    "has_contradiction": false,
+    "max_score": 0.2891
+  },
+  "contra_ner_q175": {
+    "has_contradiction": false,
+    "max_score": 0.2605
+  },
+  "contra_ner_q176": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q177": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q178": {
+    "has_contradiction": false,
+    "max_score": 0.339
+  },
+  "contra_ner_q179": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q180": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q181": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q182": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q183": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q184": {
+    "has_contradiction": false,
+    "max_score": 0.2621
+  },
+  "contra_ner_q185": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q186": {
+    "has_contradiction": false,
+    "max_score": 0.2964
+  },
+  "contra_ner_q187": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q188": {
+    "has_contradiction": false,
+    "max_score": 0.2621
+  },
+  "contra_ner_q189": {
+    "has_contradiction": false,
+    "max_score": 0.2853
+  },
+  "contra_ner_q190": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q191": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q192": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q193": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q194": {
+    "has_contradiction": false,
+    "max_score": 0.2822
+  },
+  "contra_ner_q195": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q196": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q197": {
+    "has_contradiction": false,
+    "max_score": 0.2658
+  },
+  "contra_ner_q198": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q199": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q200": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q201": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q202": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q203": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q204": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q205": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q206": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q207": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q208": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q209": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q210": {
+    "has_contradiction": false,
+    "max_score": 0.2926
+  },
+  "contra_ner_q211": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q212": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q213": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q214": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q215": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q216": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q217": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q218": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q219": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q220": {
+    "has_contradiction": false,
+    "max_score": 0.3946
+  },
+  "contra_ner_q221": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q222": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q223": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q224": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q225": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q226": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q227": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q228": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q229": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q230": {
+    "has_contradiction": false,
+    "max_score": 0.3312
+  },
+  "contra_ner_q231": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q232": {
+    "has_contradiction": false,
+    "max_score": 0.3224
+  },
+  "contra_ner_q233": {
+    "has_contradiction": false,
+    "max_score": 0.2559
+  },
+  "contra_ner_q234": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q235": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q236": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q237": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q238": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q239": {
+    "has_contradiction": false,
+    "max_score": 0.296
+  },
+  "contra_ner_q240": {
+    "has_contradiction": false,
+    "max_score": 0.2929
+  },
+  "contra_ner_q241": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q242": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q243": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q244": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q245": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q246": {
+    "has_contradiction": false,
+    "max_score": 0.1898
+  },
+  "contra_ner_q247": {
+    "has_contradiction": false,
+    "max_score": 0.3279
+  },
+  "contra_ner_q248": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  },
+  "contra_ner_q249": {
+    "has_contradiction": false,
+    "max_score": 0.0
+  }
+}

@@ -1,0 +1,33 @@
+==============================================================================
+  Week 5 — Ablation Study Results
+  200 evaluation claims · llama2/main split · judge: gpt-oss-120b
+==============================================================================
+  Config                                DR     FPR    Prec      F1    TP   FP   TN   FN
+  --------------------------------------------------------------------------
+  C0: No detection                   0.0%   0.0%   0.0%   0.0%     0    0  139   61
+  C1: Confidence only               50.8%  63.3%  26.1%  34.4%    31   88   51   30
+  C2: Keyword evidence + Contradiction  18.0%  20.9%  27.5%  21.8%    11   29  110   50
+  C3: NER + Contradiction           26.2%  21.6%  34.8%  29.9%    16   30  109   45
+  C4: Full pipeline                 62.3%  68.3%  28.6%  39.2%    38   95   44   23
+  --------------------------------------------------------------------------
+
+  DR  = Detection Rate  (TP / (TP+FN)) — recall on hallucination class
+  FPR = False Positive Rate (FP / (FP+TN)) — truthful answers wrongly flagged
+  Prec = Precision  (TP / (TP+FP))
+  F1   = 2×Prec×DR / (Prec+DR)
+
+  Configurations
+  ──────────────
+  C0  No detection  (trivial baseline — flags nothing)
+  C1  Confidence only (GPT-2 log-prob + attn entropy, t < 0.52)
+  C2  Keyword evidence + RoBERTa NLI contradiction (no NER routing, t ≥ 0.02)
+  C3  NER-routed evidence + RoBERTa NLI contradiction (t ≥ 0.02)
+  C4  Full pipeline (NER + evidence + contra ≥ 0.02  OR  conf < 0.52)
+
+  Threshold notes
+  ───────────────
+  Confidence range on this eval set: [0.483, 0.599]
+  Contradiction max score range: [0.000, 0.357]  (80% of answers: 0.000)
+  80% no-evidence rate limits contradiction detection coverage
+  NER routing improves hallucination coverage: 18% → 26% (+8 pp)
+==============================================================================

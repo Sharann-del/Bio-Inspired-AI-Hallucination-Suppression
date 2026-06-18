@@ -1,0 +1,5671 @@
+{
+  "timestamp": "2026-06-16T08:41:45",
+  "elapsed_sec": 16.66,
+  "n_samples": 200,
+  "local_evm": "eth-tester / py-evm (in-process)",
+  "contracts": {
+    "audit_log": "0xF2E246BB76DF876Cef8b38ae84130F4F55De395b",
+    "governance_decision": "0x2946259E0334f33A064106302415aD3391BeD384"
+  },
+  "blockchain_stats": {
+    "l1_write_ms": {
+      "mean": 35.687,
+      "p50": 35.72,
+      "p95": 36.793,
+      "min": 34.007,
+      "max": 41.554
+    },
+    "l2_write_ms": {
+      "mean": 43.601,
+      "p50": 43.443,
+      "p95": 44.728,
+      "min": 41.546,
+      "max": 59.612
+    },
+    "total_write_ms": {
+      "mean": 79.288,
+      "p50": 79.221,
+      "p95": 81.41,
+      "min": 75.961,
+      "max": 94.985
+    },
+    "l1_gas": {
+      "mean": 164752.52,
+      "p50": 164672.0,
+      "p95": 164672.0,
+      "min": 164648,
+      "max": 181772
+    },
+    "l2_gas": {
+      "mean": 170898.12,
+      "p50": 170823.0,
+      "p95": 170847.0,
+      "min": 170763,
+      "max": 187923
+    }
+  },
+  "pipeline_stats": {
+    "total_pipeline_ms": {
+      "mean": 1882.435,
+      "p50": 2055.3,
+      "p95": 3560.4,
+      "min": 825.1,
+      "max": 5340.4
+    },
+    "stage_breakdown_ms": {
+      "ner": 3.1,
+      "evidence": 612.0,
+      "contradiction": 890.0,
+      "confidence": 210.0
+    }
+  },
+  "testnet_estimate": {
+    "total_gas_per_run": 335650.64,
+    "estimated_fee_gwei": 503475.96,
+    "estimated_fee_eth": 0.00050348,
+    "expected_confirmation_s": 12.0,
+    "note": "Sepolia testnet not benchmarked live \u2014 requires funded wallet. Expected confirmation: 1 block \u2248 12.0s. Gas estimates derived from local py-evm measurements."
+  },
+  "sample_records": [
+    {
+      "qid": "q050",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5403,
+        "contradiction_score": 0.2468,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2330.2
+      },
+      "blockchain": {
+        "l1_write_ms": 36.865,
+        "l1_gas": 181772,
+        "l1_block": 3,
+        "l2_write_ms": 44.149,
+        "l2_gas": 187923,
+        "l2_block": 4,
+        "total_write_ms": 81.014
+      }
+    },
+    {
+      "qid": "q051",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5078,
+        "contradiction_score": 0.2064,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2330.2
+      },
+      "blockchain": {
+        "l1_write_ms": 36.79,
+        "l1_gas": 164672,
+        "l1_block": 5,
+        "l2_write_ms": 42.76,
+        "l2_gas": 170847,
+        "l2_block": 6,
+        "total_write_ms": 79.55
+      }
+    },
+    {
+      "qid": "q052",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5045,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.277,
+        "l1_gas": 164672,
+        "l1_block": 7,
+        "l2_write_ms": 42.748,
+        "l2_gas": 170823,
+        "l2_block": 8,
+        "total_write_ms": 78.025
+      }
+    },
+    {
+      "qid": "q053",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.4933,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 34.144,
+        "l1_gas": 164672,
+        "l1_block": 9,
+        "l2_write_ms": 42.604,
+        "l2_gas": 170823,
+        "l2_block": 10,
+        "total_write_ms": 76.748
+      }
+    },
+    {
+      "qid": "q054",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5583,
+        "contradiction_score": 0.037,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1715.1
+      },
+      "blockchain": {
+        "l1_write_ms": 34.116,
+        "l1_gas": 164672,
+        "l1_block": 11,
+        "l2_write_ms": 42.683,
+        "l2_gas": 170823,
+        "l2_block": 12,
+        "total_write_ms": 76.799
+      }
+    },
+    {
+      "qid": "q055",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5141,
+        "contradiction_score": 0.3028,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2945.3
+      },
+      "blockchain": {
+        "l1_write_ms": 34.428,
+        "l1_gas": 164672,
+        "l1_block": 13,
+        "l2_write_ms": 42.108,
+        "l2_gas": 170847,
+        "l2_block": 14,
+        "total_write_ms": 76.536
+      }
+    },
+    {
+      "qid": "q056",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5011,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 34.608,
+        "l1_gas": 164672,
+        "l1_block": 15,
+        "l2_write_ms": 44.934,
+        "l2_gas": 170823,
+        "l2_block": 16,
+        "total_write_ms": 79.542
+      }
+    },
+    {
+      "qid": "q057",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5188,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 35.057,
+        "l1_gas": 164672,
+        "l1_block": 17,
+        "l2_write_ms": 42.866,
+        "l2_gas": 170823,
+        "l2_block": 18,
+        "total_write_ms": 77.923
+      }
+    },
+    {
+      "qid": "q058",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5185,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 34.577,
+        "l1_gas": 164648,
+        "l1_block": 19,
+        "l2_write_ms": 42.29,
+        "l2_gas": 170811,
+        "l2_block": 20,
+        "total_write_ms": 76.867
+      }
+    },
+    {
+      "qid": "q059",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5105,
+        "contradiction_score": 0.3733,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 12.4,
+        "evidence_ms": 2448.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 3560.4
+      },
+      "blockchain": {
+        "l1_write_ms": 34.963,
+        "l1_gas": 164672,
+        "l1_block": 21,
+        "l2_write_ms": 42.691,
+        "l2_gas": 170847,
+        "l2_block": 22,
+        "total_write_ms": 77.654
+      }
+    },
+    {
+      "qid": "q060",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5158,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 34.418,
+        "l1_gas": 164648,
+        "l1_block": 23,
+        "l2_write_ms": 42.506,
+        "l2_gas": 170811,
+        "l2_block": 24,
+        "total_write_ms": 76.924
+      }
+    },
+    {
+      "qid": "q061",
+      "gt_label": "FALSE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5401,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 34.855,
+        "l1_gas": 164672,
+        "l1_block": 25,
+        "l2_write_ms": 42.339,
+        "l2_gas": 170787,
+        "l2_block": 26,
+        "total_write_ms": 77.194
+      }
+    },
+    {
+      "qid": "q062",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5231,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 36.306,
+        "l1_gas": 164672,
+        "l1_block": 27,
+        "l2_write_ms": 42.432,
+        "l2_gas": 170787,
+        "l2_block": 28,
+        "total_write_ms": 78.738
+      }
+    },
+    {
+      "qid": "q063",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5211,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 35.186,
+        "l1_gas": 164672,
+        "l1_block": 29,
+        "l2_write_ms": 42.446,
+        "l2_gas": 170787,
+        "l2_block": 30,
+        "total_write_ms": 77.632
+      }
+    },
+    {
+      "qid": "q064",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5254,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 34.007,
+        "l1_gas": 164648,
+        "l1_block": 31,
+        "l2_write_ms": 42.767,
+        "l2_gas": 170787,
+        "l2_block": 32,
+        "total_write_ms": 76.774
+      }
+    },
+    {
+      "qid": "q065",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.4958,
+        "contradiction_score": 0.2194,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2330.2
+      },
+      "blockchain": {
+        "l1_write_ms": 34.467,
+        "l1_gas": 164672,
+        "l1_block": 33,
+        "l2_write_ms": 42.846,
+        "l2_gas": 170847,
+        "l2_block": 34,
+        "total_write_ms": 77.313
+      }
+    },
+    {
+      "qid": "q066",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.4888,
+        "contradiction_score": 0.2912,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 12.4,
+        "evidence_ms": 2448.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 3560.4
+      },
+      "blockchain": {
+        "l1_write_ms": 34.72,
+        "l1_gas": 164672,
+        "l1_block": 35,
+        "l2_write_ms": 42.177,
+        "l2_gas": 170847,
+        "l2_block": 36,
+        "total_write_ms": 76.897
+      }
+    },
+    {
+      "qid": "q067",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5121,
+        "contradiction_score": 0.1915,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2330.2
+      },
+      "blockchain": {
+        "l1_write_ms": 34.591,
+        "l1_gas": 164672,
+        "l1_block": 37,
+        "l2_write_ms": 42.98,
+        "l2_gas": 170847,
+        "l2_block": 38,
+        "total_write_ms": 77.571
+      }
+    },
+    {
+      "qid": "q068",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5192,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 34.666,
+        "l1_gas": 164672,
+        "l1_block": 39,
+        "l2_write_ms": 44.008,
+        "l2_gas": 170823,
+        "l2_block": 40,
+        "total_write_ms": 78.674
+      }
+    },
+    {
+      "qid": "q069",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5203,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 36.159,
+        "l1_gas": 164672,
+        "l1_block": 41,
+        "l2_write_ms": 42.619,
+        "l2_gas": 170787,
+        "l2_block": 42,
+        "total_write_ms": 78.778
+      }
+    },
+    {
+      "qid": "q070",
+      "gt_label": "FALSE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5288,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.85,
+        "l1_gas": 164660,
+        "l1_block": 43,
+        "l2_write_ms": 42.479,
+        "l2_gas": 170775,
+        "l2_block": 44,
+        "total_write_ms": 78.329
+      }
+    },
+    {
+      "qid": "q071",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5088,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 34.702,
+        "l1_gas": 164672,
+        "l1_block": 45,
+        "l2_write_ms": 42.172,
+        "l2_gas": 170823,
+        "l2_block": 46,
+        "total_write_ms": 76.874
+      }
+    },
+    {
+      "qid": "q072",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.483,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 34.386,
+        "l1_gas": 164672,
+        "l1_block": 47,
+        "l2_write_ms": 42.333,
+        "l2_gas": 170823,
+        "l2_block": 48,
+        "total_write_ms": 76.719
+      }
+    },
+    {
+      "qid": "q073",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.4952,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 34.343,
+        "l1_gas": 164672,
+        "l1_block": 49,
+        "l2_write_ms": 41.71,
+        "l2_gas": 170823,
+        "l2_block": 50,
+        "total_write_ms": 76.053
+      }
+    },
+    {
+      "qid": "q074",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5017,
+        "contradiction_score": 0.384,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2945.3
+      },
+      "blockchain": {
+        "l1_write_ms": 34.596,
+        "l1_gas": 164672,
+        "l1_block": 51,
+        "l2_write_ms": 42.372,
+        "l2_gas": 170835,
+        "l2_block": 52,
+        "total_write_ms": 76.968
+      }
+    },
+    {
+      "qid": "q075",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5335,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 34.959,
+        "l1_gas": 164672,
+        "l1_block": 53,
+        "l2_write_ms": 41.977,
+        "l2_gas": 170787,
+        "l2_block": 54,
+        "total_write_ms": 76.936
+      }
+    },
+    {
+      "qid": "q076",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5209,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 34.404,
+        "l1_gas": 164672,
+        "l1_block": 55,
+        "l2_write_ms": 41.901,
+        "l2_gas": 170787,
+        "l2_block": 56,
+        "total_write_ms": 76.305
+      }
+    },
+    {
+      "qid": "q077",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.4992,
+        "contradiction_score": 0.3365,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2945.3
+      },
+      "blockchain": {
+        "l1_write_ms": 34.791,
+        "l1_gas": 164672,
+        "l1_block": 57,
+        "l2_write_ms": 41.807,
+        "l2_gas": 170847,
+        "l2_block": 58,
+        "total_write_ms": 76.598
+      }
+    },
+    {
+      "qid": "q078",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5208,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.453,
+        "l1_gas": 164672,
+        "l1_block": 59,
+        "l2_write_ms": 43.141,
+        "l2_gas": 170787,
+        "l2_block": 60,
+        "total_write_ms": 78.594
+      }
+    },
+    {
+      "qid": "q079",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5051,
+        "contradiction_score": 0.225,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 12.4,
+        "evidence_ms": 2448.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 3560.4
+      },
+      "blockchain": {
+        "l1_write_ms": 34.964,
+        "l1_gas": 164672,
+        "l1_block": 61,
+        "l2_write_ms": 42.243,
+        "l2_gas": 170847,
+        "l2_block": 62,
+        "total_write_ms": 77.207
+      }
+    },
+    {
+      "qid": "q080",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5366,
+        "contradiction_score": 0.2899,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1715.1
+      },
+      "blockchain": {
+        "l1_write_ms": 34.495,
+        "l1_gas": 164660,
+        "l1_block": 63,
+        "l2_write_ms": 42.108,
+        "l2_gas": 170823,
+        "l2_block": 64,
+        "total_write_ms": 76.603
+      }
+    },
+    {
+      "qid": "q081",
+      "gt_label": "FALSE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5231,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 34.247,
+        "l1_gas": 164660,
+        "l1_block": 65,
+        "l2_write_ms": 42.711,
+        "l2_gas": 170775,
+        "l2_block": 66,
+        "total_write_ms": 76.958
+      }
+    },
+    {
+      "qid": "q082",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5497,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 34.413,
+        "l1_gas": 164672,
+        "l1_block": 67,
+        "l2_write_ms": 41.548,
+        "l2_gas": 170787,
+        "l2_block": 68,
+        "total_write_ms": 75.961
+      }
+    },
+    {
+      "qid": "q083",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.4952,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 34.505,
+        "l1_gas": 164672,
+        "l1_block": 69,
+        "l2_write_ms": 42.595,
+        "l2_gas": 170823,
+        "l2_block": 70,
+        "total_write_ms": 77.1
+      }
+    },
+    {
+      "qid": "q084",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5248,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 34.796,
+        "l1_gas": 164672,
+        "l1_block": 71,
+        "l2_write_ms": 42.028,
+        "l2_gas": 170787,
+        "l2_block": 72,
+        "total_write_ms": 76.824
+      }
+    },
+    {
+      "qid": "q085",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5027,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 34.7,
+        "l1_gas": 164672,
+        "l1_block": 73,
+        "l2_write_ms": 42.707,
+        "l2_gas": 170823,
+        "l2_block": 74,
+        "total_write_ms": 77.407
+      }
+    },
+    {
+      "qid": "q086",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5114,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.218,
+        "l1_gas": 164660,
+        "l1_block": 75,
+        "l2_write_ms": 41.546,
+        "l2_gas": 170823,
+        "l2_block": 76,
+        "total_write_ms": 76.764
+      }
+    },
+    {
+      "qid": "q087",
+      "gt_label": "FALSE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5513,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 35.246,
+        "l1_gas": 164672,
+        "l1_block": 77,
+        "l2_write_ms": 42.347,
+        "l2_gas": 170787,
+        "l2_block": 78,
+        "total_write_ms": 77.593
+      }
+    },
+    {
+      "qid": "q088",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5079,
+        "contradiction_score": 0.3428,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 3
+      },
+      "stage_time_ms": {
+        "ner_ms": 12.4,
+        "evidence_ms": 2448.0,
+        "contradiction_ms": 2670.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 5340.4
+      },
+      "blockchain": {
+        "l1_write_ms": 34.591,
+        "l1_gas": 164672,
+        "l1_block": 79,
+        "l2_write_ms": 41.778,
+        "l2_gas": 170847,
+        "l2_block": 80,
+        "total_write_ms": 76.369
+      }
+    },
+    {
+      "qid": "q089",
+      "gt_label": "FALSE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5348,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 34.936,
+        "l1_gas": 164672,
+        "l1_block": 81,
+        "l2_write_ms": 59.612,
+        "l2_gas": 170787,
+        "l2_block": 82,
+        "total_write_ms": 94.548
+      }
+    },
+    {
+      "qid": "q090",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5113,
+        "contradiction_score": 0.2764,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2945.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.332,
+        "l1_gas": 164672,
+        "l1_block": 83,
+        "l2_write_ms": 43.009,
+        "l2_gas": 170847,
+        "l2_block": 84,
+        "total_write_ms": 78.341
+      }
+    },
+    {
+      "qid": "q091",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5203,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 35.763,
+        "l1_gas": 164648,
+        "l1_block": 85,
+        "l2_write_ms": 43.008,
+        "l2_gas": 170775,
+        "l2_block": 86,
+        "total_write_ms": 78.771
+      }
+    },
+    {
+      "qid": "q092",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5183,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 34.834,
+        "l1_gas": 164672,
+        "l1_block": 87,
+        "l2_write_ms": 42.512,
+        "l2_gas": 170823,
+        "l2_block": 88,
+        "total_write_ms": 77.346
+      }
+    },
+    {
+      "qid": "q093",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5062,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.052,
+        "l1_gas": 164672,
+        "l1_block": 89,
+        "l2_write_ms": 43.139,
+        "l2_gas": 170823,
+        "l2_block": 90,
+        "total_write_ms": 78.191
+      }
+    },
+    {
+      "qid": "q094",
+      "gt_label": "FALSE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5261,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 12.4,
+        "evidence_ms": 2448.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2670.4
+      },
+      "blockchain": {
+        "l1_write_ms": 34.998,
+        "l1_gas": 164672,
+        "l1_block": 91,
+        "l2_write_ms": 42.909,
+        "l2_gas": 170787,
+        "l2_block": 92,
+        "total_write_ms": 77.907
+      }
+    },
+    {
+      "qid": "q095",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5142,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 35.095,
+        "l1_gas": 164672,
+        "l1_block": 93,
+        "l2_write_ms": 43.135,
+        "l2_gas": 170823,
+        "l2_block": 94,
+        "total_write_ms": 78.23
+      }
+    },
+    {
+      "qid": "q096",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5316,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.198,
+        "l1_gas": 164672,
+        "l1_block": 95,
+        "l2_write_ms": 43.096,
+        "l2_gas": 170787,
+        "l2_block": 96,
+        "total_write_ms": 78.294
+      }
+    },
+    {
+      "qid": "q097",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5095,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.483,
+        "l1_gas": 164672,
+        "l1_block": 97,
+        "l2_write_ms": 42.933,
+        "l2_gas": 170823,
+        "l2_block": 98,
+        "total_write_ms": 78.416
+      }
+    },
+    {
+      "qid": "q098",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5394,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 35.191,
+        "l1_gas": 164672,
+        "l1_block": 99,
+        "l2_write_ms": 43.337,
+        "l2_gas": 170787,
+        "l2_block": 100,
+        "total_write_ms": 78.528
+      }
+    },
+    {
+      "qid": "q099",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5094,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 12.4,
+        "evidence_ms": 2448.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2670.4
+      },
+      "blockchain": {
+        "l1_write_ms": 34.854,
+        "l1_gas": 164672,
+        "l1_block": 101,
+        "l2_write_ms": 42.954,
+        "l2_gas": 170823,
+        "l2_block": 102,
+        "total_write_ms": 77.808
+      }
+    },
+    {
+      "qid": "q100",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5451,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.362,
+        "l1_gas": 164672,
+        "l1_block": 103,
+        "l2_write_ms": 42.996,
+        "l2_gas": 170787,
+        "l2_block": 104,
+        "total_write_ms": 78.358
+      }
+    },
+    {
+      "qid": "q101",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.498,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.768,
+        "l1_gas": 164672,
+        "l1_block": 105,
+        "l2_write_ms": 42.658,
+        "l2_gas": 170823,
+        "l2_block": 106,
+        "total_write_ms": 78.426
+      }
+    },
+    {
+      "qid": "q102",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5034,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 34.889,
+        "l1_gas": 164672,
+        "l1_block": 107,
+        "l2_write_ms": 43.165,
+        "l2_gas": 170823,
+        "l2_block": 108,
+        "total_write_ms": 78.054
+      }
+    },
+    {
+      "qid": "q103",
+      "gt_label": "FALSE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.563,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 35.475,
+        "l1_gas": 164672,
+        "l1_block": 109,
+        "l2_write_ms": 43.459,
+        "l2_gas": 170787,
+        "l2_block": 110,
+        "total_write_ms": 78.934
+      }
+    },
+    {
+      "qid": "q104",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5151,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.694,
+        "l1_gas": 164672,
+        "l1_block": 111,
+        "l2_write_ms": 43.005,
+        "l2_gas": 170823,
+        "l2_block": 112,
+        "total_write_ms": 78.699
+      }
+    },
+    {
+      "qid": "q105",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.516,
+        "contradiction_score": 0.2895,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2945.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.554,
+        "l1_gas": 164672,
+        "l1_block": 113,
+        "l2_write_ms": 43.059,
+        "l2_gas": 170847,
+        "l2_block": 114,
+        "total_write_ms": 78.613
+      }
+    },
+    {
+      "qid": "q106",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5196,
+        "contradiction_score": 0.2959,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1715.1
+      },
+      "blockchain": {
+        "l1_write_ms": 35.74,
+        "l1_gas": 164672,
+        "l1_block": 115,
+        "l2_write_ms": 43.419,
+        "l2_gas": 170847,
+        "l2_block": 116,
+        "total_write_ms": 79.159
+      }
+    },
+    {
+      "qid": "q107",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5007,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.052,
+        "l1_gas": 164648,
+        "l1_block": 117,
+        "l2_write_ms": 43.018,
+        "l2_gas": 170823,
+        "l2_block": 118,
+        "total_write_ms": 78.07
+      }
+    },
+    {
+      "qid": "q108",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5137,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.507,
+        "l1_gas": 164660,
+        "l1_block": 119,
+        "l2_write_ms": 43.03,
+        "l2_gas": 170811,
+        "l2_block": 120,
+        "total_write_ms": 78.537
+      }
+    },
+    {
+      "qid": "q109",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5504,
+        "contradiction_score": 0.3021,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2330.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.25,
+        "l1_gas": 164672,
+        "l1_block": 121,
+        "l2_write_ms": 43.411,
+        "l2_gas": 170823,
+        "l2_block": 122,
+        "total_write_ms": 78.661
+      }
+    },
+    {
+      "qid": "q110",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5296,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.25,
+        "l1_gas": 164660,
+        "l1_block": 123,
+        "l2_write_ms": 43.111,
+        "l2_gas": 170775,
+        "l2_block": 124,
+        "total_write_ms": 78.361
+      }
+    },
+    {
+      "qid": "q111",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5146,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.877,
+        "l1_gas": 164672,
+        "l1_block": 125,
+        "l2_write_ms": 43.358,
+        "l2_gas": 170823,
+        "l2_block": 126,
+        "total_write_ms": 79.235
+      }
+    },
+    {
+      "qid": "q112",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5057,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 12.4,
+        "evidence_ms": 2448.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2670.4
+      },
+      "blockchain": {
+        "l1_write_ms": 35.707,
+        "l1_gas": 164672,
+        "l1_block": 127,
+        "l2_write_ms": 43.056,
+        "l2_gas": 170823,
+        "l2_block": 128,
+        "total_write_ms": 78.763
+      }
+    },
+    {
+      "qid": "q113",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5339,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 34.992,
+        "l1_gas": 164660,
+        "l1_block": 129,
+        "l2_write_ms": 46.362,
+        "l2_gas": 170775,
+        "l2_block": 130,
+        "total_write_ms": 81.354
+      }
+    },
+    {
+      "qid": "q114",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.4994,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.485,
+        "l1_gas": 164660,
+        "l1_block": 131,
+        "l2_write_ms": 44.438,
+        "l2_gas": 170823,
+        "l2_block": 132,
+        "total_write_ms": 79.923
+      }
+    },
+    {
+      "qid": "q115",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5124,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 37.121,
+        "l1_gas": 164672,
+        "l1_block": 133,
+        "l2_write_ms": 44.57,
+        "l2_gas": 170823,
+        "l2_block": 134,
+        "total_write_ms": 81.691
+      }
+    },
+    {
+      "qid": "q116",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5151,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 36.657,
+        "l1_gas": 164672,
+        "l1_block": 135,
+        "l2_write_ms": 44.266,
+        "l2_gas": 170823,
+        "l2_block": 136,
+        "total_write_ms": 80.923
+      }
+    },
+    {
+      "qid": "q117",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5057,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.835,
+        "l1_gas": 164660,
+        "l1_block": 137,
+        "l2_write_ms": 44.163,
+        "l2_gas": 170823,
+        "l2_block": 138,
+        "total_write_ms": 79.998
+      }
+    },
+    {
+      "qid": "q118",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5332,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 12.4,
+        "evidence_ms": 2448.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2670.4
+      },
+      "blockchain": {
+        "l1_write_ms": 35.828,
+        "l1_gas": 164672,
+        "l1_block": 139,
+        "l2_write_ms": 43.771,
+        "l2_gas": 170787,
+        "l2_block": 140,
+        "total_write_ms": 79.599
+      }
+    },
+    {
+      "qid": "q119",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5118,
+        "contradiction_score": 0.326,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 2
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 1780.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 3835.3
+      },
+      "blockchain": {
+        "l1_write_ms": 36.639,
+        "l1_gas": 164672,
+        "l1_block": 141,
+        "l2_write_ms": 43.259,
+        "l2_gas": 170847,
+        "l2_block": 142,
+        "total_write_ms": 79.898
+      }
+    },
+    {
+      "qid": "q120",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5206,
+        "contradiction_score": 0.2133,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2945.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.866,
+        "l1_gas": 164672,
+        "l1_block": 143,
+        "l2_write_ms": 43.898,
+        "l2_gas": 170823,
+        "l2_block": 144,
+        "total_write_ms": 79.764
+      }
+    },
+    {
+      "qid": "q121",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5391,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 35.927,
+        "l1_gas": 164660,
+        "l1_block": 145,
+        "l2_write_ms": 43.524,
+        "l2_gas": 170775,
+        "l2_block": 146,
+        "total_write_ms": 79.451
+      }
+    },
+    {
+      "qid": "q122",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5273,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 36.072,
+        "l1_gas": 164660,
+        "l1_block": 147,
+        "l2_write_ms": 43.755,
+        "l2_gas": 170775,
+        "l2_block": 148,
+        "total_write_ms": 79.827
+      }
+    },
+    {
+      "qid": "q123",
+      "gt_label": "FALSE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5423,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.778,
+        "l1_gas": 164672,
+        "l1_block": 149,
+        "l2_write_ms": 42.948,
+        "l2_gas": 170787,
+        "l2_block": 150,
+        "total_write_ms": 78.726
+      }
+    },
+    {
+      "qid": "q124",
+      "gt_label": "FALSE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5241,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.733,
+        "l1_gas": 164672,
+        "l1_block": 151,
+        "l2_write_ms": 43.587,
+        "l2_gas": 170787,
+        "l2_block": 152,
+        "total_write_ms": 79.32
+      }
+    },
+    {
+      "qid": "q125",
+      "gt_label": "FALSE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5225,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 35.535,
+        "l1_gas": 164648,
+        "l1_block": 153,
+        "l2_write_ms": 43.849,
+        "l2_gas": 170775,
+        "l2_block": 154,
+        "total_write_ms": 79.384
+      }
+    },
+    {
+      "qid": "q126",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5194,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.639,
+        "l1_gas": 164660,
+        "l1_block": 155,
+        "l2_write_ms": 43.559,
+        "l2_gas": 170811,
+        "l2_block": 156,
+        "total_write_ms": 79.198
+      }
+    },
+    {
+      "qid": "q127",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5129,
+        "contradiction_score": 0.3261,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2945.3
+      },
+      "blockchain": {
+        "l1_write_ms": 36.313,
+        "l1_gas": 164648,
+        "l1_block": 157,
+        "l2_write_ms": 43.548,
+        "l2_gas": 170823,
+        "l2_block": 158,
+        "total_write_ms": 79.861
+      }
+    },
+    {
+      "qid": "q128",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.4911,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 12.4,
+        "evidence_ms": 2448.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2670.4
+      },
+      "blockchain": {
+        "l1_write_ms": 35.901,
+        "l1_gas": 164648,
+        "l1_block": 159,
+        "l2_write_ms": 43.828,
+        "l2_gas": 170823,
+        "l2_block": 160,
+        "total_write_ms": 79.729
+      }
+    },
+    {
+      "qid": "q129",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.4944,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.406,
+        "l1_gas": 164660,
+        "l1_block": 161,
+        "l2_write_ms": 43.967,
+        "l2_gas": 170823,
+        "l2_block": 162,
+        "total_write_ms": 79.373
+      }
+    },
+    {
+      "qid": "q130",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5846,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 35.87,
+        "l1_gas": 164672,
+        "l1_block": 163,
+        "l2_write_ms": 42.966,
+        "l2_gas": 170787,
+        "l2_block": 164,
+        "total_write_ms": 78.836
+      }
+    },
+    {
+      "qid": "q131",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5017,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.578,
+        "l1_gas": 164672,
+        "l1_block": 165,
+        "l2_write_ms": 43.252,
+        "l2_gas": 170823,
+        "l2_block": 166,
+        "total_write_ms": 78.83
+      }
+    },
+    {
+      "qid": "q132",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.51,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.344,
+        "l1_gas": 164648,
+        "l1_block": 167,
+        "l2_write_ms": 43.565,
+        "l2_gas": 170811,
+        "l2_block": 168,
+        "total_write_ms": 78.909
+      }
+    },
+    {
+      "qid": "q133",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.525,
+        "contradiction_score": 0.2254,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2945.3
+      },
+      "blockchain": {
+        "l1_write_ms": 36.318,
+        "l1_gas": 164672,
+        "l1_block": 169,
+        "l2_write_ms": 43.575,
+        "l2_gas": 170823,
+        "l2_block": 170,
+        "total_write_ms": 79.893
+      }
+    },
+    {
+      "qid": "q134",
+      "gt_label": "FALSE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5222,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.159,
+        "l1_gas": 164672,
+        "l1_block": 171,
+        "l2_write_ms": 43.256,
+        "l2_gas": 170787,
+        "l2_block": 172,
+        "total_write_ms": 78.415
+      }
+    },
+    {
+      "qid": "q135",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.4981,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 36.129,
+        "l1_gas": 164660,
+        "l1_block": 173,
+        "l2_write_ms": 43.711,
+        "l2_gas": 170811,
+        "l2_block": 174,
+        "total_write_ms": 79.84
+      }
+    },
+    {
+      "qid": "q136",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5322,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 35.874,
+        "l1_gas": 164660,
+        "l1_block": 175,
+        "l2_write_ms": 43.921,
+        "l2_gas": 170775,
+        "l2_block": 176,
+        "total_write_ms": 79.795
+      }
+    },
+    {
+      "qid": "q137",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5274,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 35.906,
+        "l1_gas": 164672,
+        "l1_block": 177,
+        "l2_write_ms": 43.34,
+        "l2_gas": 170787,
+        "l2_block": 178,
+        "total_write_ms": 79.246
+      }
+    },
+    {
+      "qid": "q138",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5136,
+        "contradiction_score": 0.2676,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 12.4,
+        "evidence_ms": 2448.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 3560.4
+      },
+      "blockchain": {
+        "l1_write_ms": 35.511,
+        "l1_gas": 164672,
+        "l1_block": 179,
+        "l2_write_ms": 43.141,
+        "l2_gas": 170847,
+        "l2_block": 180,
+        "total_write_ms": 78.652
+      }
+    },
+    {
+      "qid": "q139",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5234,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 36.041,
+        "l1_gas": 164648,
+        "l1_block": 181,
+        "l2_write_ms": 42.937,
+        "l2_gas": 170787,
+        "l2_block": 182,
+        "total_write_ms": 78.978
+      }
+    },
+    {
+      "qid": "q140",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5136,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 36.058,
+        "l1_gas": 164672,
+        "l1_block": 183,
+        "l2_write_ms": 43.362,
+        "l2_gas": 170823,
+        "l2_block": 184,
+        "total_write_ms": 79.42
+      }
+    },
+    {
+      "qid": "q141",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5123,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.934,
+        "l1_gas": 164672,
+        "l1_block": 185,
+        "l2_write_ms": 43.767,
+        "l2_gas": 170823,
+        "l2_block": 186,
+        "total_write_ms": 79.701
+      }
+    },
+    {
+      "qid": "q142",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5164,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 12.4,
+        "evidence_ms": 2448.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2670.4
+      },
+      "blockchain": {
+        "l1_write_ms": 36.07,
+        "l1_gas": 164672,
+        "l1_block": 187,
+        "l2_write_ms": 46.164,
+        "l2_gas": 170823,
+        "l2_block": 188,
+        "total_write_ms": 82.234
+      }
+    },
+    {
+      "qid": "q143",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5015,
+        "contradiction_score": 0.3157,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2945.3
+      },
+      "blockchain": {
+        "l1_write_ms": 36.124,
+        "l1_gas": 164672,
+        "l1_block": 189,
+        "l2_write_ms": 44.284,
+        "l2_gas": 170847,
+        "l2_block": 190,
+        "total_write_ms": 80.408
+      }
+    },
+    {
+      "qid": "q144",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.4962,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 36.285,
+        "l1_gas": 164660,
+        "l1_block": 191,
+        "l2_write_ms": 43.591,
+        "l2_gas": 170823,
+        "l2_block": 192,
+        "total_write_ms": 79.876
+      }
+    },
+    {
+      "qid": "q145",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5095,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 12.4,
+        "evidence_ms": 2448.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2670.4
+      },
+      "blockchain": {
+        "l1_write_ms": 35.905,
+        "l1_gas": 164672,
+        "l1_block": 193,
+        "l2_write_ms": 43.867,
+        "l2_gas": 170823,
+        "l2_block": 194,
+        "total_write_ms": 79.772
+      }
+    },
+    {
+      "qid": "q146",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5308,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.958,
+        "l1_gas": 164672,
+        "l1_block": 195,
+        "l2_write_ms": 43.02,
+        "l2_gas": 170787,
+        "l2_block": 196,
+        "total_write_ms": 78.978
+      }
+    },
+    {
+      "qid": "q147",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.4972,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 12.4,
+        "evidence_ms": 2448.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2670.4
+      },
+      "blockchain": {
+        "l1_write_ms": 35.328,
+        "l1_gas": 164660,
+        "l1_block": 197,
+        "l2_write_ms": 43.003,
+        "l2_gas": 170811,
+        "l2_block": 198,
+        "total_write_ms": 78.331
+      }
+    },
+    {
+      "qid": "q148",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5248,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.962,
+        "l1_gas": 164660,
+        "l1_block": 199,
+        "l2_write_ms": 43.62,
+        "l2_gas": 170787,
+        "l2_block": 200,
+        "total_write_ms": 79.582
+      }
+    },
+    {
+      "qid": "q149",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5259,
+        "contradiction_score": 0.3532,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 12.4,
+        "evidence_ms": 2448.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 3560.4
+      },
+      "blockchain": {
+        "l1_write_ms": 35.602,
+        "l1_gas": 164672,
+        "l1_block": 201,
+        "l2_write_ms": 43.605,
+        "l2_gas": 170823,
+        "l2_block": 202,
+        "total_write_ms": 79.207
+      }
+    },
+    {
+      "qid": "q150",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5193,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 37.322,
+        "l1_gas": 164648,
+        "l1_block": 203,
+        "l2_write_ms": 44.46,
+        "l2_gas": 170823,
+        "l2_block": 204,
+        "total_write_ms": 81.782
+      }
+    },
+    {
+      "qid": "q151",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5393,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 12.4,
+        "evidence_ms": 2448.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2670.4
+      },
+      "blockchain": {
+        "l1_write_ms": 35.794,
+        "l1_gas": 164648,
+        "l1_block": 205,
+        "l2_write_ms": 43.529,
+        "l2_gas": 170775,
+        "l2_block": 206,
+        "total_write_ms": 79.323
+      }
+    },
+    {
+      "qid": "q152",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5103,
+        "contradiction_score": 0.2864,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 12.4,
+        "evidence_ms": 2448.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 3560.4
+      },
+      "blockchain": {
+        "l1_write_ms": 35.63,
+        "l1_gas": 164660,
+        "l1_block": 207,
+        "l2_write_ms": 43.631,
+        "l2_gas": 170847,
+        "l2_block": 208,
+        "total_write_ms": 79.261
+      }
+    },
+    {
+      "qid": "q153",
+      "gt_label": "FALSE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5389,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 36.928,
+        "l1_gas": 164672,
+        "l1_block": 209,
+        "l2_write_ms": 43.428,
+        "l2_gas": 170787,
+        "l2_block": 210,
+        "total_write_ms": 80.356
+      }
+    },
+    {
+      "qid": "q154",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5368,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 36.122,
+        "l1_gas": 164660,
+        "l1_block": 211,
+        "l2_write_ms": 43.837,
+        "l2_gas": 170775,
+        "l2_block": 212,
+        "total_write_ms": 79.959
+      }
+    },
+    {
+      "qid": "q155",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5612,
+        "contradiction_score": 0.3048,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2330.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.752,
+        "l1_gas": 164648,
+        "l1_block": 213,
+        "l2_write_ms": 43.417,
+        "l2_gas": 170811,
+        "l2_block": 214,
+        "total_write_ms": 79.169
+      }
+    },
+    {
+      "qid": "q156",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5081,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 35.179,
+        "l1_gas": 164660,
+        "l1_block": 215,
+        "l2_write_ms": 42.948,
+        "l2_gas": 170811,
+        "l2_block": 216,
+        "total_write_ms": 78.127
+      }
+    },
+    {
+      "qid": "q157",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.504,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.674,
+        "l1_gas": 164660,
+        "l1_block": 217,
+        "l2_write_ms": 43.783,
+        "l2_gas": 170823,
+        "l2_block": 218,
+        "total_write_ms": 79.457
+      }
+    },
+    {
+      "qid": "q158",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5136,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.531,
+        "l1_gas": 164672,
+        "l1_block": 219,
+        "l2_write_ms": 43.446,
+        "l2_gas": 170823,
+        "l2_block": 220,
+        "total_write_ms": 78.977
+      }
+    },
+    {
+      "qid": "q159",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.4957,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.432,
+        "l1_gas": 164672,
+        "l1_block": 221,
+        "l2_write_ms": 43.277,
+        "l2_gas": 170823,
+        "l2_block": 222,
+        "total_write_ms": 78.709
+      }
+    },
+    {
+      "qid": "q160",
+      "gt_label": "FALSE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5217,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.696,
+        "l1_gas": 164672,
+        "l1_block": 223,
+        "l2_write_ms": 43.67,
+        "l2_gas": 170787,
+        "l2_block": 224,
+        "total_write_ms": 79.366
+      }
+    },
+    {
+      "qid": "q161",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5077,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.694,
+        "l1_gas": 164672,
+        "l1_block": 225,
+        "l2_write_ms": 43.155,
+        "l2_gas": 170823,
+        "l2_block": 226,
+        "total_write_ms": 78.849
+      }
+    },
+    {
+      "qid": "q162",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5041,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.888,
+        "l1_gas": 164672,
+        "l1_block": 227,
+        "l2_write_ms": 43.306,
+        "l2_gas": 170823,
+        "l2_block": 228,
+        "total_write_ms": 79.194
+      }
+    },
+    {
+      "qid": "q163",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5198,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 36.219,
+        "l1_gas": 164660,
+        "l1_block": 229,
+        "l2_write_ms": 43.669,
+        "l2_gas": 170823,
+        "l2_block": 230,
+        "total_write_ms": 79.888
+      }
+    },
+    {
+      "qid": "q164",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5106,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.688,
+        "l1_gas": 164672,
+        "l1_block": 231,
+        "l2_write_ms": 43.359,
+        "l2_gas": 170823,
+        "l2_block": 232,
+        "total_write_ms": 79.047
+      }
+    },
+    {
+      "qid": "q165",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5174,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.883,
+        "l1_gas": 164660,
+        "l1_block": 233,
+        "l2_write_ms": 42.994,
+        "l2_gas": 170811,
+        "l2_block": 234,
+        "total_write_ms": 78.877
+      }
+    },
+    {
+      "qid": "q166",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5199,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.432,
+        "l1_gas": 164672,
+        "l1_block": 235,
+        "l2_write_ms": 43.923,
+        "l2_gas": 170823,
+        "l2_block": 236,
+        "total_write_ms": 79.355
+      }
+    },
+    {
+      "qid": "q167",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.505,
+        "contradiction_score": 0.3092,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2945.3
+      },
+      "blockchain": {
+        "l1_write_ms": 36.209,
+        "l1_gas": 164660,
+        "l1_block": 237,
+        "l2_write_ms": 43.742,
+        "l2_gas": 170847,
+        "l2_block": 238,
+        "total_write_ms": 79.951
+      }
+    },
+    {
+      "qid": "q168",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.531,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 35.428,
+        "l1_gas": 164648,
+        "l1_block": 239,
+        "l2_write_ms": 43.658,
+        "l2_gas": 170775,
+        "l2_block": 240,
+        "total_write_ms": 79.086
+      }
+    },
+    {
+      "qid": "q169",
+      "gt_label": "FALSE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5469,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 35.513,
+        "l1_gas": 164672,
+        "l1_block": 241,
+        "l2_write_ms": 43.498,
+        "l2_gas": 170787,
+        "l2_block": 242,
+        "total_write_ms": 79.011
+      }
+    },
+    {
+      "qid": "q170",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5029,
+        "contradiction_score": 0.2993,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2330.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.593,
+        "l1_gas": 164672,
+        "l1_block": 243,
+        "l2_write_ms": 43.738,
+        "l2_gas": 170847,
+        "l2_block": 244,
+        "total_write_ms": 79.331
+      }
+    },
+    {
+      "qid": "q171",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5276,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 36.003,
+        "l1_gas": 164672,
+        "l1_block": 245,
+        "l2_write_ms": 43.505,
+        "l2_gas": 170787,
+        "l2_block": 246,
+        "total_write_ms": 79.508
+      }
+    },
+    {
+      "qid": "q172",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5017,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.58,
+        "l1_gas": 164660,
+        "l1_block": 247,
+        "l2_write_ms": 43.708,
+        "l2_gas": 170823,
+        "l2_block": 248,
+        "total_write_ms": 79.288
+      }
+    },
+    {
+      "qid": "q173",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5161,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 35.098,
+        "l1_gas": 164672,
+        "l1_block": 249,
+        "l2_write_ms": 44.735,
+        "l2_gas": 170823,
+        "l2_block": 250,
+        "total_write_ms": 79.833
+      }
+    },
+    {
+      "qid": "q174",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5252,
+        "contradiction_score": 0.2891,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 2
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 1780.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 3220.2
+      },
+      "blockchain": {
+        "l1_write_ms": 36.234,
+        "l1_gas": 164660,
+        "l1_block": 251,
+        "l2_write_ms": 43.156,
+        "l2_gas": 170811,
+        "l2_block": 252,
+        "total_write_ms": 79.39
+      }
+    },
+    {
+      "qid": "q175",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.526,
+        "contradiction_score": 0.2605,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2330.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.483,
+        "l1_gas": 164660,
+        "l1_block": 253,
+        "l2_write_ms": 43.606,
+        "l2_gas": 170823,
+        "l2_block": 254,
+        "total_write_ms": 79.089
+      }
+    },
+    {
+      "qid": "q176",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5189,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.509,
+        "l1_gas": 164672,
+        "l1_block": 255,
+        "l2_write_ms": 43.64,
+        "l2_gas": 170823,
+        "l2_block": 256,
+        "total_write_ms": 79.149
+      }
+    },
+    {
+      "qid": "q177",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5078,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 36.098,
+        "l1_gas": 164672,
+        "l1_block": 257,
+        "l2_write_ms": 43.209,
+        "l2_gas": 170823,
+        "l2_block": 258,
+        "total_write_ms": 79.307
+      }
+    },
+    {
+      "qid": "q178",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5206,
+        "contradiction_score": 0.339,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 12.4,
+        "evidence_ms": 2448.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 3560.4
+      },
+      "blockchain": {
+        "l1_write_ms": 38.417,
+        "l1_gas": 164660,
+        "l1_block": 259,
+        "l2_write_ms": 50.448,
+        "l2_gas": 170823,
+        "l2_block": 260,
+        "total_write_ms": 88.865
+      }
+    },
+    {
+      "qid": "q179",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5187,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 41.554,
+        "l1_gas": 164648,
+        "l1_block": 261,
+        "l2_write_ms": 48.342,
+        "l2_gas": 170811,
+        "l2_block": 262,
+        "total_write_ms": 89.896
+      }
+    },
+    {
+      "qid": "q180",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5175,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 37.61,
+        "l1_gas": 164672,
+        "l1_block": 263,
+        "l2_write_ms": 44.216,
+        "l2_gas": 170823,
+        "l2_block": 264,
+        "total_write_ms": 81.826
+      }
+    },
+    {
+      "qid": "q181",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5203,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 36.808,
+        "l1_gas": 164672,
+        "l1_block": 265,
+        "l2_write_ms": 44.605,
+        "l2_gas": 170787,
+        "l2_block": 266,
+        "total_write_ms": 81.413
+      }
+    },
+    {
+      "qid": "q182",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5103,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 36.793,
+        "l1_gas": 164672,
+        "l1_block": 267,
+        "l2_write_ms": 43.77,
+        "l2_gas": 170823,
+        "l2_block": 268,
+        "total_write_ms": 80.563
+      }
+    },
+    {
+      "qid": "q183",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5298,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 36.188,
+        "l1_gas": 164672,
+        "l1_block": 269,
+        "l2_write_ms": 44.466,
+        "l2_gas": 170787,
+        "l2_block": 270,
+        "total_write_ms": 80.654
+      }
+    },
+    {
+      "qid": "q184",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5037,
+        "contradiction_score": 0.2621,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2330.2
+      },
+      "blockchain": {
+        "l1_write_ms": 36.238,
+        "l1_gas": 164672,
+        "l1_block": 271,
+        "l2_write_ms": 44.266,
+        "l2_gas": 170847,
+        "l2_block": 272,
+        "total_write_ms": 80.504
+      }
+    },
+    {
+      "qid": "q185",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5468,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 36.596,
+        "l1_gas": 164648,
+        "l1_block": 273,
+        "l2_write_ms": 45.3,
+        "l2_gas": 170763,
+        "l2_block": 274,
+        "total_write_ms": 81.896
+      }
+    },
+    {
+      "qid": "q186",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.4926,
+        "contradiction_score": 0.2964,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1715.1
+      },
+      "blockchain": {
+        "l1_write_ms": 36.744,
+        "l1_gas": 164672,
+        "l1_block": 275,
+        "l2_write_ms": 43.902,
+        "l2_gas": 170847,
+        "l2_block": 276,
+        "total_write_ms": 80.646
+      }
+    },
+    {
+      "qid": "q187",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5046,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 36.65,
+        "l1_gas": 164672,
+        "l1_block": 277,
+        "l2_write_ms": 43.596,
+        "l2_gas": 170823,
+        "l2_block": 278,
+        "total_write_ms": 80.246
+      }
+    },
+    {
+      "qid": "q188",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.534,
+        "contradiction_score": 0.2621,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2330.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.401,
+        "l1_gas": 164672,
+        "l1_block": 279,
+        "l2_write_ms": 43.589,
+        "l2_gas": 170823,
+        "l2_block": 280,
+        "total_write_ms": 78.99
+      }
+    },
+    {
+      "qid": "q189",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5084,
+        "contradiction_score": 0.2853,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 12.4,
+        "evidence_ms": 2448.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 3560.4
+      },
+      "blockchain": {
+        "l1_write_ms": 35.854,
+        "l1_gas": 164672,
+        "l1_block": 281,
+        "l2_write_ms": 43.407,
+        "l2_gas": 170847,
+        "l2_block": 282,
+        "total_write_ms": 79.261
+      }
+    },
+    {
+      "qid": "q190",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5271,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.801,
+        "l1_gas": 164672,
+        "l1_block": 283,
+        "l2_write_ms": 43.104,
+        "l2_gas": 170787,
+        "l2_block": 284,
+        "total_write_ms": 78.905
+      }
+    },
+    {
+      "qid": "q191",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5029,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 12.4,
+        "evidence_ms": 2448.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2670.4
+      },
+      "blockchain": {
+        "l1_write_ms": 35.249,
+        "l1_gas": 164672,
+        "l1_block": 285,
+        "l2_write_ms": 43.842,
+        "l2_gas": 170823,
+        "l2_block": 286,
+        "total_write_ms": 79.091
+      }
+    },
+    {
+      "qid": "q192",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5086,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 36.487,
+        "l1_gas": 164672,
+        "l1_block": 287,
+        "l2_write_ms": 42.911,
+        "l2_gas": 170823,
+        "l2_block": 288,
+        "total_write_ms": 79.398
+      }
+    },
+    {
+      "qid": "q193",
+      "gt_label": "FALSE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5204,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 36.005,
+        "l1_gas": 164672,
+        "l1_block": 289,
+        "l2_write_ms": 43.583,
+        "l2_gas": 170787,
+        "l2_block": 290,
+        "total_write_ms": 79.588
+      }
+    },
+    {
+      "qid": "q194",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.4966,
+        "contradiction_score": 0.2822,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 12.4,
+        "evidence_ms": 2448.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 3560.4
+      },
+      "blockchain": {
+        "l1_write_ms": 35.817,
+        "l1_gas": 164648,
+        "l1_block": 291,
+        "l2_write_ms": 43.632,
+        "l2_gas": 170823,
+        "l2_block": 292,
+        "total_write_ms": 79.449
+      }
+    },
+    {
+      "qid": "q195",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5113,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.927,
+        "l1_gas": 164672,
+        "l1_block": 293,
+        "l2_write_ms": 42.856,
+        "l2_gas": 170823,
+        "l2_block": 294,
+        "total_write_ms": 78.783
+      }
+    },
+    {
+      "qid": "q196",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.4955,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 36.537,
+        "l1_gas": 164648,
+        "l1_block": 295,
+        "l2_write_ms": 43.113,
+        "l2_gas": 170823,
+        "l2_block": 296,
+        "total_write_ms": 79.65
+      }
+    },
+    {
+      "qid": "q197",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5017,
+        "contradiction_score": 0.2658,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2945.3
+      },
+      "blockchain": {
+        "l1_write_ms": 36.017,
+        "l1_gas": 164672,
+        "l1_block": 297,
+        "l2_write_ms": 43.59,
+        "l2_gas": 170847,
+        "l2_block": 298,
+        "total_write_ms": 79.607
+      }
+    },
+    {
+      "qid": "q198",
+      "gt_label": "FALSE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5537,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 35.762,
+        "l1_gas": 164672,
+        "l1_block": 299,
+        "l2_write_ms": 43.595,
+        "l2_gas": 170787,
+        "l2_block": 300,
+        "total_write_ms": 79.357
+      }
+    },
+    {
+      "qid": "q199",
+      "gt_label": "FALSE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5395,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 35.93,
+        "l1_gas": 164672,
+        "l1_block": 301,
+        "l2_write_ms": 43.44,
+        "l2_gas": 170787,
+        "l2_block": 302,
+        "total_write_ms": 79.37
+      }
+    },
+    {
+      "qid": "q200",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5282,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.154,
+        "l1_gas": 164660,
+        "l1_block": 303,
+        "l2_write_ms": 43.636,
+        "l2_gas": 170775,
+        "l2_block": 304,
+        "total_write_ms": 78.79
+      }
+    },
+    {
+      "qid": "q201",
+      "gt_label": "FALSE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5719,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 35.266,
+        "l1_gas": 164672,
+        "l1_block": 305,
+        "l2_write_ms": 43.7,
+        "l2_gas": 170787,
+        "l2_block": 306,
+        "total_write_ms": 78.966
+      }
+    },
+    {
+      "qid": "q202",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5166,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.671,
+        "l1_gas": 164672,
+        "l1_block": 307,
+        "l2_write_ms": 43.12,
+        "l2_gas": 170823,
+        "l2_block": 308,
+        "total_write_ms": 78.791
+      }
+    },
+    {
+      "qid": "q203",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.556,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 36.144,
+        "l1_gas": 164672,
+        "l1_block": 309,
+        "l2_write_ms": 43.856,
+        "l2_gas": 170787,
+        "l2_block": 310,
+        "total_write_ms": 80.0
+      }
+    },
+    {
+      "qid": "q204",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5104,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 36.029,
+        "l1_gas": 164672,
+        "l1_block": 311,
+        "l2_write_ms": 44.055,
+        "l2_gas": 170823,
+        "l2_block": 312,
+        "total_write_ms": 80.084
+      }
+    },
+    {
+      "qid": "q205",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5188,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 12.4,
+        "evidence_ms": 2448.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2670.4
+      },
+      "blockchain": {
+        "l1_write_ms": 36.253,
+        "l1_gas": 164672,
+        "l1_block": 313,
+        "l2_write_ms": 43.177,
+        "l2_gas": 170823,
+        "l2_block": 314,
+        "total_write_ms": 79.43
+      }
+    },
+    {
+      "qid": "q206",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5375,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 35.493,
+        "l1_gas": 164660,
+        "l1_block": 315,
+        "l2_write_ms": 43.312,
+        "l2_gas": 170775,
+        "l2_block": 316,
+        "total_write_ms": 78.805
+      }
+    },
+    {
+      "qid": "q207",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.566,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 36.144,
+        "l1_gas": 164672,
+        "l1_block": 317,
+        "l2_write_ms": 43.303,
+        "l2_gas": 170787,
+        "l2_block": 318,
+        "total_write_ms": 79.447
+      }
+    },
+    {
+      "qid": "q208",
+      "gt_label": "FALSE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.544,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 36.191,
+        "l1_gas": 164660,
+        "l1_block": 319,
+        "l2_write_ms": 43.541,
+        "l2_gas": 170787,
+        "l2_block": 320,
+        "total_write_ms": 79.732
+      }
+    },
+    {
+      "qid": "q209",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5055,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.703,
+        "l1_gas": 164672,
+        "l1_block": 321,
+        "l2_write_ms": 43.124,
+        "l2_gas": 170823,
+        "l2_block": 322,
+        "total_write_ms": 78.827
+      }
+    },
+    {
+      "qid": "q210",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.516,
+        "contradiction_score": 0.2926,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2945.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.892,
+        "l1_gas": 164672,
+        "l1_block": 323,
+        "l2_write_ms": 43.539,
+        "l2_gas": 170847,
+        "l2_block": 324,
+        "total_write_ms": 79.431
+      }
+    },
+    {
+      "qid": "q211",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.517,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 36.317,
+        "l1_gas": 164672,
+        "l1_block": 325,
+        "l2_write_ms": 43.772,
+        "l2_gas": 170823,
+        "l2_block": 326,
+        "total_write_ms": 80.089
+      }
+    },
+    {
+      "qid": "q212",
+      "gt_label": "FALSE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5234,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 36.316,
+        "l1_gas": 164660,
+        "l1_block": 327,
+        "l2_write_ms": 43.435,
+        "l2_gas": 170787,
+        "l2_block": 328,
+        "total_write_ms": 79.751
+      }
+    },
+    {
+      "qid": "q213",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5242,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 35.826,
+        "l1_gas": 164660,
+        "l1_block": 329,
+        "l2_write_ms": 43.587,
+        "l2_gas": 170775,
+        "l2_block": 330,
+        "total_write_ms": 79.413
+      }
+    },
+    {
+      "qid": "q214",
+      "gt_label": "FALSE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5318,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 35.539,
+        "l1_gas": 164672,
+        "l1_block": 331,
+        "l2_write_ms": 43.847,
+        "l2_gas": 170787,
+        "l2_block": 332,
+        "total_write_ms": 79.386
+      }
+    },
+    {
+      "qid": "q215",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5206,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.735,
+        "l1_gas": 164672,
+        "l1_block": 333,
+        "l2_write_ms": 43.201,
+        "l2_gas": 170787,
+        "l2_block": 334,
+        "total_write_ms": 78.936
+      }
+    },
+    {
+      "qid": "q216",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5054,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 35.672,
+        "l1_gas": 164672,
+        "l1_block": 335,
+        "l2_write_ms": 43.531,
+        "l2_gas": 170823,
+        "l2_block": 336,
+        "total_write_ms": 79.203
+      }
+    },
+    {
+      "qid": "q217",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.4952,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 36.198,
+        "l1_gas": 164672,
+        "l1_block": 337,
+        "l2_write_ms": 43.365,
+        "l2_gas": 170823,
+        "l2_block": 338,
+        "total_write_ms": 79.563
+      }
+    },
+    {
+      "qid": "q218",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.4945,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 12.4,
+        "evidence_ms": 2448.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2670.4
+      },
+      "blockchain": {
+        "l1_write_ms": 36.155,
+        "l1_gas": 164672,
+        "l1_block": 339,
+        "l2_write_ms": 43.795,
+        "l2_gas": 170823,
+        "l2_block": 340,
+        "total_write_ms": 79.95
+      }
+    },
+    {
+      "qid": "q219",
+      "gt_label": "FALSE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5227,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 36.017,
+        "l1_gas": 164672,
+        "l1_block": 341,
+        "l2_write_ms": 43.262,
+        "l2_gas": 170787,
+        "l2_block": 342,
+        "total_write_ms": 79.279
+      }
+    },
+    {
+      "qid": "q220",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5229,
+        "contradiction_score": 0.3946,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 2
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 1780.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 3220.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.775,
+        "l1_gas": 164660,
+        "l1_block": 343,
+        "l2_write_ms": 43.771,
+        "l2_gas": 170823,
+        "l2_block": 344,
+        "total_write_ms": 79.546
+      }
+    },
+    {
+      "qid": "q221",
+      "gt_label": "FALSE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5322,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 35.521,
+        "l1_gas": 164672,
+        "l1_block": 345,
+        "l2_write_ms": 43.662,
+        "l2_gas": 170787,
+        "l2_block": 346,
+        "total_write_ms": 79.183
+      }
+    },
+    {
+      "qid": "q222",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5618,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 36.065,
+        "l1_gas": 164660,
+        "l1_block": 347,
+        "l2_write_ms": 43.52,
+        "l2_gas": 170787,
+        "l2_block": 348,
+        "total_write_ms": 79.585
+      }
+    },
+    {
+      "qid": "q223",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5161,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 36.824,
+        "l1_gas": 164648,
+        "l1_block": 349,
+        "l2_write_ms": 44.04,
+        "l2_gas": 170811,
+        "l2_block": 350,
+        "total_write_ms": 80.864
+      }
+    },
+    {
+      "qid": "q224",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5084,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 36.157,
+        "l1_gas": 164672,
+        "l1_block": 351,
+        "l2_write_ms": 43.727,
+        "l2_gas": 170823,
+        "l2_block": 352,
+        "total_write_ms": 79.884
+      }
+    },
+    {
+      "qid": "q225",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.4972,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 36.089,
+        "l1_gas": 164660,
+        "l1_block": 353,
+        "l2_write_ms": 43.463,
+        "l2_gas": 170823,
+        "l2_block": 354,
+        "total_write_ms": 79.552
+      }
+    },
+    {
+      "qid": "q226",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5164,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 35.812,
+        "l1_gas": 164672,
+        "l1_block": 355,
+        "l2_write_ms": 44.895,
+        "l2_gas": 170823,
+        "l2_block": 356,
+        "total_write_ms": 80.707
+      }
+    },
+    {
+      "qid": "q227",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5315,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 36.037,
+        "l1_gas": 164672,
+        "l1_block": 357,
+        "l2_write_ms": 43.761,
+        "l2_gas": 170787,
+        "l2_block": 358,
+        "total_write_ms": 79.798
+      }
+    },
+    {
+      "qid": "q228",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5206,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.621,
+        "l1_gas": 164672,
+        "l1_block": 359,
+        "l2_write_ms": 43.417,
+        "l2_gas": 170787,
+        "l2_block": 360,
+        "total_write_ms": 79.038
+      }
+    },
+    {
+      "qid": "q229",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.4967,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 12.4,
+        "evidence_ms": 2448.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2670.4
+      },
+      "blockchain": {
+        "l1_write_ms": 36.156,
+        "l1_gas": 164672,
+        "l1_block": 361,
+        "l2_write_ms": 44.408,
+        "l2_gas": 170823,
+        "l2_block": 362,
+        "total_write_ms": 80.564
+      }
+    },
+    {
+      "qid": "q230",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5183,
+        "contradiction_score": 0.3312,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2945.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.447,
+        "l1_gas": 164672,
+        "l1_block": 363,
+        "l2_write_ms": 43.297,
+        "l2_gas": 170847,
+        "l2_block": 364,
+        "total_write_ms": 78.744
+      }
+    },
+    {
+      "qid": "q231",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5089,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 36.169,
+        "l1_gas": 164660,
+        "l1_block": 365,
+        "l2_write_ms": 58.816,
+        "l2_gas": 170823,
+        "l2_block": 366,
+        "total_write_ms": 94.985
+      }
+    },
+    {
+      "qid": "q232",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5066,
+        "contradiction_score": 0.3224,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2945.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.84,
+        "l1_gas": 164672,
+        "l1_block": 367,
+        "l2_write_ms": 43.879,
+        "l2_gas": 170847,
+        "l2_block": 368,
+        "total_write_ms": 79.719
+      }
+    },
+    {
+      "qid": "q233",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.4949,
+        "contradiction_score": 0.2559,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 12.4,
+        "evidence_ms": 2448.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 3560.4
+      },
+      "blockchain": {
+        "l1_write_ms": 35.278,
+        "l1_gas": 164672,
+        "l1_block": 369,
+        "l2_write_ms": 44.18,
+        "l2_gas": 170847,
+        "l2_block": 370,
+        "total_write_ms": 79.458
+      }
+    },
+    {
+      "qid": "q234",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5035,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.052,
+        "l1_gas": 164672,
+        "l1_block": 371,
+        "l2_write_ms": 42.45,
+        "l2_gas": 170823,
+        "l2_block": 372,
+        "total_write_ms": 77.502
+      }
+    },
+    {
+      "qid": "q235",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5314,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 36.136,
+        "l1_gas": 164672,
+        "l1_block": 373,
+        "l2_write_ms": 43.635,
+        "l2_gas": 170787,
+        "l2_block": 374,
+        "total_write_ms": 79.771
+      }
+    },
+    {
+      "qid": "q236",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5091,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.564,
+        "l1_gas": 164672,
+        "l1_block": 375,
+        "l2_write_ms": 43.133,
+        "l2_gas": 170823,
+        "l2_block": 376,
+        "total_write_ms": 78.697
+      }
+    },
+    {
+      "qid": "q237",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5106,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.348,
+        "l1_gas": 164672,
+        "l1_block": 377,
+        "l2_write_ms": 43.399,
+        "l2_gas": 170823,
+        "l2_block": 378,
+        "total_write_ms": 78.747
+      }
+    },
+    {
+      "qid": "q238",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5189,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.337,
+        "l1_gas": 164672,
+        "l1_block": 379,
+        "l2_write_ms": 43.217,
+        "l2_gas": 170823,
+        "l2_block": 380,
+        "total_write_ms": 78.554
+      }
+    },
+    {
+      "qid": "q239",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5116,
+        "contradiction_score": 0.296,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2945.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.352,
+        "l1_gas": 164672,
+        "l1_block": 381,
+        "l2_write_ms": 43.804,
+        "l2_gas": 170847,
+        "l2_block": 382,
+        "total_write_ms": 79.156
+      }
+    },
+    {
+      "qid": "q240",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5157,
+        "contradiction_score": 0.2929,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2945.3
+      },
+      "blockchain": {
+        "l1_write_ms": 35.554,
+        "l1_gas": 164660,
+        "l1_block": 383,
+        "l2_write_ms": 43.702,
+        "l2_gas": 170847,
+        "l2_block": 384,
+        "total_write_ms": 79.256
+      }
+    },
+    {
+      "qid": "q241",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5103,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 36.388,
+        "l1_gas": 164672,
+        "l1_block": 385,
+        "l2_write_ms": 44.082,
+        "l2_gas": 170823,
+        "l2_block": 386,
+        "total_write_ms": 80.47
+      }
+    },
+    {
+      "qid": "q242",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5139,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 9.3,
+        "evidence_ms": 1836.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 2055.3
+      },
+      "blockchain": {
+        "l1_write_ms": 36.168,
+        "l1_gas": 164660,
+        "l1_block": 387,
+        "l2_write_ms": 44.156,
+        "l2_gas": 170823,
+        "l2_block": 388,
+        "total_write_ms": 80.324
+      }
+    },
+    {
+      "qid": "q243",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5666,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 825.1
+      },
+      "blockchain": {
+        "l1_write_ms": 36.024,
+        "l1_gas": 164648,
+        "l1_block": 389,
+        "l2_write_ms": 43.703,
+        "l2_gas": 170775,
+        "l2_block": 390,
+        "total_write_ms": 79.727
+      }
+    },
+    {
+      "qid": "q244",
+      "gt_label": "TRUE",
+      "flagged": false,
+      "signals": {
+        "confidence_score": 0.5516,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": false,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 36.238,
+        "l1_gas": 164672,
+        "l1_block": 391,
+        "l2_write_ms": 43.71,
+        "l2_gas": 170787,
+        "l2_block": 392,
+        "total_write_ms": 79.948
+      }
+    },
+    {
+      "qid": "q245",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5107,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 36.317,
+        "l1_gas": 164672,
+        "l1_block": 393,
+        "l2_write_ms": 44.231,
+        "l2_gas": 170823,
+        "l2_block": 394,
+        "total_write_ms": 80.548
+      }
+    },
+    {
+      "qid": "q246",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5993,
+        "contradiction_score": 0.1898,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 3.1,
+        "evidence_ms": 612.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1715.1
+      },
+      "blockchain": {
+        "l1_write_ms": 36.065,
+        "l1_gas": 164672,
+        "l1_block": 395,
+        "l2_write_ms": 43.937,
+        "l2_gas": 170823,
+        "l2_block": 396,
+        "total_write_ms": 80.002
+      }
+    },
+    {
+      "qid": "q247",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5104,
+        "contradiction_score": 0.3279,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 1
+      },
+      "stage_time_ms": {
+        "ner_ms": 12.4,
+        "evidence_ms": 2448.0,
+        "contradiction_ms": 890.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 3560.4
+      },
+      "blockchain": {
+        "l1_write_ms": 36.169,
+        "l1_gas": 164648,
+        "l1_block": 397,
+        "l2_write_ms": 44.143,
+        "l2_gas": 170847,
+        "l2_block": 398,
+        "total_write_ms": 80.312
+      }
+    },
+    {
+      "qid": "q248",
+      "gt_label": "TRUE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.5077,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.888,
+        "l1_gas": 164660,
+        "l1_block": 399,
+        "l2_write_ms": 44.416,
+        "l2_gas": 170823,
+        "l2_block": 400,
+        "total_write_ms": 80.304
+      }
+    },
+    {
+      "qid": "q249",
+      "gt_label": "FALSE",
+      "flagged": true,
+      "signals": {
+        "confidence_score": 0.4904,
+        "contradiction_score": 0.0,
+        "has_contradiction": false,
+        "flagged": true,
+        "n_evidence_found": 0
+      },
+      "stage_time_ms": {
+        "ner_ms": 6.2,
+        "evidence_ms": 1224.0,
+        "contradiction_ms": 0.0,
+        "confidence_ms": 210.0,
+        "total_pipeline_ms": 1440.2
+      },
+      "blockchain": {
+        "l1_write_ms": 35.922,
+        "l1_gas": 164672,
+        "l1_block": 401,
+        "l2_write_ms": 43.797,
+        "l2_gas": 170823,
+        "l2_block": 402,
+        "total_write_ms": 79.719
+      }
+    }
+  ]
+}

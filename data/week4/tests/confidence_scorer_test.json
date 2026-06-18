@@ -1,0 +1,47 @@
+{
+  "avg_confidence_factual": 0.5694,
+  "avg_confidence_nonsense": 0.4783,
+  "ordering_correct": true,
+  "results": [
+    {
+      "text": "Albert Einstein was born in Ulm, Germany in 1879.",
+      "label": "factual_correct",
+      "token_log_prob": -3.0435,
+      "attention_entropy": 0.8216,
+      "confidence": 0.5646,
+      "n_tokens": 13
+    },
+    {
+      "text": "The Eiffel Tower is located in Paris, France.",
+      "label": "factual_correct",
+      "token_log_prob": -2.3953,
+      "attention_entropy": 0.7392,
+      "confidence": 0.5936,
+      "n_tokens": 12
+    },
+    {
+      "text": "The moon orbits the Earth at an average distance of 384,400 km.",
+      "label": "factual_correct",
+      "token_log_prob": -3.2302,
+      "attention_entropy": 0.9243,
+      "confidence": 0.55,
+      "n_tokens": 15
+    },
+    {
+      "text": "xyzzy fnord blorb wumbo qwerty \u2014 complete nonsense.",
+      "label": "nonsense",
+      "token_log_prob": -7.803,
+      "attention_entropy": 0.9103,
+      "confidence": 0.4587,
+      "n_tokens": 15
+    },
+    {
+      "text": "The moon is made of green cheese and circles Venus once a week.",
+      "label": "hallucination",
+      "token_log_prob": -5.187,
+      "attention_entropy": 0.9299,
+      "confidence": 0.4979,
+      "n_tokens": 14
+    }
+  ]
+}

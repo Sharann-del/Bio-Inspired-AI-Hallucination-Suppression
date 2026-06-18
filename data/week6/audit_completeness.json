@@ -1,0 +1,4220 @@
+{
+  "timestamp": "2026-06-16T08:43:02",
+  "elapsed_sec": 22.68,
+  "n_runs": 200,
+  "completeness_rate": 1.0,
+  "complete_count": 200,
+  "audit_only_count": 0,
+  "governance_only_count": 0,
+  "neither_count": 0,
+  "field_recovery_rates": {
+    "question_hash": 1.0,
+    "answer_hash": 1.0,
+    "pipeline_version": 1.0,
+    "flagged": 1.0,
+    "confidence_score": 1.0,
+    "contradiction_score": 1.0
+  },
+  "per_run": [
+    {
+      "run_id": "q050",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q051",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q052",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q053",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q054",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q055",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q056",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q057",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q058",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q059",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q060",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q061",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q062",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q063",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q064",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q065",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q066",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q067",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q068",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q069",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q070",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q071",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q072",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q073",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q074",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q075",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q076",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q077",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q078",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q079",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q080",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q081",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q082",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q083",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q084",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q085",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q086",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q087",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q088",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q089",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q090",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q091",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q092",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q093",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q094",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q095",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q096",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q097",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q098",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q099",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q100",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q101",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q102",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q103",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q104",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q105",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q106",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q107",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q108",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q109",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q110",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q111",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q112",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q113",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q114",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q115",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q116",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q117",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q118",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q119",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q120",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q121",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q122",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q123",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q124",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q125",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q126",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q127",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q128",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q129",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q130",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q131",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q132",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q133",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q134",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q135",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q136",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q137",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q138",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q139",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q140",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q141",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q142",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q143",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q144",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q145",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q146",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q147",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q148",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q149",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q150",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q151",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q152",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q153",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q154",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q155",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q156",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q157",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q158",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q159",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q160",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q161",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q162",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q163",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q164",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q165",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q166",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q167",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q168",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q169",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q170",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q171",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q172",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q173",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q174",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q175",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q176",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q177",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q178",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q179",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q180",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q181",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q182",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q183",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q184",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q185",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q186",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q187",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q188",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q189",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q190",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q191",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q192",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q193",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q194",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q195",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q196",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q197",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q198",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q199",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q200",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q201",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q202",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q203",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q204",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q205",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q206",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q207",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q208",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q209",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q210",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q211",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q212",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q213",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q214",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q215",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q216",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q217",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q218",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q219",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q220",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q221",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q222",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q223",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q224",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q225",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q226",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q227",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q228",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q229",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q230",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q231",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q232",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q233",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q234",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q235",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q236",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q237",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q238",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q239",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q240",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q241",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q242",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q243",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q244",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q245",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q246",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q247",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q248",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    },
+    {
+      "run_id": "q249",
+      "complete": true,
+      "missing": [],
+      "audit_fields": [
+        "run_id",
+        "timestamp",
+        "question_hash",
+        "answer_hash",
+        "pipeline_version"
+      ],
+      "gov_fields": [
+        "flagged",
+        "confidence_score",
+        "contradiction_score",
+        "verdict_reason",
+        "overridden",
+        "override_reason",
+        "recorded_at"
+      ]
+    }
+  ]
+}

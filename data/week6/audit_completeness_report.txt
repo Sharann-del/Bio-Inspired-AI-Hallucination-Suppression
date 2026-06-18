@@ -1,0 +1,28 @@
+================================================================
+  Week 6 — Audit Completeness Report
+  200 pipeline runs · local py-evm · two-layer blockchain
+================================================================
+
+  Total runs written          : 200
+  Fully reconstructible       : 200  (100.0%)
+  Audit layer only            : 0
+  Governance layer only       : 0
+  Neither layer found         : 0
+
+  Field-level reconstruction rates (out of all runs)
+  ────────────────────────────────────────────────────
+  question_hash             : 100.0%  (200/200)
+  answer_hash               : 100.0%  (200/200)
+  pipeline_version          : 100.0%  (200/200)
+  flagged                   : 100.0%  (200/200)
+  confidence_score          : 100.0%  (200/200)
+  contradiction_score       : 100.0%  (200/200)
+
+  Interpretation
+  ──────────────
+  Completeness rate of 100.0% means that 200/200 pipeline
+  decisions can be fully reconstructed from blockchain records alone,
+  with no access to the original question/answer corpus.
+  All six auditable fields (question_hash, answer_hash, pipeline_version,
+  flagged, confidence_score, contradiction_score) are recoverable.
+================================================================

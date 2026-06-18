@@ -1,0 +1,31 @@
+================================================================================
+  Week 6 — RAG Baseline vs Full Pipeline
+  200 samples · llama2/main · judge: gpt-oss-120b
+================================================================================
+  System                              Threshold            DR     FPR    Prec      F1
+  ────────────────────────────────────────────────────────────────────────────
+  C4: Full pipeline (week 5)          —                62.3%  68.3%  28.6%  39.2%
+  RAG-TF-IDF (best F1)                sim<0.105        98.4%  91.4%  32.1%  48.4%
+  RAG-TF-IDF (best DR)                sim<0.235       100.0%  97.8%  31.0%  47.3%
+  RAG-Overlap (best F1)               ovlp<0.15       100.0%  95.7%  31.4%  47.8%
+  RAG-Overlap (best DR)               ovlp<0.15       100.0%  95.7%  31.4%  47.8%
+  ────────────────────────────────────────────────────────────────────────────
+
+  Evidence coverage (NER-retrieved from Wikipedia/Wikidata)
+  Samples with retrieved evidence     : 46/200  (23.0%)
+  Samples with non-zero TF-IDF overlap: 37/200  (18.5%)
+  Samples with no evidence            : 154/200  (77.0%)
+  Evidence retrieved but zero overlap  : 9/200
+
+  Key findings
+  ────────────
+  • RAG-TF-IDF best F1 = 48.4% vs C4 F1 = 39.2% (Δ = -9.2%)
+  • RAG-TF-IDF best DR = 100.0% vs C4 DR = 62.3%
+  • 154/200 samples (77%) have no retrieved evidence, forcing them to be flagged.
+  • Even among 46 samples with evidence, 9 show zero TF-IDF overlap,
+    demonstrating the lexical gap between retrieved context and answer text.
+  • TF-IDF overlap cannot distinguish factual precision from
+    topic relevance, explaining the high FPR.
+  • Our pipeline adds two independent signals — NLI entailment
+    and GPT-2 confidence — that improve precision over retrieval alone.
+================================================================================

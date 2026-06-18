@@ -1,0 +1,254 @@
+{
+  "accuracy": 0.7,
+  "correct": 7,
+  "total": 10,
+  "strategy_distribution": {
+    "entity_lookup": {
+      "count": 6,
+      "pct": 60.0
+    },
+    "structured_fact": {
+      "count": 3,
+      "pct": 30.0
+    },
+    "keyword_search": {
+      "count": 1,
+      "pct": 10.0
+    }
+  },
+  "results": [
+    {
+      "claim": "Albert Einstein was born in Ulm, Germany in 1879.",
+      "entities": [
+        [
+          "Albert Einstein",
+          "PERSON"
+        ],
+        [
+          "Ulm",
+          "GPE"
+        ],
+        [
+          "Germany",
+          "GPE"
+        ],
+        [
+          "1879",
+          "DATE"
+        ]
+      ],
+      "strategy": "entity_lookup",
+      "expected": "entity_lookup",
+      "match": true,
+      "primary_query": "Albert Einstein",
+      "keywords": [
+        "Albert",
+        "Einstein",
+        "born",
+        "Ulm",
+        "Germany"
+      ]
+    },
+    {
+      "claim": "Marie Curie received two Nobel Prizes.",
+      "entities": [
+        [
+          "Marie Curie",
+          "PERSON"
+        ],
+        [
+          "two",
+          "CARDINAL"
+        ],
+        [
+          "Nobel Prizes",
+          "WORK_OF_ART"
+        ]
+      ],
+      "strategy": "entity_lookup",
+      "expected": "entity_lookup",
+      "match": true,
+      "primary_query": "Marie Curie",
+      "keywords": [
+        "Marie",
+        "Curie",
+        "received",
+        "Nobel",
+        "Prizes"
+      ]
+    },
+    {
+      "claim": "The Eiffel Tower stands in Paris, France.",
+      "entities": [
+        [
+          "Paris",
+          "GPE"
+        ],
+        [
+          "France",
+          "GPE"
+        ]
+      ],
+      "strategy": "entity_lookup",
+      "expected": "entity_lookup",
+      "match": true,
+      "primary_query": "Paris",
+      "keywords": [
+        "Eiffel",
+        "Tower",
+        "stands",
+        "Paris",
+        "France"
+      ]
+    },
+    {
+      "claim": "NASA was founded in 1958 by the United States government.",
+      "entities": [
+        [
+          "NASA",
+          "ORG"
+        ],
+        [
+          "1958",
+          "DATE"
+        ],
+        [
+          "United States",
+          "GPE"
+        ]
+      ],
+      "strategy": "entity_lookup",
+      "expected": "entity_lookup",
+      "match": true,
+      "primary_query": "United States",
+      "keywords": [
+        "NASA",
+        "founded",
+        "1958",
+        "United",
+        "States"
+      ]
+    },
+    {
+      "claim": "The speed of light is approximately 299,792 km per second.",
+      "entities": [
+        [
+          "approximately 299,792 km",
+          "QUANTITY"
+        ]
+      ],
+      "strategy": "structured_fact",
+      "expected": "structured_fact",
+      "match": true,
+      "primary_query": "approximately 299,792 km",
+      "keywords": [
+        "speed",
+        "light",
+        "approximately",
+        "299,792",
+        "second"
+      ]
+    },
+    {
+      "claim": "World War II ended in 1945.",
+      "entities": [
+        [
+          "World War II",
+          "EVENT"
+        ],
+        [
+          "1945",
+          "DATE"
+        ]
+      ],
+      "strategy": "structured_fact",
+      "expected": "structured_fact",
+      "match": true,
+      "primary_query": "1945",
+      "keywords": [
+        "World",
+        "War",
+        "ended",
+        "1945"
+      ]
+    },
+    {
+      "claim": "Hamlet was written by Shakespeare.",
+      "entities": [
+        [
+          "Hamlet",
+          "ORG"
+        ],
+        [
+          "Shakespeare",
+          "PERSON"
+        ]
+      ],
+      "strategy": "entity_lookup",
+      "expected": "text_search",
+      "match": false,
+      "primary_query": "Shakespeare",
+      "keywords": [
+        "Hamlet",
+        "written",
+        "Shakespeare"
+      ]
+    },
+    {
+      "claim": "The Magna Carta was signed in 1215.",
+      "entities": [
+        [
+          "The Magna Carta",
+          "ORG"
+        ],
+        [
+          "1215",
+          "DATE"
+        ]
+      ],
+      "strategy": "entity_lookup",
+      "expected": "text_search",
+      "match": false,
+      "primary_query": "The Magna Carta",
+      "keywords": [
+        "Magna",
+        "Carta",
+        "signed",
+        "1215"
+      ]
+    },
+    {
+      "claim": "Poverty has declined significantly in recent decades.",
+      "entities": [
+        [
+          "recent decades",
+          "DATE"
+        ]
+      ],
+      "strategy": "structured_fact",
+      "expected": "keyword_search",
+      "match": false,
+      "primary_query": "recent decades",
+      "keywords": [
+        "Poverty",
+        "declined",
+        "significantly",
+        "recent",
+        "decades"
+      ]
+    },
+    {
+      "claim": "This answer is truthful and concise.",
+      "entities": [],
+      "strategy": "keyword_search",
+      "expected": "keyword_search",
+      "match": true,
+      "primary_query": null,
+      "keywords": [
+        "answer",
+        "truthful",
+        "concise"
+      ]
+    }
+  ]
+}

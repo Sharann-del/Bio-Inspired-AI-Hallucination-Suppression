@@ -1,0 +1,88 @@
+{
+  "accuracy": 0.6666666666666666,
+  "correct": 4,
+  "total": 6,
+  "aggregate_example": {
+    "n_claims": 4,
+    "contradiction_count": 0,
+    "has_contradiction": false,
+    "max_contradiction_score": 0.3603,
+    "mean_contradiction_score": 0.2947,
+    "entailment_count": 3,
+    "neutral_count": 0
+  },
+  "results": [
+    {
+      "premise": "Albert Einstein was born on 14 March 1879 in Ulm, Kingdom of W\u00fcrttemberg, Germany.",
+      "hypothesis": "Einstein was born in Berlin.",
+      "expected_label": "contradiction",
+      "predicted_label": "contradiction",
+      "match": true,
+      "score": 0.3343,
+      "entailment_score": 0.3316,
+      "neutral_score": 0.3341,
+      "contradiction_score": 0.3343,
+      "is_contradiction": false
+    },
+    {
+      "premise": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.",
+      "hypothesis": "The Eiffel Tower is located in Paris.",
+      "expected_label": "entailment",
+      "predicted_label": "entailment",
+      "match": true,
+      "score": 0.6734,
+      "entailment_score": 0.6734,
+      "neutral_score": 0.085,
+      "contradiction_score": 0.2415,
+      "is_contradiction": false
+    },
+    {
+      "premise": "The moon is a natural satellite of Earth, orbiting at an average distance of 384,400 km.",
+      "hypothesis": "The moon is made of green cheese.",
+      "expected_label": "contradiction",
+      "predicted_label": "entailment",
+      "match": false,
+      "score": 0.3904,
+      "entailment_score": 0.3904,
+      "neutral_score": 0.3671,
+      "contradiction_score": 0.2425,
+      "is_contradiction": false
+    },
+    {
+      "premise": "Marie Curie was a Polish and naturalised-French physicist and chemist who conducted pioneering research on radioactivity.",
+      "hypothesis": "Marie Curie was a scientist who studied radioactivity.",
+      "expected_label": "entailment",
+      "predicted_label": "entailment",
+      "match": true,
+      "score": 0.5599,
+      "entailment_score": 0.5599,
+      "neutral_score": 0.0798,
+      "contradiction_score": 0.3603,
+      "is_contradiction": false
+    },
+    {
+      "premise": "",
+      "hypothesis": "Barack Obama was the 44th president of the United States.",
+      "expected_label": "neutral",
+      "predicted_label": "neutral",
+      "match": true,
+      "score": 0.0,
+      "entailment_score": 0.0,
+      "neutral_score": 1.0,
+      "contradiction_score": 0.0,
+      "is_contradiction": false
+    },
+    {
+      "premise": "Water freezes at 0 degrees Celsius at standard atmospheric pressure.",
+      "hypothesis": "Water boils at 0 degrees Celsius.",
+      "expected_label": "contradiction",
+      "predicted_label": "neutral",
+      "match": false,
+      "score": 0.444,
+      "entailment_score": 0.2765,
+      "neutral_score": 0.444,
+      "contradiction_score": 0.2794,
+      "is_contradiction": false
+    }
+  ]
+}

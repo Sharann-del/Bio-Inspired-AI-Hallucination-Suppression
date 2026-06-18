@@ -1,0 +1,78 @@
+{
+  "timestamp": "2026-06-05T12:54:45",
+  "elapsed_sec": 0.0,
+  "n_samples": 200,
+  "n_hallucinatory": 61,
+  "n_truthful": 139,
+  "thresholds": {
+    "confidence": 0.52,
+    "contradiction": 0.02
+  },
+  "configurations": [
+    {
+      "name": "C0: No detection",
+      "metrics": {
+        "tp": 0,
+        "fp": 0,
+        "tn": 139,
+        "fn": 61,
+        "detection_rate": 0.0,
+        "false_positive_rate": 0.0,
+        "precision": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "name": "C1: Confidence only",
+      "metrics": {
+        "tp": 31,
+        "fp": 88,
+        "tn": 51,
+        "fn": 30,
+        "detection_rate": 0.5082,
+        "false_positive_rate": 0.6331,
+        "precision": 0.2605,
+        "f1": 0.3444
+      }
+    },
+    {
+      "name": "C2: Keyword evidence + Contradiction",
+      "metrics": {
+        "tp": 11,
+        "fp": 29,
+        "tn": 110,
+        "fn": 50,
+        "detection_rate": 0.1803,
+        "false_positive_rate": 0.2086,
+        "precision": 0.275,
+        "f1": 0.2178
+      }
+    },
+    {
+      "name": "C3: NER + Contradiction",
+      "metrics": {
+        "tp": 16,
+        "fp": 30,
+        "tn": 109,
+        "fn": 45,
+        "detection_rate": 0.2623,
+        "false_positive_rate": 0.2158,
+        "precision": 0.3478,
+        "f1": 0.2991
+      }
+    },
+    {
+      "name": "C4: Full pipeline",
+      "metrics": {
+        "tp": 38,
+        "fp": 95,
+        "tn": 44,
+        "fn": 23,
+        "detection_rate": 0.623,
+        "false_positive_rate": 0.6835,
+        "precision": 0.2857,
+        "f1": 0.3917
+      }
+    }
+  ]
+}

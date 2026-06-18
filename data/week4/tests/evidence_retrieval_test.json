@@ -1,0 +1,194 @@
+{
+  "accuracy": 1.0,
+  "correct": 7,
+  "total": 7,
+  "reliability_summary": {
+    "n": 7,
+    "wikidata_hits": 5,
+    "wikipedia_page_hits": 0,
+    "wikipedia_search_hits": 1,
+    "no_evidence": 1,
+    "success_rate": 0.7143,
+    "fallback_rate": 0.1429,
+    "no_evidence_rate": 0.1429,
+    "avg_latency_ms": 1534.6
+  },
+  "results": [
+    {
+      "query": "Albert Einstein",
+      "strategy": "entity_lookup",
+      "expected_sources": [
+        "wikidata"
+      ],
+      "actual_source": "wikidata",
+      "match": true,
+      "fallback_used": false,
+      "no_evidence": false,
+      "wikidata_qid": "Q937",
+      "evidence_snippet": "Albert Einstein: german-born theoretical physicist (1879\u20131955)",
+      "latency_ms": 3624
+    },
+    {
+      "query": "Eiffel Tower",
+      "strategy": "entity_lookup",
+      "expected_sources": [
+        "wikidata"
+      ],
+      "actual_source": "wikidata",
+      "match": true,
+      "fallback_used": false,
+      "no_evidence": false,
+      "wikidata_qid": "Q243",
+      "evidence_snippet": "Eiffel Tower: tower located on the Champ de Mars in Paris, France",
+      "latency_ms": 488
+    },
+    {
+      "query": "Marie Curie",
+      "strategy": "entity_lookup",
+      "expected_sources": [
+        "wikidata"
+      ],
+      "actual_source": "wikidata",
+      "match": true,
+      "fallback_used": false,
+      "no_evidence": false,
+      "wikidata_qid": "Q7186",
+      "evidence_snippet": "Marie Sklodowska-Curie: Polish-French physicist and chemist (1867\u20131934)",
+      "latency_ms": 573
+    },
+    {
+      "query": "World War II",
+      "strategy": "text_search",
+      "expected_sources": [
+        "wikidata",
+        "wikipedia_page",
+        "wikipedia_search"
+      ],
+      "actual_source": "wikidata",
+      "match": true,
+      "fallback_used": false,
+      "no_evidence": false,
+      "wikidata_qid": "Q362",
+      "evidence_snippet": "World War II: 1939\u20131945 global conflict",
+      "latency_ms": 509
+    },
+    {
+      "query": "speed of light",
+      "strategy": "structured_fact",
+      "expected_sources": [
+        "wikidata",
+        "wikipedia_page",
+        "wikipedia_search"
+      ],
+      "actual_source": "wikidata",
+      "match": true,
+      "fallback_used": false,
+      "no_evidence": false,
+      "wikidata_qid": "Q2111",
+      "evidence_snippet": "speed of light in vacuum: speed of electromagnetic waves in vacuum",
+      "latency_ms": 542
+    },
+    {
+      "query": "Shakespeare Hamlet",
+      "strategy": "text_search",
+      "expected_sources": [
+        "wikidata",
+        "wikipedia_page",
+        "wikipedia_search"
+      ],
+      "actual_source": "wikipedia_search",
+      "match": true,
+      "fallback_used": true,
+      "no_evidence": false,
+      "wikidata_qid": null,
+      "evidence_snippet": "The Tragedy of Hamlet, Prince of Denmark, often shortened to Hamlet (), is a tragedy written by William Shakespeare sometime between 1599 and 1601. It is Shakespeare's longest play. Set in Denmark, th",
+      "latency_ms": 2937
+    },
+    {
+      "query": "xyzzy_fnord_blorb_999",
+      "strategy": "keyword_search",
+      "expected_sources": [
+        "none"
+      ],
+      "actual_source": "none",
+      "match": true,
+      "fallback_used": true,
+      "no_evidence": true,
+      "wikidata_qid": null,
+      "evidence_snippet": "",
+      "latency_ms": 2069
+    }
+  ],
+  "full_log": [
+    {
+      "query": "Albert Einstein",
+      "strategy": "entity_lookup",
+      "source": "wikidata",
+      "fallback_used": false,
+      "no_evidence": false,
+      "latency_ms": 3624,
+      "evidence_len": 62,
+      "wikidata_qid": "Q937"
+    },
+    {
+      "query": "Eiffel Tower",
+      "strategy": "entity_lookup",
+      "source": "wikidata",
+      "fallback_used": false,
+      "no_evidence": false,
+      "latency_ms": 488,
+      "evidence_len": 65,
+      "wikidata_qid": "Q243"
+    },
+    {
+      "query": "Marie Curie",
+      "strategy": "entity_lookup",
+      "source": "wikidata",
+      "fallback_used": false,
+      "no_evidence": false,
+      "latency_ms": 573,
+      "evidence_len": 71,
+      "wikidata_qid": "Q7186"
+    },
+    {
+      "query": "World War II",
+      "strategy": "text_search",
+      "source": "wikidata",
+      "fallback_used": false,
+      "no_evidence": false,
+      "latency_ms": 509,
+      "evidence_len": 39,
+      "wikidata_qid": "Q362"
+    },
+    {
+      "query": "speed of light",
+      "strategy": "structured_fact",
+      "source": "wikidata",
+      "fallback_used": false,
+      "no_evidence": false,
+      "latency_ms": 542,
+      "evidence_len": 66,
+      "wikidata_qid": "Q2111"
+    },
+    {
+      "query": "Shakespeare Hamlet",
+      "strategy": "text_search",
+      "source": "wikipedia_search",
+      "fallback_used": true,
+      "no_evidence": false,
+      "latency_ms": 2937,
+      "evidence_len": 962,
+      "wikidata_qid": null
+    },
+    {
+      "query": "xyzzy_fnord_blorb_999",
+      "strategy": "keyword_search",
+      "source": "none",
+      "fallback_used": true,
+      "no_evidence": true,
+      "latency_ms": 2069,
+      "evidence_len": 0,
+      "wikidata_qid": null
+    }
+  ]
+}

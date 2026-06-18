@@ -1,0 +1,49 @@
+====================================================================
+  Week 7 — Cascade Architecture Benchmark
+  200 samples · llama2/main · judge: gpt-oss-120b
+====================================================================
+
+  Cascade Parameters
+  Stage 1 early-reject : GPT-2 confidence < 0.5  (innate response)
+  Stage 1 early-accept : GPT-2 confidence > 0.57  (self-tolerance)
+  Stage 2 no-evidence  : confidence < 0.52  → flag  (adaptive fail-safe)
+  Stage 3 NLI          : contradiction ≥ 0.02  → flag  (adaptive response)
+
+  Exit Distribution
+  ────────────────────────────────────────────────────────────────
+  Stage    Exit Type                N      %  Hallucinatory   Flagged     Acc
+  ────────────────────────────────────────────────────────────────
+  Stage 1  ACCEPT                   3   1.5%              1         0  66.7%
+           REJECT                  24  12.0%              6        24  25.0%
+  Stage 2  NO_EVIDENCE            134  67.0%             38        69  44.0%
+  Stage 3  REJECT                  39  19.5%             16        39  41.0%
+  ────────────────────────────────────────────────────────────────
+  Total                          200  100.0%
+
+  Overall Performance
+  ────────────────────────────────────────────────────────────────
+  System                            DR     FPR    Prec      F1
+  ────────────────────────────────────────────────────────────────
+  C4: Flat pipeline (ref)       62.3%  68.3%  28.6%  39.2%
+  Cascade pipeline              62.3%  67.6%  28.8%  39.4%
+  ────────────────────────────────────────────────────────────────
+
+  Computational Efficiency
+  ────────────────────────────────────────────────────────────────
+  Flat C4 avg latency    : 3822 ms / sample
+  Cascade avg latency    : 1916 ms / sample
+  Speedup                : 1.99×  (49.9% reduction)
+
+  Stage-level latency (avg ms / sample reaching each stage)
+  Stage 1 (14% of samples): 210 ms avg
+  Stage 2 (67% of samples): 1532 ms avg
+  Stage 3 (20% of samples): 4417 ms avg
+
+  Biological Analogy
+  ────────────────────────────────────────────────────────────────
+  Stage 1 (innate gate):   13.5% of queries resolved by fast signal
+  Stage 2 (evidence gate): 67.0% resolved by retrieval coverage
+  Stage 3 (NLI gate):      19.5% require full adaptive response
+  Only the uncertain middle fraction triggers expensive NLI computation,
+  mirroring the immune system's staged escalation from innate to adaptive.
+====================================================================

@@ -11,3 +11,8 @@ lm-eval>=0.4.12
 llama-cpp-python>=0.3.23
 datasets
 openai
+# week 6
+web3>=6.15.0,<7.0
+py-solc-x>=0.14.0
+eth-tester[py-evm]>=0.9.0
+scikit-learn>=1.0
