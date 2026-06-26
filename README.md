@@ -40,41 +40,31 @@ Full ablation (C0–C4) and cascade exit distributions are in [`data/week5/ablat
 
 ```mermaid
 flowchart TB
-    subgraph Input
-        Q[Question]
-        A[Model Answer]
-    end
+    Q[Question]
+    A[Model Answer]
 
-    subgraph Stage1["Stage 1 — Innate Gate (Confidence Scorer)"]
-        CS[GPT-2 log-probability + attention entropy]
-        CS --> ER{conf < 0.50?}
-        ER -->|yes| R1[REJECT — hallucination]
-        CS --> EA{conf > 0.57?}
-        EA -->|yes| A1[ACCEPT — truthful]
-        CS --> MID[Pass to Stage 2]
-    end
+    CS["Stage 1 · GPT-2 log-probability + attention entropy"]
+    CS --> ER{conf < 0.50?}
+    ER -->|yes| R1[REJECT — hallucination]
+    CS --> EA{conf > 0.57?}
+    EA -->|yes| A1[ACCEPT — truthful]
+    CS --> MID[Pass to Stage 2]
 
-    subgraph Stage2["Stage 2 — Antigen Presentation (NER + Evidence)"]
-        NER[spaCy entity extraction + routing]
-        NER --> RET[Wikidata / Wikipedia retrieval chain]
-        RET --> NE{Evidence found?}
-        NE -->|no| NEV{conf < 0.52?}
-        NEV -->|yes| R2[REJECT]
-        NEV -->|no| A2[ACCEPT]
-        NE -->|yes| S3[Pass to Stage 3]
-    end
+    NER["Stage 2 · spaCy entity extraction + routing"]
+    NER --> RET[Wikidata / Wikipedia retrieval chain]
+    RET --> NE{Evidence found?}
+    NE -->|no| NEV{conf < 0.52?}
+    NEV -->|yes| R2[REJECT]
+    NEV -->|no| A2[ACCEPT]
+    NE -->|yes| S3[Pass to Stage 3]
 
-    subgraph Stage3["Stage 3 — Adaptive Gate (NLI Contradiction)"]
-        NLI[RoBERTa-large-MNLI zero-shot]
-        NLI --> CT{max contra ≥ 0.02?}
-        CT -->|yes| R3[REJECT]
-        CT -->|no| A3[ACCEPT]
-    end
+    NLI["Stage 3 · RoBERTa-large-MNLI zero-shot"]
+    NLI --> CT{max contra ≥ 0.02?}
+    CT -->|yes| R3[REJECT]
+    CT -->|no| A3[ACCEPT]
 
-    subgraph Audit["Blockchain Governance"]
-        L1[Layer 1: AuditLog.sol — immutable record]
-        L2[Layer 2: GovernanceDecision.sol — verdict]
-    end
+    L1[Layer 1: AuditLog.sol — immutable record]
+    L2[Layer 2: GovernanceDecision.sol — verdict]
 
     Q --> CS
     A --> CS
@@ -117,23 +107,18 @@ flowchart TB
 
 ```mermaid
 flowchart LR
-    subgraph Pipeline
-        RUN[Pipeline run]
-    end
-
-    subgraph Layer1["Layer 1 — AuditLog.sol"]
-        AR[Immutable audit record]
-        AR --> |question, answer, run_id, timestamp| HASH[Content hash]
-    end
-
-    subgraph Layer2["Layer 2 — GovernanceDecision.sol"]
-        GD[Governance verdict]
-        GD --> |flagged, confidence, contradiction, reason| VER[Mutable decision]
-    end
+    RUN[Pipeline run]
+    AR[Layer 1 · AuditLog.sol — immutable audit record]
+    HASH[Content hash]
+    GD[Layer 2 · GovernanceDecision.sol — governance verdict]
+    VER[Mutable decision]
+    REC[reconstruct_run — completeness check]
 
     RUN --> AR
+    AR --> |question, answer, run_id, timestamp| HASH
     AR --> GD
-    GD --> REC[reconstruct_run — completeness check]
+    GD --> |flagged, confidence, contradiction, reason| VER
+    GD --> REC
 ```
 
 Contracts live in `src/blockchain/contracts/`. The audit bridge compiles and deploys to an in-process `eth-tester` EVM for local benchmarking (~79 ms total write time per run).
@@ -401,7 +386,7 @@ If you use this code or build on these results, please cite:
   title        = {Bio-Inspired Cascaded Hallucination Suppression in Large
                   Language Models with Blockchain Audit Governance},
   year         = {2026},
-  howpublished = {Summer Research in Progress (SRIP)},
+  howpublished = {Summer Research Internship Program (SRIP)},
   url          = {https://github.com/Sharann-del/Bio-Inspired-AI-Hallucination-Suppression}
 }
 ```
