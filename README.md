@@ -3,7 +3,7 @@
 Post-hoc hallucination detection for large language models using a bio-inspired cascade architecture. The pipeline combines token-level confidence scoring, NER-guided evidence retrieval, and natural language inference contradiction detection, with optional two-layer blockchain audit governance.
 
 **Authors:** Sharann Manojkumar, Dhriti Vaz  
-**Institution:** Summer Research in Progress (SRIP), June 2026  
+**Institution:** Summer Research Internship Program (SRIP), June 2026  
 **Paper:** [`reports/paper.tex`](reports/paper.tex) · Draft: [`reports/paper_draft.md`](reports/paper_draft.md)
 
 ## Overview
